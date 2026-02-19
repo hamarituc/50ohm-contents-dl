@@ -33,7 +33,7 @@ Diesen Zusammenhang kann man als Formel angeben.
 
 $\frac{U_{1}}{U_{2}} = \frac{5 \cdot R_2}{R_2}$
 
-Die $R_2$ kürzen sich weg und es Ergibt sich:
+Die $R_2$ kürzen sich weg und es ergibt sich:
 
 $\frac{U_{1}}{U_{2}} = \frac{5}{1}$
 

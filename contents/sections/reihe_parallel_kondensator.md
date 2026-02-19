@@ -22,7 +22,7 @@ $\qty{0,1}{\mu\farad} = \qty{100}{\nano\farad}$
 
 $\qty{50 000}{\pico\farad} = \qty{50}{\nano\farad}$
 
-Jetzt muss man nur noch alle Werte Addieren in $\unit{\nano\farad}$ addieren.
+Jetzt muss man nur noch alle Werte in $\unit{\nano\farad}$ addieren.
 
 [question:ED117]
 
@@ -97,5 +97,5 @@ Die weiteren Aufgaben ähnlich und leicht lösbar.
 % 
 %*ED 123:* $C_2 = \qty{4}{\nano\farad}$ und $C_3 = \qty{4}{\nano\farad}$ in Parallelschaltung ergibt zusammen $\qty{8}{\nano\farad}$. Dazu $C_1 = \qty{8}{\nano\farad}$ in Reihe %ergibt die Hälfte , also $\qty{4}{\nano\farad}$.
 %  
-%*ED 124:* $C_2 = \qty{100}{\nano\farad}$ und $C_3 = \qty{100000}{\pico\farad} = \qty{100}{\nano\farad}$ in Parallelschaltung ergibt zusammen $\qty{200}{\nano\farad}$. Dazu %$C_1 = \qty{200}{\nano\farad}$ in Reihe ergibt die Hälfte, also $\qty{100}{\nano\farad}$.
+%*ED 124:* $C_2 = \qty{100}{\nano\farad}$ und $C_3 = \qty{100000}{\pico\farad} = \qty{100}{\nano\farad}$ in Parallelschaltung ergibt zusammen $\qty{200}{\nano\farad}$. Dazu %$C_1 = \qty{200}{\nano\farad}$ in Reihe ergibt die Hälfte , also $\qty{100}{\nano\farad}$.
 %</margin>

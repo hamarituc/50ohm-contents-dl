@@ -29,7 +29,7 @@ Die Gesamtspannung und die Widerstandswerte entsprechen der vorherigen Aufgabe, 
 Es ist zuerst der Gesamtstrom zu berechnen. $I = \frac {U}{R_{ges}}$ ;  danach $I_2 = \frac {I}{2}$
 Die Leistung berechnet man mit der Formel $P = U \cdot I$. Hier müssen die Werte, wie sie an dem gesuchten Widerstand auftreten, eingesetzt werden.
 Also $P_2 = U_2 \cdot I_2$
-Oh, eines neues Problem. $U_2$ ist noch nicht bekannt, läßt sich aber berechnen. $U_2 = R_2 \cdot I_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere}$
+Oh, eines neues Problem. $U_2$ ist noch nicht bekannt, lässt sich aber berechnen. $U_2 = R_2 \cdot I_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere}$
 $P_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere} \cdot \qty{0,5}{\milli\ampere}$; Da steckt doch die bekannte Formel $P = I^2 \cdot R$ dahinter.
 (siehe Formelsammlung Seite 235 Mitte links -  Stichwort: Leistung)
 
