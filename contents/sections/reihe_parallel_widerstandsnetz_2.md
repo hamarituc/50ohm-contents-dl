@@ -27,8 +27,8 @@ Hinweis: $\qty{1}{\milli\watt} = \qty{\frac{1}{1000}}{\watt} = \qty{0,001}{\watt
 Jetzt wird es etwas schwieriger, da nach der Leistung an $R_2$ gefragt wird.
 Die Gesamtspannung und die Widerstandswerte entsprechen der vorherigen Aufgabe, deshalb fließt durch $R_2$ der gleiche Strom wie durch $R_3$ und entspricht dem halben Strom wie durch $R_1$.
 Es ist zuerst der Gesamtstrom zu berechnen. $I = \frac {U}{R_{ges}}$ ;  danach $I_2 = \frac {I}{2}$
-Die Leistung berechnet man mit der Formel P = U x I. Hier müssen die Werte, wie sie an dem gesuchten Widerstand auftreten, eingesetzt werden.
-Also $P_2$ = $U_2$ * $I_2$ 
+Die Leistung berechnet man mit der Formel $P = U \cdot I$. Hier müssen die Werte, wie sie an dem gesuchten Widerstand auftreten, eingesetzt werden.
+Also $P_2 = U_2 \cdot I_2$
 Oh, eines neues Problem. $U_2$ ist noch nicht bekannt, läßt sich aber berechnen. $U_2 = R_2 \cdot I_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere}$
 $P_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere} \cdot \qty{0,5}{\milli\ampere}$; Da steckt doch die bekannte Formel $P = I^2 \cdot R$ dahinter.
 (siehe Formelsammlung Seite 235 Mitte links -  Stichwort: Leistung)
