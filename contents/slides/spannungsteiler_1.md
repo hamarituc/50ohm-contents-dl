@@ -40,7 +40,7 @@ Schauen wir uns dazu zwei Aufgaben an.
 * Die Summe der Spannnungsabfälle ist gleich der Spannung, die aus der Spannungsquelle herauskommt.
 * Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
 
-$U_{ G } = U_{ 1 } + U_{ 2 }$
+$U_{ g } = U_{ 1 } + U_{ 2 }$
 </left>
 
 <right>
@@ -52,7 +52,7 @@ $U_{ G } = U_{ 1 } + U_{ 2 }$
 <left>
 * Hat man eine Gesamtspannung und muss $U_{ 2 }$ berechnen, können wir ebenfalls auf eine Formel aus der Formelsammlung zurückgreifen:
 
-$\dfrac{ U_{ 2 } }{ U_{ G } } = \dfrac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } }$
+$\dfrac{ U_{ 2 } }{ U_{ g } } = \dfrac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } }$
 </left>
 <right>
 [picture:819:E 63. Spannungsteiler:Spannungsteiler]
@@ -61,9 +61,9 @@ $\dfrac{ U_{ 2 } }{ U_{ G } } = \dfrac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } }$
 ---
 
 <left>
-* Diese muss man noch zu $U_{ 2 }$ umstellen, indem man auf beiden Seiten mit $U_{ G }$ multipliziert, dann erhält man:
+* Diese muss man noch zu $U_{ 2 }$ umstellen, indem man auf beiden Seiten mit $U_g$ multipliziert, dann erhält man:
   
-$U_{ 2 } = \dfrac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } } \cdot U_{ G }$
+$U_{ 2 } = \dfrac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } } \cdot U_{ g }$
   
 * Damit kann man sich dann auch an die nächste Aufgabe heranwagen.
 </left>

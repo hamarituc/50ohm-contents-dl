@@ -18,7 +18,7 @@ Kirchhoff'sche Gesetze
 $R_{ges} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = 10kΩ + \frac{10kΩ \cdot 10kΩ}{10kΩ + 10kΩ} = 15kΩ$
 </fragment>
 <fragment>
-$I_{ges} = I_2 + I_3 = 1mA + 1mA = 2mA$
+$I = I_2 + I_3 = 1mA + 1mA = 2mA$
 </fragment>
 <fragment>
 $U = R_{ges} \cdot I_{ges} = 15kΩ \cdot 2mA = 30V$
