@@ -18,9 +18,7 @@ Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleins
 
 Bei der folgenden Aufgabe ist eine zusätzliche Schwierigkeit zu finden, da die Vorsilben der Kapazitätswerte unterschiedlich sind. Man muss zuerst alle Werte auf eine gemeinsame Vorsilbe umwandeln. Die Zahlen sollen  nicht zu groß und nicht zu klein werden, deshalb empfiehlt es sich, die Vorsilbe nano ($\unit{\nano}$) zu wählen. 
 
-$\qty{0,1}{\mu\farad} = \qty{100}{\nano\farad}$
-
-$\qty{50 000}{\pico\farad} = \qty{50}{\nano\farad}$
+$\begin{split} \qty{0,1}{\micro\farad} &= \qty{100}{\nano\farad} \\ \qty{50000}{\pico\farad} &= \qty{50}{\nano\farad}\end{split}$
 
 Jetzt muss man nur noch alle Werte in $\unit{\nano\farad}$ addieren.
 
