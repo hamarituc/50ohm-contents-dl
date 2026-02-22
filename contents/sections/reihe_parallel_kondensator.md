@@ -10,7 +10,7 @@ Durch die Paralelschaltung stehen sich mehr Platten gegenüber und somit erhöht
 
 Bei einer Parallelschaltung von gleich großen Kondensatoren verdoppelt sich die Kapazität, die Spannungsfestigkeit bleibt gleich. Selbstverständlich kann man die Gesamtkapazität berechnen. Die Formel finden wir in der Formelsammlung:
 
-$C_{ G } = C_{ 1 } + C_{ 2 } + C_{ 3 } + ...$
+$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3} + \dots$
 
 <tip>
 Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleinste Einzelkapazität.
@@ -18,16 +18,14 @@ Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleins
 
 Bei der folgenden Aufgabe ist eine zusätzliche Schwierigkeit zu finden, da die Vorsilben der Kapazitätswerte unterschiedlich sind. Man muss zuerst alle Werte auf eine gemeinsame Vorsilbe umwandeln. Die Zahlen sollen  nicht zu groß und nicht zu klein werden, deshalb empfiehlt es sich, die Vorsilbe nano ($\unit{\nano}$) zu wählen. 
 
-$\qty{0,1}{\mu\farad} = \qty{100}{\nano\farad}$
+$\begin{split} \qty{0,1}{\micro\farad} &= \qty{100}{\nano\farad} \\ \qty{50000}{\pico\farad} &= \qty{50}{\nano\farad}\end{split}$
 
-$\qty{50 000}{\pico\farad} = \qty{50}{\nano\farad}$
-
-Jetzt muss man nur noch alle Werte Addieren in $\unit{\nano\farad}$ addieren.
+Jetzt muss man nur noch alle Werte in $\unit{\nano\farad}$ addieren.
 
 [question:ED117]
 
 <margin>
-[photo:262:a_Netzteil BEKO PA 7 x 10000µF parallel: Parallelschaltung von 7 x 10 000 µF in einem Endstufennetzteil] 
+[photo:262:a_Netzteil BEKO PA $7 \times \qty{10000}{\micro\farad}$ parallel: Parallelschaltung von $7 \times \qty{10000}{\micro\farad}$ in einem Endstufennetzteil]
 </margin>
 
 Als Verständnistest kann die nächste Aufgabe verwendet werden.
@@ -39,7 +37,7 @@ Als Verständnistest kann die nächste Aufgabe verwendet werden.
 
 Bei einer Reihenschaltung von Kondensatoren, wie in Abbildung [ref:e_3C-parallel] gezeigt, erhöht sich die Spannungsfestigkeit, allerdings verringert sich die Kapazität. Selbstverständlich kann man wieder die Gesamtkapazität berechnen. Diese ist sehr ähnlich zur Parallelschaltung von Widerstanden:
 
-$\frac{ 1 }{ C_{ G } } = \frac{ 1 }{ C_{ 1 } } + \frac{ 1 }{ C_{ 2 } } + \frac{ 1 }{ C_{ 3 } }$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 <margin>
 [picture:823:e_3C-parallel:Reihenschaltung von 3 Kondensatoren] 
@@ -59,14 +57,14 @@ Bei der Lösung der Aufgaben empiehlt sich folgende Vorgehensweise:
 5. Berechne schrittweise die Gesamtkapazität
 </tip>
 
-Wenn alle Kondensatoren gleiche Kapazitätswerte haben, dann kann man die Gesamtkapazität leicht berechnen, indem eine Einzelkapazität durch 3 dividiert wird. In der folgenden Aufgabe rechnet man $\qty{0,33}{\mu\farad} / 3 = \qty{0,11}{\mu\farad}$.
+Wenn alle Kondensatoren gleiche Kapazitätswerte haben, dann kann man die Gesamtkapazität leicht berechnen, indem eine Einzelkapazität durch 3 dividiert wird. In der folgenden Aufgabe rechnet man $\qty{0,33}{\micro\farad} / 3 = \qty{0,11}{\micro\farad}$.
 
 [question:ED119]
 
-Bei der Reihenschaltung von Kondensatoren in der folgenden Aufgabe findet man $\unit{\mu\farad}$ und $\unit{\nano\farad}$ als Vorsilbe. Es ist sehr sinnvoll, $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\mu\farad}$ umzuwandeln. Bei einer Reihenschaltung kann man nun die Formel aus der Formelsammlung anwenden.
+Bei der Reihenschaltung von Kondensatoren in der folgenden Aufgabe findet man $\unit{\micro\farad}$ und $\unit{\nano\farad}$ als Vorsilbe. Es ist sehr sinnvoll, $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\micro\farad}$ umzuwandeln. Bei einer Reihenschaltung kann man nun die Formel aus der Formelsammlung anwenden.
 
 
-$C_{ G } =\frac{1}{ \frac{ 1 }{ 100 \  µF } + \frac{ 1 }{ 50\  µF } + \frac{ 1 }{ 100\  µF }}$
+$C_{\mathrm{ges}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{50}{\micro\farad}} + \frac{1}{\qty{100}{\micro\farad}}}$
 
 [question:ED120]
 
@@ -89,13 +87,13 @@ Die weiteren Aufgaben ähnlich und leicht lösbar.
 %
 %Lösungshilfen:
 %
-%*ED 118:* Reihenschaltung von 22 nF, 0,033 µF = 33 nF und 15 000 pF = 15 nF.
-%$\frac{ 1 }{ C_ G } = \frac{ 1 }{22 } + \frac{ 1 }{33} + \frac{ 1 }{ 15 }$
-%Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als 15 nF ist.
-%*ED 120:* 50 µF 
-%*ED 122:* $C_2$ = 1 µF und $C_3$ = 1 µF in Parallelschaltung ergibt zusammen 2 µF. Dazu $C_1$ = 2 µF in Reihe %ergibt die Hälfte , also 1 µF.
+%*ED 118:* Reihenschaltung von $\qty{22}{\nano\farad}$, $\qty{0,033}{\micro\farad} = \qty{33}{\nano\farad}$ und $\qty{15000}{\pico\farad} = \qty{15}{\nano\farad}$.
+%$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
+%Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als $\qty{15}{\nano\farard}$ ist.
+%*ED 120:* $\qty{50}{\micro\farad}$ 
+%*ED 122:* $C_2 = \qty{1}{\micro\farad}$ und $C_3 = \qty{1}{\micro\farad}$ in Parallelschaltung ergibt zusammen $\qty{2}{\micro\farad}$. Dazu $C_1 = \qty{2}{\micro\farad}$ in Reihe %ergibt die Hälfte , also $\qty{1}{\micro\farad}$.
 % 
-%*ED 123:* $C_2$ = 4 nF und $C_3$ = 4 nF in Parallelschaltung ergibt zusammen 8 nF. Dazu $C_1$ = 8 nF in Reihe %ergibt die Hälfte , also 4 nF.
+%*ED 123:* $C_2 = \qty{4}{\nano\farad}$ und $C_3 = \qty{4}{\nano\farad}$ in Parallelschaltung ergibt zusammen $\qty{8}{\nano\farad}$. Dazu $C_1 = \qty{8}{\nano\farad}$ in Reihe %ergibt die Hälfte , also $\qty{4}{\nano\farad}$.
 %  
-%*ED 124:* $C_2$ = 100 nF und $C_3$ = 100 000 pF = 100 nF in Parallelschaltung ergibt zusammen 200 nF. Dazu %$C_1$ = 200 nF in Reihe ergibt die Hälfte , also 100 nF.
+%*ED 124:* $C_2 = \qty{100}{\nano\farad}$ und $C_3 = \qty{100000}{\pico\farad} = \qty{100}{\nano\farad}$ in Parallelschaltung ergibt zusammen $\qty{200}{\nano\farad}$. Dazu %$C_1 = \qty{200}{\nano\farad}$ in Reihe ergibt die Hälfte , also $\qty{100}{\nano\farad}$.
 %</margin>
