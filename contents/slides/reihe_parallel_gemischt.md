@@ -15,10 +15,10 @@ Eigenkapazität einer Spule
 * gegeben: $C_1 = \qty{0,10}{\nano\farad}$
 * gegeben: $C_2 = \qty{47}{\pico\farad}$
 * gegeben: $C_3 = \qty{22}{\pico\farad}$
-* gesucht: $C_{\textrm{ges}}$
+* gesucht: $C_{\mathrm{ges}}$
 
 <fragment>
-$\begin{split} \tfrac{1}{C_{\textrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{\qty{0,10}{\nano\farad}} + \tfrac{1}{\qty{47}{\pico\farad}} + \tfrac{1}{\qty{22}{\pico\farad}}\\ &= \qty{7,67e10}{\farad^{-1}}\\ \Rightarrow C_{\textrm{ges}} &= \frac{1}{\qty{7,67e10}{\farad^{-1}}} \approx \qty{13,0}{\pico\farad} \end{split}$
+$\begin{split} \tfrac{1}{C_{\mathrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{\qty{0,10}{\nano\farad}} + \tfrac{1}{\qty{47}{\pico\farad}} + \tfrac{1}{\qty{22}{\pico\farad}}\\ &= \qty{7,67e10}{\farad^{-1}}\\ \Rightarrow C_{\mathrm{ges}} &= \frac{1}{\qty{7,67e10}{\farad^{-1}}} \approx \qty{13,0}{\pico\farad} \end{split}$
 </fragment>
 ---
 [question:AD103]
@@ -29,10 +29,10 @@ $\begin{split} \tfrac{1}{C_{\textrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + 
 * gegeben: $C_2 = \qty{1,5}{\nano\farad}$
 * gegeben: $C_3 = \qty{220}{\pico\farad}$
 * gegeben: $C_L = \qty{1}{\pico\farad}$
-* gesucht: $C_{\textrm{ges}}$
+* gesucht: $C_{\mathrm{ges}}$
 
 <fragment>
-$\begin{split} C_{\textrm{ges}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
+$\begin{split} C_{\mathrm{ges}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
 </fragment>
 <note>
 Einheitenpräfixe beachten und mit Kehrwerten rechnen

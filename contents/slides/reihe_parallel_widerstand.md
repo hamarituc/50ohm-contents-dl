@@ -4,8 +4,8 @@ Bei einer Reihenschaltung addieren sich die Widerstandswerte
 
 [picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]
 
-$R_{G} = R_{1} + R_{2} + R_{3}$
-Beispiel: $R_{G} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
+$R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
+Beispiel: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 --- style="font-size: 0.7em;"
 
@@ -15,19 +15,19 @@ Bei einer Parallelschaltung von Widerständen ist der Gesamtwiderstand kleiner a
 
 [picture:811:e_parallelschaltung_von_r:Parallelschaltung von 3 Widerständen]
 
-$\frac{1}{R_{G}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
+$\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
 
 
 
 ---
 
 Vereinfachung für zwei Widerstände:
-$R_{G} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
+$R_{\mathrm{ges}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
 
 ---
 
 Vereinfachung für gleiche Widerstände:
-$R_{G} = \dfrac{R}{n}$
+$R_{\mathrm{ges}} = \dfrac{R}{n}$
 $n$ steht für die Anzahl der Widerstände
 
 ---
@@ -57,7 +57,7 @@ Hier berechnet man zuerst die Parallelschaltung von $R_2$ und $R_3$ und addiert 
 </fragment>
 
 <fragment>
-$R_{G} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
+$R_{\mathrm{ges}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
 </fragment>
 
 ---
@@ -71,7 +71,7 @@ Hier addiert man zuerst $R_1$ und $R_2$ um mit diesem Ergebnis die Parallelschal
 </fragment>
 
 <fragment>
-$R_{G} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}}$
+$R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}}$
 </fragment>
 
 ---

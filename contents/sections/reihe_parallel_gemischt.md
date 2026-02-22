@@ -8,7 +8,7 @@ Schwieriger ist die Berechnung einer Reihenschaltung von 3 Kondensatoren.
 
 Bei der folgenden Aufgabe hat die kleinste Kapazität den Wert $\qty{22}{\pico\farad}$.
 Die Gesamtkapazität muss deshalb kleiner als $\qty{22}{\pico\farad}$ sein. Da in der Lösung zwei Ergebnisse unter $\qty{22}{\pico\farad}$ zu finden sind, ist keine Abschätzung möglich, sondern es ist eine Rechnung notwendig.
-$\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 (siehe Formelsammlung Seite 236 unten -  Stichwort: Kondensatoren in Reihenschaltung )
 
 
@@ -19,7 +19,7 @@ $\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
  Man gibt die Kapazitätswerte immer mit der 1/x - Taste in den Taschenrechner ein und muss am Schluss nochmals 1/x drücken.
 </tip>
 $C_1$ mit $\qty{0,1}{\nano\farad}$ muss in Picofarad umgewandelt werden. Dies ergibt $\qty{100}{\pico\farad}$.
-$\frac{1}{C_{G}} = \frac{1}{\qty{100}{\pico\farad}} + \frac{1}{\qty{47}{\pico\farad}} + \frac{1}{\qty{22}{\pico\farad}}$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{100}{\pico\farad}} + \frac{1}{\qty{47}{\pico\farad}} + \frac{1}{\qty{22}{\pico\farad}}$
 
 ---
 [question:AD104]

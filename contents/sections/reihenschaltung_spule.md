@@ -1,11 +1,11 @@
 Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten.
 
-$L_\text{G} = L_1 + L_2 + L_3 + \dots$
+$L_{\mathrm{ges}} = L_1 + L_2 + L_3 + \dots$
 <margin>
 [photo:291:a_Spule mit Anzapfungen:Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät]
 Die Teilabschnitte zwischen den Anzapfungen können wie einzelne Spulen gesehen werden, deren Induktivität, durch Umschaltung der Anzapfungen,  in Schritten erhöht werden kann. Die Reihenschaltung aller Teilabschnitte ergibt dann die Induktivität der Gesamtspule.
 </margin>
-Mit der Gesamtinduktivität $L_\text{G}$, und den Einzelinduktivitäten $L_1, L_2, L_3, \dots$
+Mit der Gesamtinduktivität $L_{\mathrm{ges}}$, und den Einzelinduktivitäten $L_1, L_2, L_3, \dots$
 
 Veranschaulicht werden kann es dadurch, dass man sich einfach mehrere gleichartige Spulten hintereinander vorstellt. Dabei addieren sich die Windungen der Spule. Elektrisch wirkt die Kombination von zwei gleichen Spulen wie eine entsprechend längere Spule.
 
@@ -15,7 +15,7 @@ In der Berechnung ist auf die Angabe der Zehnerpotenzen (z.B. $\qty{1}{\milli\he
 
 Beispielrechnung:
 Wenn man die Gesamtinduktivität einer Spule $L_1 = \qty{0,033}{\milli\henry}$ und einer Spule $L_2 = \qty{150}{\micro\henry}$ berechnen möchte, so ergibt sich:
-$L_{ges} = L_1 + L_2 = \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{33e-6}{\henry} + \qty{150e-6}{\henry} = \qty{183e-6}{\henry} = \qty{183}{\micro\henry}$
+$L_{\mathrm{ges}} = L_1 + L_2 = \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{33e-6}{\henry} + \qty{150e-6}{\henry} = \qty{183e-6}{\henry} = \qty{183}{\micro\henry}$
 
 <indepth>
 [photo:287:a_Spulenvariometer:Spulenvariometer von $\qty{6}{\micro\henry}$ bis $\qty{35}{\micro\henry}$]

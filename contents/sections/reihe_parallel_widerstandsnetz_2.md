@@ -26,7 +26,7 @@ Hinweis: $\qty{1}{\milli\watt} = \qty{\frac{1}{1000}}{\watt} = \qty{0,001}{\watt
 <margin>
 Jetzt wird es etwas schwieriger, da nach der Leistung an $R_2$ gefragt wird.
 Die Gesamtspannung und die Widerstandswerte entsprechen der vorherigen Aufgabe, deshalb fließt durch $R_2$ der gleiche Strom wie durch $R_3$ und entspricht dem halben Strom wie durch $R_1$.
-Es ist zuerst der Gesamtstrom zu berechnen. $I = \frac {U}{R_{ges}}$ ;  danach $I_2 = \frac {I}{2}$
+Es ist zuerst der Gesamtstrom zu berechnen. $I = \frac{U}{R_{\mathrm{ges}}}$; danach $I_2 = \frac{I}{2}$
 Die Leistung berechnet man mit der Formel $P = U \cdot I$. Hier müssen die Werte, wie sie an dem gesuchten Widerstand auftreten, eingesetzt werden.
 Also $P_2 = U_2 \cdot I_2$
 Oh, eines neues Problem. $U_2$ ist noch nicht bekannt, lässt sich aber berechnen. $U_2 = R_2 \cdot I_2 = \qty{10}{\kilo\ohm} \cdot \qty{0,5}{\milli\ampere}$
@@ -75,7 +75,7 @@ In der Praxis ist ein Spannungsteiler oft durch $R_L$ belastet, wie es im Schalt
 [question:AD114]
 <margin>
  Die Spannung $U_2$ muss dann im Vergleich zum unbelasteten Spannungsteiler kleiner werden .
- $U_2$ kann man ermitteln, indem zuerst der Gesamtwiderstand $ R_{2L}$ der Parallelschaltung von $R_2$ und $R_L$ berechnet wird. Danach berechnet man den Gesamtwiderstand $R_{ges}$ der Schaltung und mit I = $\frac {U}{R_{ges}}$ den Gesamtstrom.  Dieser Strom fließt auch durch den $R_{2L}$ und bewirkt den Spannungsfall $U_2$. 
+ $U_2$ kann man ermitteln, indem zuerst der Gesamtwiderstand $R_{2L}$ der Parallelschaltung von $R_2$ und $R_L$ berechnet wird. Danach berechnet man den Gesamtwiderstand $R_{\mathrm{ges}}$ der Schaltung und mit $I = \frac{U}{R_{\mathrm{ges}}}$ den Gesamtstrom.  Dieser Strom fließt auch durch den $R_{2L}$ und bewirkt den Spannungsfall $U_2$.
 
  Lösungshilfen:
 AD 106: $\qty{30}{\volt}$

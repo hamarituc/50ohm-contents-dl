@@ -10,7 +10,7 @@ Durch die Paralelschaltung stehen sich mehr Platten gegenüber und somit erhöht
 
 Bei einer Parallelschaltung von gleich großen Kondensatoren verdoppelt sich die Kapazität, die Spannungsfestigkeit bleibt gleich. Selbstverständlich kann man die Gesamtkapazität berechnen. Die Formel finden wir in der Formelsammlung:
 
-$C_{G} = C_{1} + C_{2} + C_{3} + \dots$
+$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3} + \dots$
 
 <tip>
 Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleinste Einzelkapazität.
@@ -39,7 +39,7 @@ Als Verständnistest kann die nächste Aufgabe verwendet werden.
 
 Bei einer Reihenschaltung von Kondensatoren, wie in Abbildung [ref:e_3C-parallel] gezeigt, erhöht sich die Spannungsfestigkeit, allerdings verringert sich die Kapazität. Selbstverständlich kann man wieder die Gesamtkapazität berechnen. Diese ist sehr ähnlich zur Parallelschaltung von Widerstanden:
 
-$\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 <margin>
 [picture:823:e_3C-parallel:Reihenschaltung von 3 Kondensatoren] 
@@ -66,7 +66,7 @@ Wenn alle Kondensatoren gleiche Kapazitätswerte haben, dann kann man die Gesamt
 Bei der Reihenschaltung von Kondensatoren in der folgenden Aufgabe findet man $\unit{\micro\farad}$ und $\unit{\nano\farad}$ als Vorsilbe. Es ist sehr sinnvoll, $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\micro\farad}$ umzuwandeln. Bei einer Reihenschaltung kann man nun die Formel aus der Formelsammlung anwenden.
 
 
-$C_{G} = \frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{50}{\micro\farad}} + \frac{1}{\qty{100}{\micro\farad}}}$
+$C_{\mathrm{ges}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{50}{\micro\farad}} + \frac{1}{\qty{100}{\micro\farad}}}$
 
 [question:ED120]
 
@@ -90,7 +90,7 @@ Die weiteren Aufgaben ähnlich und leicht lösbar.
 %Lösungshilfen:
 %
 %*ED 118:* Reihenschaltung von $\qty{22}{\nano\farad}$, $\qty{0,033}{\micro\farad} = \qty{33}{\nano\farad}$ und $\qty{15000}{\pico\farad} = \qty{15}{\nano\farad}$.
-%$\frac{1}{C_{ges}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
+%$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
 %Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als $\qty{15}{\nano\farard}$ ist.
 %*ED 120:* $\qty{50}{\micro\farad}$ 
 %*ED 122:* $C_2 = \qty{1}{\micro\farad}$ und $C_3 = \qty{1}{\micro\farad}$ in Parallelschaltung ergibt zusammen $\qty{2}{\micro\farad}$. Dazu $C_1 = \qty{2}{\micro\farad}$ in Reihe %ergibt die Hälfte , also $\qty{1}{\micro\farad}$.

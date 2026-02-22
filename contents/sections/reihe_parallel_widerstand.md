@@ -13,14 +13,14 @@ Die Abbildung [ref:e_spannungsteiler] zeigt zwei Widerstände $R_1$ und $R_2$, d
 $U_1 = R_1 \cdot I$ und  $U_2 = R_2 \cdot I$ ab. 
 Die Gesamtspannung $U_g$ ist einfach die Summe dieser beiden Spannungen:
 
-$U_g =  U_1 + U_2 =  R_{ges} \cdot {I} = R_1 \cdot I + R_2 \cdot I$
+$U_g = U_1 + U_2 = R_{\mathrm{ges}} \cdot {I} = R_1 \cdot I + R_2 \cdot I$
 
 Jetzt können wir den Widerstand berechnen, der zwischen den äußeren Klemmen zu sehen ist:
-$R_{ges} = \frac{U_g}{I} = R_1 + R_2$, weil sich auf beiden Seiten der Gleichung der Strom $I$ rauskürzt.
+$R_{\mathrm{ges}} = \frac{U_g}{I} = R_1 + R_2$, weil sich auf beiden Seiten der Gleichung der Strom $I$ rauskürzt.
 
 Das Ganze funktioniert auch bei mehr als zwei Widerständen, wie in der Formelsammlung dargestellt:
 
-$R_{ges} = R_1 + R_2 + R_3 + R_4 + \dots$
+$R_{\mathrm{ges}} = R_1 + R_2 + R_3 + R_4 + \dots$
 
 ---
 
@@ -40,9 +40,9 @@ Der im äußeren Stromkreis fließende Strom ist die Summe dieser beiden Ströme
 
 $I = I_1 + I_2 = \frac{U}{R_1} + \frac{U}{R_2}$
 
-Wir suchen wieder einen Gesamtwiderstand $R_{ges}$, für den dann gelten muss: $I=\frac{U}{R_{ges}}$ und folglich:
+Wir suchen wieder einen Gesamtwiderstand $R_{\mathrm{ges}}$, für den dann gelten muss: $I=\frac{U}{R_{\mathrm{ges}}}$ und folglich:
 
-$\dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$
+$\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$
 
 ---
 
@@ -50,11 +50,11 @@ Der Kehrwert des Gesamtwiderstands ist also die Summe der Kehrwerte der Einzelwi
 
 Auch hier können wir die Berechnung für beliebig viele parallele Widerstände durchführen (vgl. Formelsammlung):
 
-$\dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dots$
+$\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dots$
 
 Den Ausdruck für zwei parallele Widerstände können wir nach den Regeln der Bruchrechnung auch schreiben als:
 
-$R_{ges} = \dfrac{R_1 \cdot R_2}{R_1 + R_2}$
+$R_{\mathrm{ges}} = \dfrac{R_1 \cdot R_2}{R_1 + R_2}$
 
 <tip>
 Bei der Reihenschaltung ist die Wert des Gesamtwiderstands immer größer als der größte Einzelwiderstand. Bei der Parallelschaltung ist der Gesamtwiderstand immer kleiner als der kleinste Einzelwiderstand.
@@ -77,7 +77,7 @@ Einige der Aufgaben enthalten Widerstandsnetzwerke, in denen sowohl eine Reihen-
 <tip>
 [picture:305:e_tipp_aufgabe:Beispielschaltung]
 
-Ein wichtiges Lösungsverfahren ist die "Methode des scharfen Hinsehens" ... da gibt es zum Beispiel eine Schaltung, die einen Widerstand $R_1$ in Reihe mit zwei parallel geschalteten Widerständen $R_2$ und $R_3$ hat. Die Werte sind $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ und $R_3 = \qty{2}{\kilo\ohm}$. Nun sind aber $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Die Paralellschaltung von $R_2$ und $R_3$ ergibt einen Widerstand, der halb so groß ist: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. Den schalten wir in Reihe mit $R_1$ und erhalten das Ergebnis: $R_{ges} = \qty{2}{\kilo\ohm}$.
+Ein wichtiges Lösungsverfahren ist die "Methode des scharfen Hinsehens" ... da gibt es zum Beispiel eine Schaltung, die einen Widerstand $R_1$ in Reihe mit zwei parallel geschalteten Widerständen $R_2$ und $R_3$ hat. Die Werte sind $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ und $R_3 = \qty{2}{\kilo\ohm}$. Nun sind aber $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Die Paralellschaltung von $R_2$ und $R_3$ ergibt einen Widerstand, der halb so groß ist: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. Den schalten wir in Reihe mit $R_1$ und erhalten das Ergebnis: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
 </tip>
 
 [question:ED111]

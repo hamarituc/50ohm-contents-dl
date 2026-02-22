@@ -15,13 +15,13 @@ Kirchhoff'sche Gesetze
 * gesucht: $U$
 
 <fragment>
-$R_{ges} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
 </fragment>
 <fragment>
 $I = I_2 + I_3 = \qty{1}{\milli\ampere} + \qty{1}{\milli\ampere} = \qty{2}{\milli\ampere}$
 </fragment>
 <fragment>
-$U = R_{ges} \cdot I_{ges} = \qty{15}{\kilo\ohm} \cdot \qty{2}{\milli\ampere} = \qty{30}{\volt}$
+$U = R_{\mathrm{ges}} \cdot I = \qty{15}{\kilo\ohm} \cdot \qty{2}{\milli\ampere} = \qty{30}{\volt}$
 </fragment>
 ---
 [question:AD107]
@@ -32,10 +32,10 @@ $U = R_{ges} \cdot I_{ges} = \qty{15}{\kilo\ohm} \cdot \qty{2}{\milli\ampere} = 
 * gesucht: $I_3$
 
 <fragment>
-$R_{ges} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + \frac{R_1 \cdot R_2}{R_1 + R_2} = \qty{10}{\kilo\ohm} + \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{15}{\kilo\ohm}$
 </fragment>
 <fragment>
-$\frac{U_3}{U} = \frac{R_{2\parallel 3}}{R_{ges}} \Rightarrow U_3 = \frac{R_{2\parallel 3}}{R_{ges}} \cdot U = \frac{\qty{5}{\kilo\ohm}}{\qty{15}{\kilo\ohm}} \cdot \qty{15}{\volt} = \qty{5}{\volt}$
+$\frac{U_3}{U} = \frac{R_{2\parallel 3}}{R_{\mathrm{ges}}} \Rightarrow U_3 = \frac{R_{2\parallel 3}}{R_{\mathrm{ges}}} \cdot U = \frac{\qty{5}{\kilo\ohm}}{\qty{15}{\kilo\ohm}} \cdot \qty{15}{\volt} = \qty{5}{\volt}$
 </fragment>
 <fragment>
 $I_3 = \frac{U_3}{R_3} = \frac{\qty{5}{\volt}}{\qty{10}{\kilo\ohm}} = \qty{0,5}{\milli\ampere}$
@@ -49,7 +49,7 @@ $I_3 = \frac{U_3}{R_3} = \frac{\qty{5}{\volt}}{\qty{10}{\kilo\ohm}} = \qty{0,5}{
 * gesucht: $P_2$
 
 <fragment>
-$\frac{U_2}{U} = \frac{R_{2\parallel 3}}{R_{ges}} \Rightarrow U_2 = \frac{R_{2\parallel 3}}{R_{ges}} \cdot U = \frac{\qty{5}{\kilo\ohm}}{\qty{15}{\kilo\ohm}} \cdot \qty{15}{\volt} = \qty{5}{\volt}$
+$\frac{U_2}{U} = \frac{R_{2\parallel 3}}{R_{\mathrm{ges}}} \Rightarrow U_2 = \frac{R_{2\parallel 3}}{R_{\mathrm{ges}}} \cdot U = \frac{\qty{5}{\kilo\ohm}}{\qty{15}{\kilo\ohm}} \cdot \qty{15}{\volt} = \qty{5}{\volt}$
 </fragment>
 <fragment>
 $P_2 = \frac{U_2^2}{R_2} = \frac{(\qty{5}{\volt})^2}{\qty{10}{\kilo\ohm}} = \qty{2,5}{\milli\watt}$
@@ -68,15 +68,15 @@ $P_2 = \frac{U_2^2}{R_2} = \frac{(\qty{5}{\volt})^2}{\qty{10}{\kilo\ohm}} = \qty
 </right>
 
 <fragment>
-$R_{ges} = R_1 + \frac{R_2 \cdot (R_3 + R)}{R_2 + (R_3 + R)}$
+$R_{\mathrm{ges}} = R_1 + \frac{R_2 \cdot (R_3 + R)}{R_2 + (R_3 + R)}$
 </fragment>
 <fragment>
 Bei $R = \qty{0}{\ohm}$:
-$R_{ges} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\ohm} + \qty{0}{\ohm})}{\qty{100}{\ohm} + \qty{200}{\ohm} + \qty{0}{\ohm}} \approx \qty{267}{\ohm}$
+$R_{\mathrm{ges}} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\ohm} + \qty{0}{\ohm})}{\qty{100}{\ohm} + \qty{200}{\ohm} + \qty{0}{\ohm}} \approx \qty{267}{\ohm}$
 </fragment>
 <fragment>
 Bei $R = \qty{1}{\kilo\ohm}$:
-$R_{ges} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\ohm} + \qty{1}{\kilo\ohm})}{\qty{100}{\ohm} + \qty{200}{\ohm} + \qty{1}{\kilo\ohm}} \approx \qty{292}{\ohm}$
+$R_{\mathrm{ges}} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\ohm} + \qty{1}{\kilo\ohm})}{\qty{100}{\ohm} + \qty{200}{\ohm} +\qty{1}{\kilo\ohm}} \approx \qty{292}{\ohm}$
 </fragment>
 ---
 [question:AD110]
@@ -84,10 +84,10 @@ $R_{ges} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\ohm} + \qty
 #### Lösungsweg
 * gegeben: $R_1 = R_3 = \qty{2,2}{\kilo\ohm}$
 * gegeben: $R_2 = R_4 = \qty{220}{\ohm}$
-* gesucht: $R_{ges}$
+* gesucht: $R_{\mathrm{ges}}$
 
 <fragment>
-$\begin{split} R_{ges} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_3 + R_4)}\\ &= \frac{(\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm}) \cdot (\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm})}{\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm} + \qty{2,2}{\kilo\ohm} + \qty{220}\ohm}\\ &= \qty{1210}{\ohm}\end{split}$
+$\begin{split} R_{\mathrm{ges}} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_3 + R_4)}\\ &= \frac{(\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm}) \cdot (\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm})}{\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm} + \qty{2,2}{\kilo\ohm} + \qty{220}\ohm}\\ &= \qty{1210}{\ohm}\end{split}$
 </fragment>
 ---
 [question:AD114]
@@ -104,10 +104,10 @@ $\begin{split} R_{ges} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_
 </right>
 
 <fragment>
-$\frac{U_2}{U_B} = \frac{R_{2\parallel L}}{R_{ges}}$
+$\frac{U_2}{U_B} = \frac{R_{2\parallel L}}{R_{\mathrm{ges}}}$
 $R_{2\parallel L} = \frac{R_2 \cdot R_L}{R_2 + R_L} = \frac{\qty{2,2}{\kilo\ohm} \cdot \qty{8,2}{\kilo\ohm}}{\qty{2,2}{\kilo\ohm} + \qty{8,2}{\kilo\ohm}} = \qty{1,74}{\kilo\ohm}$
-$R_{ges} = R_1 + R_{2\parallel L} = \qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm} = \qty{11,74}{\kilo\ohm}$
+$R_{\mathrm{ges}} = R_1 + R_{2\parallel L} = \qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm} = \qty{11,74}{\kilo\ohm}$
 </fragment>
 <fragment>
-$U_2 = \frac{R_{2\parallel L}}{R_{ges}} \cdot U_B = \frac{\qty{1,74}{\kilo\ohm}}{\qty{11,74}{\kilo\ohm}} \cdot \qty{12}{\volt} \approx \qty{1,8}{\volt}$
+$U_2 = \frac{R_{2\parallel L}}{R_{\mathrm{ges}}} \cdot U_B = \frac{\qty{1,74}{\kilo\ohm}}{\qty{11,74}{\kilo\ohm}} \cdot \qty{12}{\volt} \approx \qty{1,8}{\volt}$
 </fragment>

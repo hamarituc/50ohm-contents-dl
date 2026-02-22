@@ -9,19 +9,19 @@
 
 [picture:823:e_reihenschaltung_kondensatoren:Reihenschaltung von 3 Kondensatoren]
 
-$\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 ---
 
 * Vereinfachung für zwei Kondensatoren:
 
-$C_{G} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+$C_{\mathrm{ges}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
 ---
 
 * Vereinfachung für gleiche Kondensatoren:
 
-$C_{G} = \dfrac{C}{n}$
+$C_{\mathrm{ges}} = \dfrac{C}{n}$
 
 $n$ steht für die Anzahl der Kondensatoren
 
@@ -50,7 +50,7 @@ $n$ steht für die Anzahl der Kondensatoren
 
 [picture:822:e_parallelschaltung_kondensatoren:Parallelschaltung von 3 Kondensatoren]
 
-$C_{G} = C_{1} + C_{2} + C_{3}$
+$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
 
 ---
 
@@ -71,11 +71,11 @@ $C_{G} = C_{1} + C_{2} + C_{3}$
 <left>
 * Hier berechnet man zuerst die Parallelschaltung von $C_{2}$ und $C_{3}$
 
-$C_{Gp} = C_{2} + C_{3}$
+$C_{\mathrm{ges,p}} = C_{2} + C_{3}$
 
-* Danach berechnet man die Reihenschaltung von $C_{1}$ und $C_{Gp}$
+* Danach berechnet man die Reihenschaltung von $C_{1}$ und $C_{\mathrm{ges,p}}$
 
-$C_{G} = \frac{C_{1} \cdot C_{Gp}}{C_{1} + C_{Gp}}$
+$C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
 </left>
 <right>
 [picture:820:e_gemischt_variante_1:Gemischte Schaltung - Variante 1]
@@ -100,11 +100,11 @@ $C_{G} = \frac{C_{1} \cdot C_{Gp}}{C_{1} + C_{Gp}}$
 <left>
 * Hier berechnet man zuerst die Reihenschaltung von $C_{1}$ und $C_{2}$
 
-$C_{Gr} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+$C_{\mathrm{ges,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
-* Danach berechnet man die Parallelschaltung von $C_{3}$ und $C_{Gr}$
+* Danach berechnet man die Parallelschaltung von $C_{3}$ und $C_{\mathrm{ges,r}}$
 
-$C_{G} = \frac{C_{3} \cdot C_{Gr}}{C_{3} + C_{Gr}}$
+$C_{\mathrm{ges}} = \frac{C_{3} \cdot C_{\mathrm{ges,r}}}{C_{3} + C_{\mathrm{ges,r}}}$
 </left>
 <right>
 [picture:457:e_gemischt_variante_2:Gemischte Schaltung - Variante 2]
