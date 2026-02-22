@@ -23,7 +23,7 @@ Foto:
 
 ## Referenzen
 
-Auf Bilder und Tabellen kann im Text mit dem ref-Kommando verwiesen werden. Dabei ist der interne Bezeichner anzugeben:
+Auf Bilder und Tabellen kann im Text mit dem `ref`-Kommando verwiesen werden. Dabei ist der interne Bezeichner anzugeben:
 
 ```
 [ref:n_funkhorizont]
@@ -31,7 +31,7 @@ Auf Bilder und Tabellen kann im Text mit dem ref-Kommando verwiesen werden. Dabe
 
 ## Tabellen
 
-Tabellen werden mit senkrechten Strichen "gemalt". Der senkrechte Strich ist auf der Tastatur mit Alt-Gr und der kleiner-als-Taste links vom Y erreichbar. Die erste Zeile ist die Kopfzeile, dort wird die Ausrichtung der Spalte festgelegt (l: linksbündig, c: zentriert, r: rechtsbündig, X: mehrzeilig linksbündig). Am Ende muss ein Tabellen-Kommando folgen. Nach dem table-Befehl folgt hier wie bei den Bildern ein interner Bezeichner (für Referenzen) und die Tabellenbeschreibung.
+Tabellen werden mit senkrechten Strichen "gemalt". Der senkrechte Strich ist auf der Tastatur mit Alt-Gr und der kleiner-als-Taste links vom Y erreichbar. Die erste Zeile ist die Kopfzeile, dort wird die Ausrichtung der Spalte festgelegt (l: linksbündig, c: zentriert, r: rechtsbündig, X: mehrzeilig linksbündig). Am Ende muss ein Tabellen-Kommando folgen. Nach dem `table`-Befehl folgt hier wie bei den Bildern ein interner Bezeichner (für Referenzen) und die Tabellenbeschreibung.
 
 ```
 | l: Vorname | l: Rufzeichen |
@@ -111,10 +111,11 @@ Morsezeichen können mit dem Morse-Befehl geschrieben werden.
 
 ```
 [morse:CQ CQ]
-QSOs
 ```
 
-QSOs können ebenfalls wiedergegeben werden. qso_own sind die Funksprüche der einen Station und qso_other für die Gegenstation:
+## QSOs
+
+QSOs können ebenfalls wiedergegeben werden. `qso_own` sind die Funksprüche der einen Station und `qso_other` für die Gegenstation:
 
 ```
 [qso_own:CQ CQ DE DL1PZ K]
