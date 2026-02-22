@@ -49,7 +49,7 @@ Einheitenpräfixe beachten und mit Kehrwerten rechnen
 * gesucht: $Z$
 
 <fragment>
-$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2 \cdot \pi \cdot f \cdot L\\ &= 2 \cdot \pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}\end{split}$
+$\begin{split} X_L &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}\end{split}$
 </fragment>
 <fragment>
 $Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm}$
@@ -66,7 +66,7 @@ $Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx
 * gesucht: $Z$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2 \cdot \pi \cdot f \cdot C}\\ &= \frac{1}{2 \cdot \pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\nano\farad}} = \qty{159}{\ohm}\end{split}$
+$\begin{split} X_C &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\nano\farad}} = \qty{159}{\ohm}\end{split}$
 </fragment>
 <fragment>
 $Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2} \approx \qty{188}{\ohm}$
