@@ -11,7 +11,7 @@ Innerhalb der üblichen SSB-Empfangsbandbreite von etwa 2,4 kHz können mehrere 
 
 [question:EE404]
 
-Rein rechnerisch lassen sich in einer 2,4-kHz-SSB-Bandbreite bis zu 48 FT8-Signale ($\frac{\qty{2400}{hertz}}{\qty{50}{\hertz}}$) oder sogar bis zu 76 BPSK31-Signale (\frac{\qty{2400}{\hertz}}{\qty{31,25}{\hertz}}) unterbringen. Am Computer kann anschließend entweder gezielt ein einzelnes Digimode-Signal ausgewählt oder – je nach Software – auch eine Vielzahl dieser Signale gleichzeitig dekodiert werden. Genau diese hohe spektrale Effizienz macht schmalbandige Digimodes besonders attraktiv für den Amateurfunkbetrieb.
+Rein rechnerisch lassen sich in einer 2,4-kHz-SSB-Bandbreite bis zu 48 FT8-Signale ($\frac{\qty{2400}{\hertz}}{\qty{50}{\hertz}}$) oder sogar bis zu 76 BPSK31-Signale ($\frac{\qty{2400}{\hertz}}{\qty{31,25}{\hertz}}$) unterbringen. Am Computer kann anschließend entweder gezielt ein einzelnes Digimode-Signal ausgewählt oder – je nach Software – auch eine Vielzahl dieser Signale gleichzeitig dekodiert werden. Genau diese hohe spektrale Effizienz macht schmalbandige Digimodes besonders attraktiv für den Amateurfunkbetrieb.
 
 ---
 

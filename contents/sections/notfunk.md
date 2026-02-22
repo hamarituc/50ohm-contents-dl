@@ -53,11 +53,12 @@ Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateur
 [question:BF103]
 
 Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandplänen festgelegt, die bei Katastrophenfällen für den Funkbetrieb frei zu halten sind:
-* 3.760 kHz 
-* 7.110 kHz 
-* 14.300 kHz 
-* 18.160 kHz 
-* 21.360 kHz 
+% TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
+* $\qty{3760}{\kilo\hertz}$ im $\qty{80}{\meter}$-Band
+* $\qty{7110}{\kilo\hertz}$ im $\qty{40}{\meter}$-Band
+* $\qty{14300}{\kilo\hertz}$ im $\qty{20}{\meter}$-Band
+* $\qty{18160}{\kilo\hertz}$ im $\qty{17}{\meter}$-Band
+* $\qty{21360}{\kilo\hertz}$ im $\qty{15}{\meter}$-Band
 
 [question:BF109]
 

@@ -12,7 +12,7 @@
 <left>
 * An zwei elektrisch leitenden Platten wird jeweils der Plus- und Minus-Pol angeschlossen
 * Zwischen den Platten baut sich ein homogenes elektrisches Feld (*E-Feld*) auf
-* Elektrische Feldstärke: $E = \dfrac{U}{d}$ in $\dfrac{V}{m}$
+* Elektrische Feldstärke: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
 * Mit $d$ als Abstand der Platten
 </left>
 <right>
@@ -48,13 +48,13 @@
 
 Der Trick ist hier, dass die Durschlagsfestigkeit die elektrische Feldstärke $E$ ist.
 
-* Gegeben: $d = 0,15mm$ und $E = 400\frac{kV}{cm}$
+* Gegeben: $d = \qty{0,15}{\milli\meter}$ und $E = \qty{400}{\kilo\volt\per\centi\meter}$
 * Gesucht: $U$
 * Lösung:
 
 $E = \frac{U}{d} \Rightarrow U = E\cdot d$
-$U = 400\cdot\frac{10^3V}{10^{-2}m}\cdot 0,15\cdot 10^{-3}m$
-$U = 6\cdot10^3V = 6kV$
+$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
+$U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 ---
 ## Vertikalantenne
