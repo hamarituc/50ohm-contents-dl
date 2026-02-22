@@ -71,11 +71,11 @@ Die Gesamtspannung ist die Summe der Zellenspannungen. Die Gesamtladung entspric
 [question:AB211]
 
 Zuerst muß die entnehmbare Ladungsmenge von $\qty{90}{\percent}$ ermittelt werden.
-Die Entladezeit t ergibt sich aus: $t=\frac{Q}{I}$
+Die Entladezeit $t$ ergibt sich aus: $t=\frac{Q}{I}$
 
 
 [question:AB501]
-Die im Akku gespeicherte Energie in $\unit{\watt\hour}$ oder $\unit{\volt\ampere\hour}$ ergibt sich aus der Multiplikation der Akkuspannung U ($\unit{\volt}$) mit der Ladung Q ($\unit{\ampere\hour}$).
+Die im Akku gespeicherte Energie in $\unit{\watt\hour}$ oder $\unit{\volt\ampere\hour}$ ergibt sich aus der Multiplikation der Akkuspannung $U$ ($\unit{\volt}$) mit der Ladung $Q$ ($\unit{\ampere\hour}$).
 Beispiel:
 $\qty{1}{\volt} \cdot \qty{1}{\ampere\hour} = \qty{1}{\watt\hour}$
 <margin>

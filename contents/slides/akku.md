@@ -61,7 +61,7 @@ Beispiel-Akku: $E = \qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44
 
 Angabe auf dem Beispiel-Akku: 30C
 
-Die Entladung kann mit 30 mal der Kapazität Q erfolgen
+Die Entladung kann mit 30 mal der Kapazität $Q$ erfolgen
 
 <fragment>
 Entladestrom = $30 \cdot \frac{1}{\unit{\hour}} \cdot \qty{4,2}{\ampere\hour} = \qty{126}{\ampere}$
