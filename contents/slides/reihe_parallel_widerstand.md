@@ -5,7 +5,7 @@ Bei einer Reihenschaltung addieren sich die Widerstandswerte
 [picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]
 
 $R_{G} = R_{1} + R_{2} + R_{3}$
-Beispiel: $R_{G} = 100 \Omega + 200 \Omega + 300 \Omega$
+Beispiel: $R_{G} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 --- style="font-size: 0.7em;"
 

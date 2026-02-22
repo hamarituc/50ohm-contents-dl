@@ -12,27 +12,27 @@ Eigenkapazität einer Spule
 ---
 #### Lösungsweg
 
-* gegeben: $C_1 = 0,10nF$
-* gegeben: $C_2 = 47pF$
-* gegeben: $C_3 = 22pF$
+* gegeben: $C_1 = \qty{0,10}{\nano\farad}$
+* gegeben: $C_2 = \qty{47}{\pico\farad}$
+* gegeben: $C_3 = \qty{22}{\pico\farad}$
 * gesucht: $C_{\textrm{ges}}$
 
 <fragment>
-$\begin{split} \tfrac{1}{C_{\textrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{0,10nF} + \tfrac{1}{47pF} + \tfrac{1}{22pF}\\ &= 7,67\cdot 10^{10} \tfrac{1}{F}\\ \Rightarrow C_{\textrm{ges}} &= \frac{1}{7,67\cdot 10^{10} \frac{1}{F}} \approx 13,0pF \end{split}$
+$\begin{split} \tfrac{1}{C_{\textrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{\qty{0,10}{\nano\farad}} + \tfrac{1}{\qty{47}{\pico\farad}} + \tfrac{1}{\qty{22}{\pico\farad}}\\ &= \qty{7,67e10}{\farad^{-1}}\\ \Rightarrow C_{\textrm{ges}} &= \frac{1}{\qty{7,67e10}{\farad^{-1}}} \approx \qty{13,0}{\pico\farad} \end{split}$
 </fragment>
 ---
 [question:AD103]
 ---
 #### Lösungsweg
 
-* gegeben: $C_1 = 0,1nF$
-* gegeben: $C_2 = 1,5nF$
-* gegeben: $C_3 = 220pF$
-* gegeben: $C_{\textrm{L}} = 1pF$
+* gegeben: $C_1 = \qty{0,1}{\nano\farad}$
+* gegeben: $C_2 = \qty{1,5}{\nano\farad}$
+* gegeben: $C_3 = \qty{220}{\pico\farad}$
+* gegeben: $C_L = \qty{1}{\pico\farad}$
 * gesucht: $C_{\textrm{ges}}$
 
 <fragment>
-$\begin{split} C_{\textrm{ges}} &= C_1 + C_2 + C_3 + C_{\textrm{L}}\\ &= 0,1nF + 1,5nF + 220pF + 1pF\\ &= 1821pF \end{split}$
+$\begin{split} C_{\textrm{ges}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
 </fragment>
 <note>
 Einheitenpräfixe beachten und mit Kehrwerten rechnen
@@ -43,16 +43,16 @@ Einheitenpräfixe beachten und mit Kehrwerten rechnen
 ---
 #### Lösungsweg
 
-* gegeben: $R = 100\Omega$
-* gegeben: $L = 100\mu H$
-* gegeben: $f = 1MHz$
+* gegeben: $R = \qty{100}{\ohm}$
+* gegeben: $L = \qty{100}{\micro\henry}$
+* gegeben: $f = \qty{1}{\mega\hertz}$
 * gesucht: $Z$
 
 <fragment>
-$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2 \cdot \pi \cdot f \cdot L\\ &= 2 \cdot \pi \cdot 1MHz \cdot 100\mu H = 628\Omega\end{split}$
+$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2 \cdot \pi \cdot f \cdot L\\ &= 2 \cdot \pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}\end{split}$
 </fragment>
 <fragment>
-$Z = \sqrt{R^2 + X^2} = \sqrt{(100\Omega)^2 + (628\Omega)^2} \approx 636\Omega$
+$Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm}$
 </fragment>
 
 ---
@@ -60,14 +60,14 @@ $Z = \sqrt{R^2 + X^2} = \sqrt{(100\Omega)^2 + (628\Omega)^2} \approx 636\Omega$
 ---
 #### Lösungsweg
 
-* gegeben: $R = 100\Omega$
-* gegeben: $C = 100nF$
-* gegeben: $f = 1MHz$
+* gegeben: $R = \qty{100}{\ohm}$
+* gegeben: $C = \qty{100}{\nano\farad}$
+* gegeben: $f = \qty{1}{\mega\hertz}$
 * gesucht: $Z$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2 \cdot \pi \cdot f \cdot C}\\ &= \frac{1}{2 \cdot \pi \cdot 1MHz \cdot 100nF} = 159\Omega\end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2 \cdot \pi \cdot f \cdot C}\\ &= \frac{1}{2 \cdot \pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\nano\farad}} = \qty{159}{\ohm}\end{split}$
 </fragment>
 <fragment>
-$Z = \sqrt{R^2 + X^2} = \sqrt{(100\Omega)^2 + (159\Omega)^2} \approx 188\Omega$
+$Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2} \approx \qty{188}{\ohm}$
 </fragment>

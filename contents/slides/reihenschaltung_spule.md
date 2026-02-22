@@ -13,4 +13,4 @@ $L_\text{G} = L_1 + L_2 + L_3 + ... + L_n$
 ---
 #### Lösungsweg
 
-$L_{ges} = 2200nH + 0,033mH + 150µH = 185,2µH$
+$L_{ges} = \qty{2200}{\nano\henry} + \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{185,2}{\micro\henry}1$
