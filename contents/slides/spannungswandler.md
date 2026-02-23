@@ -16,7 +16,7 @@ Der Buck-Boost Converter im Bild kann von $\qty{0,5}{\volt}$ bis $\qty{25}{\volt
 * Wirkungsgrad $\eta$, meistens in $\%$ angegeben
 
 <fragment>
-$\eta = \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}}$
+$\eta = \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}}$
 </fragment>
 
 ---
@@ -30,7 +30,7 @@ $\eta = \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}}$
 * gesucht: $\eta$
 
 <fragment>
-$\begin{split} \eta &= \frac{P_{\textrm{ab}}}{P_{\textrm{zu}}} = \frac{U_{\textrm{ab}} \cdot I_{\textrm{ab}}}{U_{\textrm{zu}} \cdot I_{\textrm{zu}}}\\ &= \frac{\qty{5}{\volt} \cdot \qty{3}{\ampere}}{\qty{12}{\volt} \cdot \qty{2}{\ampere}} = \frac{\qty{15}{\watt}}{\qty{24}{\watt}} = \num{0,625} = \qty{62,5}{\percent} \end{split}$
+$\begin{split} \eta &= \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}} = \frac{U_{\mathrm{ab}} \cdot I_{\mathrm{ab}}}{U_{\mathrm{zu}} \cdot I_{\mathrm{zu}}}\\ &= \frac{\qty{5}{\volt} \cdot \qty{3}{\ampere}}{\qty{12}{\volt} \cdot \qty{2}{\ampere}} = \frac{\qty{15}{\watt}}{\qty{24}{\watt}} = \num{0,625} = \qty{62,5}{\percent} \end{split}$
 </fragment>
 ---
 [question:AB214]
@@ -42,5 +42,5 @@ $\begin{split} \eta &= \frac{P_{\textrm{ab}}}{P_{\textrm{zu}}} = \frac{U_{\textr
 * gesucht: $\eta$
 
 <fragment>
-$\begin{split} \eta &= \frac{P_{\textrm{ab}}}{P_{\textrm{zu}}} = \frac{U_{\textrm{ab}} \cdot I_{\textrm{ab}}}{U_{\textrm{zu}} \cdot I_{\textrm{zu}}}\\ &= \frac{\qty{12}{\volt} \cdot \qty{1}{\ampere}}{\qty{5}{\volt} \cdot \qty{3}{\ampere}} = \frac{\qty{12}{\watt}}{\qty{15}{\watt}} = \num{0,8} = \qty{80}{\percent} \end{split}$
+$\begin{split} \eta &= \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}} = \frac{U_{\mathrm{ab}} \cdot I_{\mathrm{ab}}}{U_{\mathrm{zu}} \cdot I_{\mathrm{zu}}}\\ &= \frac{\qty{12}{\volt} \cdot \qty{1}{\ampere}}{\qty{5}{\volt} \cdot \qty{3}{\ampere}} = \frac{\qty{12}{\watt}}{\qty{15}{\watt}} = \num{0,8} = \qty{80}{\percent} \end{split}$
 </fragment>

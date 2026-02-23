@@ -36,11 +36,11 @@ Analog zur Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen
 * gegeben: $U_0 = \qty{0,6}{\volt}$
 * gegeben: $I_k = \qty{1}{\ampere}$
 * gegeben: $N_R = 30, N_P = 4$
-* gesucht: $U_{0,ges}, I_{k,ges}$
+* gesucht: $U_{0,\mathrm{ges}}, I_{k,\mathrm{ges}}$
 
 <fragment>
-$U_{0,ges} = N_R \cdot U_0 = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$
+$U_{0,\mathrm{ges}} = N_R \cdot U_0 = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$
 </fragment>
 <fragment>
-$I_{0,ges} = N_P \cdot I_k = 4 \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$
+$I_{0,\mathrm{ges}} = N_P \cdot I_k = 4 \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$
 </fragment>

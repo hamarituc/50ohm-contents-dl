@@ -20,10 +20,10 @@ Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstan
 <tip>
 Lösungsweg:
 Spannung am Lastwiderstand: $U_L = I_L \cdot R_L = \qty{10}{\milli\ampere} \cdot \qty{470}{\ohm} = \qty{4700}{\milli\volt} = \qty{4,7}{\volt}$
-Leistung im Lastwiderstand: $P_{out} = \qty{4,7}{\volt} \cdot \qty{10}{\milli\ampere} = \qty{47}{\milli\watt}$
+Leistung im Lastwiderstand: $P_{\mathrm{out}} = \qty{4,7}{\volt} \cdot \qty{10}{\milli\ampere} = \qty{47}{\milli\watt}$
 Verlustleistung in der Z-Diode: $P_{VZ} = \qty{4,7}{\volt} \cdot \qty{15}{\milli\ampere} = \qty{70,5}{\milli\watt}$
 Eingangsstrom: $I_g = \qty{10}{\milli\ampere} + \qty{15}{\milli\ampere} = \qty{25}{\milli\ampere}$
-Eingangsleistung: $P_{in} = \qty{13,8}{\volt} \cdot \qty{25}{\milli\ampere} = \qty{345}{\milli\watt}$
+Eingangsleistung: $P_{\mathrm{in}} = \qty{13,8}{\volt} \cdot \qty{25}{\milli\ampere} = \qty{345}{\milli\watt}$
 Wirkungsgrad: $\eta = \frac{P_{out}}{P_{in}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}} = \num{0,1}$
   
 </tip>
@@ -48,21 +48,21 @@ Unter der Regelung befindet sich ein großer Kühlkörper mit den Längstransist
 
 
 [question:AD315]
-Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{in} - P_{out}$.
+Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - P_{\mathrm{out}}$.
 
 ------
 [question:AD319]
 Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spanungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
 Wirkungsgrad = abgegebene Leistung auf der Lastseite : gesamte Eingangsleistung
-$\eta = \frac{P_{out}}{P_{in}}$
+$\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
 
 <tip>
 Eingangsleistung = Eingangsspannung x Laststrom
-$P_{in} = U_{in} \cdot I_{L}$
-$P_{in} = \qty{13,8}{\volt} \cdot \qty{0.9}{\ampere} = \qty{12,42}{\watt}$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L$
+$P_{\mathrm{in}} = \qty{13,8}{\volt} \cdot \qty{0,9}{\ampere} = \qty{12,42}{\watt}$
 Ausgangsleistung =  Ausgangsspannung x Laststrom
-$P_{out} = U_{out} \cdot I_{L}$
-$P_{out} = \qty{9}{\volt} \cdot \qty{0.9}{\ampere} = \qty{8,1}{\watt}$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L$
+$P_{\mathrm{out}} = \qty{9}{\volt} \cdot \qty{0,9}{\ampere} = \qty{8,1}{\watt}$
 </tip>
 ---
 [question:AD320]
@@ -70,13 +70,13 @@ $P_{out} = \qty{9}{\volt} \cdot \qty{0.9}{\ampere} = \qty{8,1}{\watt}$
 <tip>
 Der Lösungsweg beginnt mit der Berechnung der Einzelleistungen. 
 Eingangsleistung = Eingangsspannung x Laststrom
-$P_{in} = U_{in} \cdot I_{L}$
-$P_{in} = \qty{13,8}{\volt} \cdot \qty{0.455}{\ampere} = \qty{6,28}{\watt}$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L$
+$P_{\mathrm{in}} = \qty{13,8}{\volt} \cdot \qty{0,455}{\ampere} = \qty{6,28}{\watt}$
 Ausgangsleistung = Ausgangsspannung x Laststrom
-$P_{out} = U_{out} \cdot I_{L}$
-$P_{out} = \qty{5}{\volt} \cdot \qty{0,450}{\ampere} = \qty{2,25}{\watt}$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L$
+$P_{\mathrm{out}} = \qty{5}{\volt} \cdot \qty{0,450}{\ampere} = \qty{2,25}{\watt}$
   
-$\eta = \frac{P_{out}}{P_{in}} = \frac{\qty{2,25}{\watt}}{\qty{6,28}{\watt}} = \num{0,36}$
+$\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{\qty{2,25}{\watt}}{\qty{6,28}{\watt}} = \num{0,36}$
 </tip>
 
 3. *Festspannungsregler* in einer integrierten Schaltung
@@ -91,14 +91,14 @@ Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor un
 Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{0,5}{\ampere}$
 Eingangsleistung = Eingangsspannung x Laststrom
 Hinweis: Der Strom in der Masseleitung des Festspannungsreglers ist vernachlässigbar klein und wird deshalb nicht berücksichtigt.
-$P_{in} = U_{in} \cdot I_{L} = \qty{13,8}{\volt} \cdot \qty{0,5}{\ampere} = \qty{6,9}{\watt}$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_L = \qty{13,8}{\volt} \cdot \qty{0,5}{\ampere} = \qty{6,9}{\watt}$
   
 Ausgangsleistung = Ausgangsspannung x Laststrom
-$P_{out} = U_{out} \cdot I_{L} = \qty{5}{\volt} \cdot \qty{0,5}{\ampere} = \qty{2,5}{\watt}$
+$P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_L = \qty{5}{\volt} \cdot \qty{0,5}{\ampere} = \qty{2,5}{\watt}$
 </tip>
-Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{in}$ und $P_{out}$.
+Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{\mathrm{in}}$ und $P_{\mathrm{out}}$.
 
-$P_V = P_{in} - P_{out} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}$
+$P_V = P_{\mathrm{in}} - P_{\mathrm{out}} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}$
 
 <margin>
 [photo:245:a_Festspannungsregler:Festspannungsregler für $\qty{5}{\volt}$, $\qty{12}{\volt}$ und $\qty{9}{\volt}$ auf Kühlkörper]

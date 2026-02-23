@@ -126,13 +126,13 @@ Bei ungleichen Daten beeinflussen oder beschädigen sich die Zellen
 * gegeben: $U = \qty{2}{\volt}$
 * gegeben: $Q = \qty{10}{\ampere\hour}$
 * gegeben: $N = 6$
-* gesucht: $U_{ges}, Q_{ges}$
+* gesucht: $U_{\mathrm{ges}}, Q_{\mathrm{ges}}$
 
 <fragment>
-$U_{ges} = N \cdot U = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
+$U_{\mathrm{ges}} = N \cdot U = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
 </fragment>
 <fragment>
-$Q_{ges} = Q \cdot 1 = \qty{10}{\ampere\hour}$
+$Q_{\mathrm{ges}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
 </fragment>
 ---
 

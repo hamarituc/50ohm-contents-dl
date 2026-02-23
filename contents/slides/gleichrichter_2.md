@@ -23,11 +23,11 @@ Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
 [question:AD302]
 ---
 #### Lösungsweg
-* gegeben: $U_{eff} = \qty{15}{\volt}$
+* gegeben: $U_{\mathrm{eff}} = \qty{15}{\volt}$
 * gesucht: $\hat{U}$
 
 <fragment>
-$\hat{U} = U_{eff} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
+$\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
 </fragment>
 ---
 [question:AD303]

@@ -21,17 +21,17 @@
 * gegeben: $R_L = \qty{470}{\ohm}$
 * gegeben: $I_L = \qty{10}{\milli\ampere}$
 * gegeben: $I_Z = \qty{15}{\milli\ampere}$
-* gegeben: $U_{IN} = \qty{13,8}{\volt}$
-* gesucht: $\eta = \frac{P_L}{P_{IN}}$
+* gegeben: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
+* gesucht: $\eta = \frac{P_L}{P_{\mathrm{in}}}$
 
 <fragment>
 $P_L = I_L^2 \cdot R_L = (\qty{10}{\milli\ampere})^2 \cdot \qty{470}{\ohm} = \qty{47}{\milli\watt}$
 </fragment>
 <fragment>
-$P_{IN} = U_{IN} \cdot I_{IN} = U_{IN} \cdot (I_Z + I_L) = \qty{13,8}{\volt} \cdot (\qty{15}{\milli\ampere} + \qty{10}{\milli\ampere}) = \qty{345}{\milli\watt}$
+$P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_{\mathrm{in}} = U_{\mathrm{in}} \cdot (I_Z + I_L) = \qty{13,8}{\volt} \cdot (\qty{15}{\milli\ampere} + \qty{10}{\milli\ampere}) = \qty{345}{\milli\watt}$
 </fragment>
 <fragment>
-$\eta = \frac{P_L}{P_{IN}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}} \approx \num{0,14}$
+$\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}} \approx \num{0,14}$
 </fragment>
 ---
 ## Linarer Spannungsregler
@@ -51,13 +51,13 @@ $\eta = \frac{P_L}{P_{IN}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}
 [question:AD319]
 ---
 #### Lösungsweg
-* gegeben: $U_{zu} = \qty{13,8}{\volt}$
-* gegeben: $U_{ab} = \qty{9}{\volt}$
+* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{ab}} = \qty{9}{\volt}$
 * gegeben: $I = \qty{900}{\milli\ampere}$
 * gesucht: $P_V$
 
 <fragment>
-$U_{IC1} = U_{zu} - U_{ab} = \qty{13,8}{\volt} - \qty{9}{\volt} = \qty{4,8}{\volt}$
+$U_{IC1} = U_{\mathrm{zu}} - U_{\mathrm{ab}} = \qty{13,8}{\volt} - \qty{9}{\volt} = \qty{4,8}{\volt}$
 </fragment>
 <fragment>
 $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{4,32}{\watt}$
@@ -66,14 +66,14 @@ $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{
 [question:AD320]
 ---
 #### Lösungsweg
-* gegeben: $U_{zu} = \qty{13,8}{\volt}$
-* gegeben: $U_{ab} = \qty{5}{\volt}$
-* gegeben: $I_{zu} = \qty{455}{\milli\ampere}$
-* gegeben: $I_{ab} = \qty{450}{\milli\ampere}$
+* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{ab}} = \qty{5}{\volt}$
+* gegeben: $I_{\mathrm{zu}} = \qty{455}{\milli\ampere}$
+* gegeben: $I_{\mathrm{ab}} = \qty{450}{\milli\ampere}$
 * gesucht: $\eta$
 
 <fragment>
-$\eta = \frac{P_{ab}}{P_{zu}} = \frac{U_{ab} \cdot I_{ab}}{U_{zu} \cdot I_{zu}} = \frac{\qty{5}{\volt} \cdot \qty{450}{\milli\ampere}}{\qty{13,8}{\volt} \cdot \qty{455}{\milli\ampere}} \approx \num{0,36}$
+$\eta = \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}} = \frac{U_{\mathrm{ab}} \cdot I_{\mathrm{ab}}}{U_{\mathrm{zu}} \cdot I_{\mathrm{zu}}} = \frac{\qty{5}{\volt} \cdot \qty{450}{\milli\ampere}}{\qty{13,8}{\volt} \cdot \qty{455}{\milli\ampere}} \approx \num{0,36}$
 </fragment>
 ---
 ## Festspannungsregler
@@ -94,16 +94,16 @@ $\eta = \frac{P_{ab}}{P_{zu}} = \frac{U_{ab} \cdot I_{ab}}{U_{zu} \cdot I_{zu}} 
 [question:AD318]
 ---
 #### Lösungsweg
-* gegeben: $U_{zu} = \qty{13,8}{\volt}$
-* gegeben: $U_{ab} = \qty{5}{\volt}$
+* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{ab}} = \qty{5}{\volt}$
 * gegeben: $R_L = \qty{10}{\ohm}$
 * gesucht: $P_V$
 
 <fragment>
-$I = \frac{U_{zu}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
+$I = \frac{U_{\mathrm{zu}}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
 </fragment>
 <fragment>
-$U_{IC1} = U_{zu} - U_{ab} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
+$U_{IC1} = U_{\mathrm{zu}} - U_{\mathrm{ab}} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
 </fragment>
 <fragment>
 $P_V = U_{IC1} \cdot I = \qty{8,8}{\volt} \cdot \qty{500}{\milli\ampere} = \qty{4,4}{\watt}$
