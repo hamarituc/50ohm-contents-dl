@@ -51,13 +51,13 @@ $\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\mi
 [question:AD319]
 ---
 #### Lösungsweg
-* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
-* gegeben: $U_{\mathrm{ab}} = \qty{9}{\volt}$
+* gegeben: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{out}} = \qty{9}{\volt}$
 * gegeben: $I = \qty{900}{\milli\ampere}$
 * gesucht: $P_V$
 
 <fragment>
-$U_{IC1} = U_{\mathrm{zu}} - U_{\mathrm{ab}} = \qty{13,8}{\volt} - \qty{9}{\volt} = \qty{4,8}{\volt}$
+$U_{IC1} = U_{\mathrm{in}} - U_{\mathrm{out}} = \qty{13,8}{\volt} - \qty{9}{\volt} = \qty{4,8}{\volt}$
 </fragment>
 <fragment>
 $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{4,32}{\watt}$
@@ -66,14 +66,14 @@ $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{
 [question:AD320]
 ---
 #### Lösungsweg
-* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
-* gegeben: $U_{\mathrm{ab}} = \qty{5}{\volt}$
-* gegeben: $I_{\mathrm{zu}} = \qty{455}{\milli\ampere}$
-* gegeben: $I_{\mathrm{ab}} = \qty{450}{\milli\ampere}$
+* gegeben: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{out}} = \qty{5}{\volt}$
+* gegeben: $I_{\mathrm{in}} = \qty{455}{\milli\ampere}$
+* gegeben: $I_{\mathrm{out}} = \qty{450}{\milli\ampere}$
 * gesucht: $\eta$
 
 <fragment>
-$\eta = \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}} = \frac{U_{\mathrm{ab}} \cdot I_{\mathrm{ab}}}{U_{\mathrm{zu}} \cdot I_{\mathrm{zu}}} = \frac{\qty{5}{\volt} \cdot \qty{450}{\milli\ampere}}{\qty{13,8}{\volt} \cdot \qty{455}{\milli\ampere}} \approx \num{0,36}$
+$\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}} = \frac{\qty{5}{\volt} \cdot \qty{450}{\milli\ampere}}{\qty{13,8}{\volt} \cdot \qty{455}{\milli\ampere}} \approx \num{0,36}$
 </fragment>
 ---
 ## Festspannungsregler
@@ -94,16 +94,16 @@ $\eta = \frac{P_{\mathrm{ab}}}{P_{\mathrm{zu}}} = \frac{U_{\mathrm{ab}} \cdot I_
 [question:AD318]
 ---
 #### Lösungsweg
-* gegeben: $U_{\mathrm{zu}} = \qty{13,8}{\volt}$
-* gegeben: $U_{\mathrm{ab}} = \qty{5}{\volt}$
+* gegeben: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
+* gegeben: $U_{\mathrm{out}} = \qty{5}{\volt}$
 * gegeben: $R_L = \qty{10}{\ohm}$
 * gesucht: $P_V$
 
 <fragment>
-$I = \frac{U_{\mathrm{zu}}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
+$I = \frac{U_{\mathrm{in}}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
 </fragment>
 <fragment>
-$U_{IC1} = U_{\mathrm{zu}} - U_{\mathrm{ab}} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
+$U_{IC1} = U_{\mathrm{in}} - U_{\mathrm{out}} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
 </fragment>
 <fragment>
 $P_V = U_{IC1} \cdot I = \qty{8,8}{\volt} \cdot \qty{500}{\milli\ampere} = \qty{4,4}{\watt}$
