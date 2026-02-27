@@ -1,5 +1,5 @@
 <left>
-[picture:807:spiegelfrequenzen_mischen1:Mischvorgang mit Empfangsfrequenz $f_\text{E}$, Oszillatorfrequenz $f_\text{OSZ}$ und der Zwischenfrequenz $f_\text{ZF}$]
+[picture:807:spiegelfrequenzen_mischen1:Mischvorgang mit Empfangsfrequenz $f_\text{e}$, Oszillatorfrequenz $f_\text{o}$ und der Zwischenfrequenz $f_\text{ZF}$]
 
 $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 </left>
