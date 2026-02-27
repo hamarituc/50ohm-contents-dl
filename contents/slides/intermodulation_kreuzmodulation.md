@@ -27,7 +27,7 @@
 ---
 ### Großsignalfestigkeit IP3
 
-* Interception Point IP3
+* Interception Point dritter Ordnung IP3
 * Maß für den Punkt, an dem unerwünschte Mischprodukte 3. Ordnung den Amplitudenwert des Eingangssignal erreichen
 * Je höher der IP3 eines Empfängers, umso größere Signale können störungsfrei verarbeitet werden
 
@@ -39,8 +39,8 @@
 * Zuschaltbares Dämpfungsglied am Empfängereingang
 * Intermodulationsprodukte und Kreuzmodulation werden verringert
 * Nutzsignal wird um den Faktor des Dämpfungsglieds reduziert
-* Störsignale auf den Faktor 1000 (3. Ordnung) abgeschwächt
-* Beispiel: Attenuator 10dB &rarr; Nutzsignal 10dB &rarr; Mischprodukte 30dB
+* Störsignale um den Faktor $\num{3}$ (3. Ordnung) in $\unit{dB}$ abgeschwächt
+* Beispiel: Attenuator $\qty{10}{\dB}$ &rarr; Nutzsignal $\qty{10}{\dB}$ &rarr; Mischprodukte $\qty{30}{\dB}$
 
 ---
 [question:AF220]

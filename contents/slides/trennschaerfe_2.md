@@ -1,8 +1,8 @@
 * Trennschärfe eines Empfängers wird durch die Bandbreite der Filter im ZF-Bereich bestimmt
 * Bandbreite ist nach Modulationsart unterschiedlich
-* SSB &rarr; 2,7 kHz
-* CW und RTTY &rarr; 500 Hz zur Trennung von nebenliegenden Signalen
-* FM &rarr; 12 kHz
+* SSB &rarr; $\qty{2,7}{\kilo\hertz}$
+* CW und RTTY &rarr; $\qty{500}{\hertz}$ zur Trennung von nebenliegenden Signalen
+* FM &rarr; $\qty{12}{\kilo\hertz}$
 
 ---
 * Bandbreiten und Flankensteilheit durch technisch unterschiedliche Konzepte

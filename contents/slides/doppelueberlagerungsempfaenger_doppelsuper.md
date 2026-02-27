@@ -60,28 +60,32 @@
 [question:AF210]
 --- style="font-size: smaller;"
 #### Lösungsweg
-* gegeben: $f_E = 3\dots30MHz$
-* gegeben: $f_{ZF1} = 50MHz$
+* gegeben: $f_E = 3\dots\qty{30}{\mega\hertz}$
+* gegeben: $f_{ZF1} = \qty{50}{\mega\hertz}$
 * gesucht: $f_{OSZ}$
 
 <fragment>
 $f_{ZF} = |f_E − f_{OSZ}| \Rightarrow f_{OSZ} = f_{ZF} \pm f_{E}$
 </fragment>
-<fragment>
-1. Lösung: $\begin{split} f_{OSZ} &= f_{ZF} \, + \, f_{E}\\ &= 50MHz \, + \, 3\dots30MHz\\ &= 53\dots80MHz \end{split}$
-2. Lösung: $\begin{split} f_{OSZ} &= f_{ZF} \, - \, f_{E}\\ &= 50MHz \, - \, 3\dots30MHz\\ &= 47\dots20MHz \end{split}$
-</fragment>
+<left>
+1. Lösung:
+$\begin{split}f_{OSZ} &= f_{ZF} \, + \, f_{E}\\ &= \qty{50}{\mega\hertz} \, + \, 3\dots\qty{30}{\mega\hertz}\\ &= 53\dots\qty{80}{\mega\hertz}\end{split}$
+</left>
+<right>
+2. Lösung:
+$\begin{split}f_{OSZ} &= f_{ZF} \, - \, f_{E}\\ &= \qty{50}{\mega\hertz} \, - \, 3\dots\qty{30}{\mega\hertz}\\ &= 47\dots\qty{20}{\mega\hertz}\end{split}$
+</right>
 ---
 [question:AF120]
 --- style="font-size: smaller;"
 ### Lösungsweg
 <left>
-* gegeben: $f_{E} = 3,65MHz$
-* gegeben: $f_{ZF1} = 50MHz$
+* gegeben: $f_{E} = \qty{3,65}{\mega\hertz}$
+* gegeben: $f_{ZF1} = \qty{50}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_{ZF2} = 9MHz$
-* gegeben: $f_{NF} = 455kHz$
+* gegeben: $f_{ZF2} = \qty{9}{\mega\hertz}$
+* gegeben: $f_{NF} = \qty{455}{\kilo\hertz}$
 </right>
 * gesucht: $f_{OSZ}$ für $f_{VFO}, f_{CO1}, f_{CO2}$
 
@@ -89,28 +93,28 @@ $f_{ZF} = |f_E − f_{OSZ}| \Rightarrow f_{OSZ} = f_{ZF} \pm f_{E}$
 $f_{ZF1} = \begin{cases}f_E\,+\,f_{OSZ}\\ f_{OSZ}\,-\,f_E\\ f_E\,-\,f_{OSZ}\end{cases} \Rightarrow f_{OSZ} = \begin{cases}f_{ZF}\,-\,f_E\\ f_E\,+\,f_{ZF}\\ f_E\,-\,f_{ZF}\end{cases}$
 </fragment>
 <fragment>
-$f_{VFO} = \begin{cases}f_{ZF1}\,-\,f_E = 50MHz\,-\,3,65MHz = 46,35MHz\\ f_E\,+\,f_{ZF1} = 3,65MHz\,+\,50MHz = 53,64MHz\\ f_E\,-\,f_{ZF1} = 3,65MHz\,-\,50MHz = \cancel{-46,35MHz}\end{cases}$
+$f_{VFO} = \begin{cases}f_{ZF1}\,-\,f_E = \qty{50}{\mega\hertz}\,-\,\qty{3,65}{\mega\hertz} = \qty{46,35}{\mega\hertz}\\ f_E\,+\,f_{ZF1} = \qty{3,65}{\mega\hertz}\,+\,\qty{50}{\mega\hertz} = \qty{53,64}{\mega\hertz}\\ f_E\,-\,f_{ZF1} = \qty{3,65}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-46,35}{\mega\hertz}}\end{cases}$
 </fragment>
 --- style="font-size: smaller;"‚
 <fragment>
-$f_{CO1} = \begin{cases}f_{ZF2}\,-\,f_{ZF1} = 9MHz\,-\,50MHz = \cancel{-41MHz}\\ f_{ZF1}\,+\,f_{ZF2} = 50MHz\,+\,9MHz = 59MHz\\ f_{ZF1}\,-\,f_{ZF2} = 50MHz\,-\,9MHz = 41MHz\end{cases}$
+$f_{CO1} = \begin{cases}f_{ZF2}\,-\,f_{ZF1} = \qty{9}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-41}{\mega\hertz}}\\ f_{ZF1}\,+\,f_{ZF2} = \qty{50}{\mega\hertz}\,+\,\qty{9}{\mega\hertz} = \qty{59}{\mega\hertz}\\ f_{ZF1}\,-\,f_{ZF2} = \qty{50}{\mega\hertz}\,-\,\qty{9}{\mega\hertz} = \qty{41}{\mega\hertz}\end{cases}$
 </fragment>
 <fragment>
-$f_{CO2} = \begin{cases}f_{NF}\,-\,f_{ZF2} = 455kHz\,-\,9MHz = \cancel{-8,545MHz}\\ f_{ZF2}\,+\,f_{NF} = 9MHz\,+\,455kHz = 9,455MHz\\ f_{ZF2}\,-\,f_{NF} = 9MHz\,-\,455kHz = 8,545MHz\end{cases}$
+$f_{CO2} = \begin{cases}f_{NF}\,-\,f_{ZF2} = \qty{455}{\kilo\hertz}\,-\,\qty{9}{\mega\hertz} = \cancel{\qty{-8,545}{\mega\hertz}}\\ f_{ZF2}\,+\,f_{NF} = \qty{9}{\mega\hertz}\,+\,\qty{455}{\kilo\hertz} = \qty{9,455}{\mega\hertz}\\ f_{ZF2}\,-\,f_{NF} = \qty{9}{\mega\hertz}\,-\,\qty{455}{\kilo\hertz} = \qty{8,545}{\mega\hertz}\end{cases}$
 </fragment>
 <fragment>
-VFO: $\bold{46,35MHz} \And 53,65MHz$, CO1: $\bold{41MHz} \And 59MHz$, CO2: $8,545MHz \And \bold{9,455MHz}$
+VFO: $\bold{\qty{46,35}{\mega\hertz}} \And \qty{53,65}{\mega\hertz}$, CO1: $\bold{\qty{41}{\mega\hertz}} \And \qty{59}{\mega\hertz}$, CO2: $\qty{8,545}{\mega\hertz} \And \bold{\qty{9,455}{\mega\hertz}}$
 </fragment>
 ---
 [question:AF118]
 --- style="font-size: smaller;"‚
 #### Lösungsweg
 <left>
-* gegeben: $f_{E} = 21,1MHz$
-* gegeben: $f_{ZF1} = 9MHz$
+* gegeben: $f_{E} = \qty{21,1}{\mega\hertz}$
+* gegeben: $f_{ZF1} = \qty{9}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_{ZF2} = 460kHz$
+* gegeben: $f_{ZF2} = \qty{460}{\kilo\hertz}$
 </right>
 * gesucht: $f_{VFO} \gt f_E, f_{CO} \lt f_{ZF1}$
 
@@ -118,10 +122,10 @@ VFO: $\bold{46,35MHz} \And 53,65MHz$, CO1: $\bold{41MHz} \And 59MHz$, CO2: $8,54
 $f_{ZF} = \begin{cases}f_{OSZ}\,-\,f_E\\ f_E\,-\,f_{OSZ}\end{cases} \Rightarrow f_{OSZ} = \begin{cases}f_E\,+\,f_{ZF}\\ f_E\,-\,f_{ZF}\end{cases}$
 </fragment>
 <fragment>
-$f_{VFO} = f_E\,+\,f_{ZF1} = 21,1MHz\,+\,9MHz = 30,1MHz$
+$f_{VFO} = f_E\,+\,f_{ZF1} = \qty{21,1}{\mega\hertz}\,+\,\qty{9}{\mega\hertz} = \qty{30,1}{\mega\hertz}$
 </fragment>
 <fragment>
-$f_{CO} = f_{ZF1}\,-\,f_{ZF2} = 9MHz\,-\,460kHz = 8,54MHz$
+$f_{CO} = f_{ZF1}\,-\,f_{ZF2} = \qty{9}{\mega\hertz}\,-\,\qty{460}{\kilo\hertz} = \qty{8,54}{\mega\hertz}$
 </fragment>
 
 ---
@@ -129,11 +133,11 @@ $f_{CO} = f_{ZF1}\,-\,f_{ZF2} = 9MHz\,-\,460kHz = 8,54MHz$
 --- style="font-size: smaller;"‚
 #### Lösungsweg
 <left>
-* gegeben: $f_{E} = 28MHz$
-* gegeben: $f_{ZF1} = 10,7MHz$
+* gegeben: $f_{E} = \qty{28}{\mega\hertz}$
+* gegeben: $f_{ZF1} = \qty{10,7}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_{ZF2} = 460kHz$
+* gegeben: $f_{ZF2} = \qty{460}{\kilo\hertz}$
 </right>
 * gesucht: $f_{VFO} \gt f_E, f_{CO} \gt f_{ZF1}$
 
@@ -141,8 +145,8 @@ $f_{CO} = f_{ZF1}\,-\,f_{ZF2} = 9MHz\,-\,460kHz = 8,54MHz$
 $f_{ZF} = \begin{cases}f_{OSZ}\,-\,f_E\\ f_E\,-\,f_{OSZ}\end{cases} \Rightarrow f_{OSZ} = \begin{cases}f_E\,+\,f_{ZF}\\ f_E\,-\,f_{ZF}\end{cases}$
 </fragment>
 <fragment>
-$f_{VFO} = f_E\,+\,f_{ZF1} = 28MHz\,+\,10,7MHz = 38,70MHz$
+$f_{VFO} = f_E\,+\,f_{ZF1} = \qty{28}{\mega\hertz}\,+\,\qty{10,7}{\mega\hertz} = \qty{38,70}{\mega\hertz}$
 </fragment>
 <fragment>
-$f_{CO} = f_{ZF1}\,+\,f_{ZF2} = 10,7MHz\,+\,460kHz = 11,16MHz$
+$f_{CO} = f_{ZF1}\,+\,f_{ZF2} = \qty{10,7}{\mega\hertz}\,+\,\qty{460}{\kilo\hertz} = \qty{11,16}{\mega\hertz}$
 </fragment>

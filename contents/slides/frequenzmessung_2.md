@@ -3,7 +3,7 @@
 * Empfangsfrequenz lässt sich meist nicht direkt messen, da kein Messpunkt vorhanden ist  
 * Zum Überprüfen wird ein genauer Oszillator oder Frequenzgenerator an die Antennenbuchse angeschlossen  
 * Vergleich der Generatorfrequenz mit der Empfängeranzeige  
-* GPS-disziplinierte Oszillatoren/OCXOs bieten höhere Genauigkeit
+* GPS-synchronisierte Oszillatoren/OCXOs bieten höhere Genauigkeit
 
 <note>
 Ein direkt angeschlossener Frequenzgenerator kann einen Empfängereingang leicht beschädigen. Im Zweifelsfall sollte die Messung mit der niedrigsten Spannung des Generators und einem Dämpfungsglied begonnen werden.
@@ -49,7 +49,7 @@ SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen
 
 * Einfache Frequenzzähler arbeiten fast immer mit einer sogenannten *Torzeit*  
 * Das Gerät schaltet den Eingang für eine bestimmte Zeit ein, zählt die Perioden und berechnet daraus die Frequenz  
-* Eine Torzeit von 1 Sekunde liefert direkt die Frequenz in Hertz  
+* Eine Torzeit von $\qty{1}{\second}$ liefert direkt die Frequenz in $\unit{\hertz}$  
 * Kurze Torzeit: schnelle Aktualisierung
 * Lange Torzeit: höhere Messgenauigkeit
 
