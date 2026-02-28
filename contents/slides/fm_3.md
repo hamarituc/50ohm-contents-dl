@@ -50,7 +50,7 @@ $B \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
 </right>
 
 <note>
-Etwa $\qty{99}{\percent}$ der Sendeleistung befinden sich in der Bandbreite
+Etwa 99% der Sendeleistung befinden sich in der Bandbreite
 </note>
 ---
 [question:AE306]

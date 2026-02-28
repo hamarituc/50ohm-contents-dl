@@ -13,7 +13,7 @@
 
 <note>
 * Empfehlung im IARU-Bandplan.
-* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von $\qty{10}{\mega\hertz}$ USB verwendet wird.
+* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10 MHz USB verwendet wird.
 * Klasse N kann aufgrund der erlaubten Bänder immer USB verwenden.
 * Zusätzliches Wissen: Seefunk verwendet immer USB.
 </note>
