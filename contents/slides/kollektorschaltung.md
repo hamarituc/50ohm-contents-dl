@@ -64,9 +64,9 @@
 [picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
 </left>
 <right>
-* Phasenverschiebung ist 0º
+* Phasenverschiebung ist $\qty{0}{\degree}$
 * Eingangsimpedanz relativ hoch
-* &rarr; Spannungsverstärkung ca. 0,9 bis 0,98 (immer etwas kleiner als 1)
+* &rarr; Spannungsverstärkung ca. $\num{0,9}$ bis $\num{0,98}$ (immer etwas kleiner als $1$)
 * Ausgangsimpedanz sehr niedrig gegenüber Eingangsimpedanz
 </right>
 

@@ -1,7 +1,7 @@
 ## Konverter
 
 * Signale auf einem Frequenzband werden in ein anderes Frequenzband umgesetzt
-* z.B. wird ein 2m-Signal im Empfang als ein 70cm-Signal ausgesendet
+* z.B. wird ein $\qty{2}{\meter}$-Signal im Empfang als ein $\qty{70}{\centi\meter}$-Signal ausgesendet
 * Signal wird nur in eine Richtung umgewandelt
 * Im Grunde ein einfacher Mischer
 
@@ -33,12 +33,12 @@
 ---
 ### Lösungsweg
 
-Frequenz des Generators wird ver-3-facht: $38,666MHz \cdot 3 = 116MHz$
+Frequenz des Generators wird ver-3-facht: $\qty{38,666}{\mega\hertz} \cdot 3 = \qty{116}{\mega\hertz}$
 
 <left>
 *TX Weg*
-* Die 28-30 MHz vom TRX werden mit 116 MHz gemischt
-* Das Signal kann 80-90MHz oder 144-146 MHz sein
+* Die $\qtyrange{28}{30}{\mega\hertz}$ vom TRX werden mit $\qty{116}{\mega\hertz}$ gemischt
+* Das Signal kann $\qtyrange{86}{88}{\mega\hertz}$ oder $\qtyrange{144}{146}{\mega\hertz}$ sein
 </left>
 <right>
 [picture:843:e_transverter_tx:Transverter im TX-Pfad]
@@ -48,9 +48,9 @@ Frequenz des Generators wird ver-3-facht: $38,666MHz \cdot 3 = 116MHz$
 
 <left>
 *RX Weg*
-* Das Antennensignal wird mit 116 MHz gemischt und es kommen 28-30 MHz raus
-* Das Antennensignal liegt somit u.a. bei 144-146 MHz
-* &rarr; Es ist nur die Antwort mit 2 m und der Transverter richtig
+* Das Antennensignal wird mit $\qty{116}{\mega\hertz}$ gemischt und es kommen $\qtyrange{28}{30}{\mega\hertz}$ raus
+* Das Antennensignal liegt somit u.a. bei $\qtyrange{144}{146}{\mega\hertz}$
+* &rarr; Es ist nur die Antwort mit $\qty{2}{\meter}$ und der Transverter richtig
 </left>
 <right>
 [picture:842:e_transverter_rx:Transverter im RX-Pfad]
@@ -65,11 +65,11 @@ Frequenz des Generators wird ver-3-facht: $38,666MHz \cdot 3 = 116MHz$
 ---
 <left>
 * Grafik aus vorheriger Frage
-* Aus 10 MHz werden 2,256 GHz, also 225,6 Vervielfachung
-* Statt 10 MHz erzeugt der Oszillator aufgrund eines Fehlers 10,01 MHz
-* 10,01 MHz &times; 225,6 = 2,258256 GHz
-* Mischer: 144 MHz + 2,258256 GHz = 2,402256 GHz &rarr; 2,256 MHz daneben
+* Aus $\qty{10}{\mega\hertz}$ werden $\qty{2,256}{\giga\hertz}$, also $\num{225,6}$ Vervielfachung
+* Statt $\qty{10}{\mega\hertz}$ erzeugt der Oszillator aufgrund eines Fehlers $\qty{10,01}{\mega\hertz}$
+* $\qty{10,01}{\mega\hertz} \cdot 225,6 = \qty{2,258256}{\giga\hertz}$
+* Mischer: $\qty{144}{\mega\hertz} + \qty{2,258256}{\giga\hertz} = \qty{2,402256}{\giga\hertz} \rightarrow \qty{2,256}{\mega\hertz}$ daneben
 </left>
 <right>
-[picture:651:e_konverter_13cm:Konverter für das 13cm-Band]
+[picture:651:e_konverter_13cm:Konverter für das $\qty{13}{\centi\meter}$-Band]
 </right>
