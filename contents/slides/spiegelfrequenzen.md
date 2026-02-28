@@ -12,8 +12,8 @@ Im Mischprozess zur $f_\text{ZF}$ werden prinzipbedingt immer zwei Empfangsfrequ
 [picture:806:spiegelfrequenzen_fe1_fe2:Empfangsfrequenzen die beide zur selben $f_\text{ZF}$ führen]
 </left>
 <right>
-* Gewünschte Empfangsfrequenz $f_\text{e1}$ &rarr; Spiegelfrequenz $f_\text{e2}$
-* Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz &rarr; ${2 \cdot f_\text{ZF}}$
+* Gewünschte Empfangsfrequenz $f_\text{e1}\rightarrow$ Spiegelfrequenz $f_\text{e2}$
+* Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz $\rightarrow2 \cdot f_\text{ZF}$
 </right>
 ---
 <left>

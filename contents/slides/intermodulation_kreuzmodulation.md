@@ -40,7 +40,7 @@
 * Intermodulationsprodukte und Kreuzmodulation werden verringert
 * Nutzsignal wird um den Faktor des Dämpfungsglieds reduziert
 * Störsignale um den Faktor $\num{3}$ (3. Ordnung) in $\unit{dB}$ abgeschwächt
-* Beispiel: Attenuator $\qty{10}{\dB}$ &rarr; Nutzsignal $\qty{10}{\dB}$ &rarr; Mischprodukte $\qty{30}{\dB}$
+* Beispiel: Attenuator $\qty{10}{\dB}\rightarrow$ Nutzsignal $\qty{10}{\dB}\rightarrow$ Mischprodukte $\qty{30}{\dB}$
 
 ---
 [question:AF220]
