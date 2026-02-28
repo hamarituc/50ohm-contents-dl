@@ -22,7 +22,7 @@
 
 <note>
 Lauter in das Mirkofon sprechen &rarr; Amplitude des Modulationssignals wird größer
-Bandplan beachten, wo maximal $\qty{12}{\kilo\hertz}$ Bandbreite belegt werden darf.
+Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 </note>
 
 ---
