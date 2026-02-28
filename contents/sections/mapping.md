@@ -1,6 +1,6 @@
 Im Rahmen der digitalen Signalverarbeitung beschreibt das *Mapping* den Schritt, bei dem digitale Daten in spezifische Signalpunkte (Symbole) umgewandelt werden, die über das Übertragungssystem gesendet werden können. Dies ist ein entscheidender Prozess in der Modulation, insbesondere bei Quadraturamplitudenmodulationen (QAM) und Phasenumtastungen wie QPSK (Quadrature Phase Shift Keying).
 
-Um die Symbole zu visualisieren, verwenden wir ein *Konstellationsdiagramm*, das die möglichen Signalpunkte in einem zweidimensionalen Raum darstellt. Man bezeichnet die Achsen oft als In-Phase (I) und Quadrature (Q). Jeder Punkt im Diagramm repräsentiert eine bestimmte Amplitude und Phase, die durch das Mapping einer bestimmten Bitkombination zugeordnet ist, wie in Abbildung [ref:a_konstellation] dargestellt.
+Um die Symbole zu visualisieren, verwenden wir ein *Konstellationsdiagramm* wie in Abbildung [ref:a_konstellation], das die möglichen Signalpunkte in einem zweidimensionalen Raum darstellt. Man bezeichnet die Achsen oft als In-Phase (I) und Quadrature (Q). Jeder Punkt im Diagramm repräsentiert eine bestimmte Amplitude und Phase, die durch das Mapping einer bestimmten Bitkombination zugeordnet ist, wie in Abbildung [ref:a_qpsk] dargestellt.
 
 <margin>
 [picture:1060:a_konstellation:Konstellationsdiagramm]
