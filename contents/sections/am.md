@@ -15,9 +15,9 @@ Dieser unerwartete Effekt entsteht dadurch, dass sich durch die Änderung der Am
 </margin>
 
 <webindepth>
-*Warum entstehen bei AM zusätzliche Frequenzen neben dem Träger?* Das lässt sich erklären, wenn man versteht, was in einem Amplitudenspektrum oder Wasserfalldiagramm genau dargestellt wird: Es zeigt für jede Frequenz an, wie groß die Amplitude ist. Genauer müssen wir sagen: Es zeigt für alle möglichen Sinusschwingungen mit verschiedenen Frequenzen an, wie stark deren Amplitude ist. Wenn also die Anzeige z. B. bei 144,3 MHz ausschlägt, dann wird eine reine Sinusschwingung mit einer Frequenz von 144,3 MHz gemessen. Schlägt die Anzeige aber beispielsweise gleichzeitig bei 144,300 Hz und bei 144,301 MHz aus, dann wurden zwei Sinusschwingungen gemessen. 
+*Warum entstehen bei AM zusätzliche Frequenzen neben dem Träger?* Das lässt sich erklären, wenn man versteht, was in einem Amplitudenspektrum oder Wasserfalldiagramm genau dargestellt wird: Es zeigt für jede Frequenz an, wie groß die Amplitude ist. Genauer müssen wir sagen: Es zeigt für alle möglichen Sinusschwingungen mit verschiedenen Frequenzen an, wie stark deren Amplitude ist. Wenn also die Anzeige z. B. bei $\qty{144,3}{\mega\hertz}$ ausschlägt, dann wird eine reine Sinusschwingung mit einer Frequenz von $\qty{144,3}{\mega\hertz}$ gemessen. Schlägt die Anzeige aber beispielsweise gleichzeitig bei $\qty{144,300}{\mega\hertz}$ und bei $\qty{144,301}{\mega\hertz}$ aus, dann wurden zwei Sinusschwingungen gemessen.
 
-Betrachten wir mit diesem Wissen noch einmal die AM-Sendung im Wasserfalldiagramm. Wir können jetzt erkennen, dass viele verschiedene Frequenzen zwischen 144,250 und 144,350 MHz mit unterschiedlicher Amplitude auftreten. Es sind also viele verschiedene Sinusschwingungen gleichzeitig messbar.
+Betrachten wir mit diesem Wissen noch einmal die AM-Sendung im Wasserfalldiagramm. Wir können jetzt erkennen, dass viele verschiedene Frequenzen zwischen $\qty{144,250}{\mega\hertz}$ und $\qty{144,350}{\mega\hertz}$ mit unterschiedlicher Amplitude auftreten. Es sind also viele verschiedene Sinusschwingungen gleichzeitig messbar.
 
 [picture:738:n_seitenband_frequenzen_einzeln:Mehrere Sinusschwingungen unterschiedlicher Frequenz]
 
@@ -31,4 +31,4 @@ Es sind einfach zwei verschiedene Sichtweisen. Man kann es entweder als verformt
 [question:NE202]
 [question:NE206]
 
-Übrigens ist die von AM belegte Bandbreite doppelt so hoch wie die höchste Frequenz des Modulationssignals. Bei unserem Beispiel aus dem vorherigen Abschnitt war die höchste Frequenz 2700 Hz. Entsprechend würde dieses Signal als AM-Sendung eine Bandbreite von 5400 Hz belegen.
+Übrigens ist die von AM belegte Bandbreite doppelt so hoch wie die höchste Frequenz des Modulationssignals. Bei unserem Beispiel aus dem vorherigen Abschnitt war die höchste Frequenz $\qty{2700}{\hertz}$. Entsprechend würde dieses Signal als AM-Sendung eine Bandbreite von $\qty{5400}{\hertz}$ belegen.

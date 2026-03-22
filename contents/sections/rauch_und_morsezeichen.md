@@ -8,7 +8,7 @@ Die Feuerstelle wird dann mit einer Decke abgedeckt, und der Rauch sammelt sich 
 
 ---
 
-Im Funk wird etwas Ähnliches gemacht. Statt Rauchzeichen gibt es Morsezeichen. In einem Funkgerät wird von einem Oszillator eine elektrische Schwingung erzeugt, z. B. mit 144,1 MHz. Mit einer Taste wie in Abbildung [ref:n_cwtast] kann man dann dafür sorgen, dass diese elektrische Schwingung immer wieder kurzzeitig an den Antennenanschluss des Funkgerätes geleitet und von der Antenne als Funkwelle abgestrahlt wird. Man spricht davon, Morsezeichen zu *geben*. Beim Empfänger wird diese Funkwelle hörbar gemacht: Es ertönt ein Ton in dem Rhythmus, in dem die Taste gedrückt wird. Dieses Übertragungsverfahren wird auch als Continuous Wave (CW) bezeichnet.
+Im Funk wird etwas Ähnliches gemacht. Statt Rauchzeichen gibt es Morsezeichen. In einem Funkgerät wird von einem Oszillator eine elektrische Schwingung erzeugt, z. B. mit $\qty{144,1}{\mega\hertz}$. Mit einer Taste wie in Abbildung [ref:n_cwtast] kann man dann dafür sorgen, dass diese elektrische Schwingung immer wieder kurzzeitig an den Antennenanschluss des Funkgerätes geleitet und von der Antenne als Funkwelle abgestrahlt wird. Man spricht davon, Morsezeichen zu *geben*. Beim Empfänger wird diese Funkwelle hörbar gemacht: Es ertönt ein Ton in dem Rhythmus, in dem die Taste gedrückt wird. Dieses Übertragungsverfahren wird auch als Continuous Wave (CW) bezeichnet.
   
 <margin>
 [photo:109:n_cwtast:Morsetasten]

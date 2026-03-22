@@ -9,11 +9,11 @@
 
 ---
 * Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen
-* Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von 10 MHz das untere Seitenband und ab 10 MHz das obere Seitenband benutzt
+* Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von $\qty{10}{\mega\hertz}$ das untere Seitenband und ab $\qty{10}{\mega\hertz}$ das obere Seitenband benutzt
 
 <note>
 * Empfehlung im IARU-Bandplan.
-* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10MHz USB verwendet wird.
+* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10 MHz USB verwendet wird.
 * Klasse N kann aufgrund der erlaubten Bänder immer USB verwenden.
 * Zusätzliches Wissen: Seefunk verwendet immer USB.
 </note>

@@ -16,10 +16,10 @@ Mit dem Wissen, dass es sich bei SSB, FM und AM um Modulationsarten handelt, kan
 
 ---
 
-Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen. Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von 10 MHz das untere Seitenband und ab 10 MHz das obere Seitenband benutzt. Dies ist auch so im IARU-Bandplan empfohlen. 
+Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen. Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von $\qty{10}{\mega\hertz}$ das untere Seitenband und ab $\qty{10}{\mega\hertz}$ das obere Seitenband benutzt. Dies ist auch so im IARU-Bandplan empfohlen. 
 
 <attention>
-Bei digitalen Übertragungsverfahren wird auch unterhalb von 10 MHz immer das obere Seitenband verwendet!
+Bei digitalen Übertragungsverfahren wird auch unterhalb von $\qty{10}{\mega\hertz}$ immer das obere Seitenband verwendet!
 </attention>
 
 %[class:N]

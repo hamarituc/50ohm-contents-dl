@@ -1,4 +1,4 @@
-Für die Beurteilung der gesetzlichen Vorgaben hinsichtlich der Bandbreite einer Aussendung wird gemäß der Amateurfunkverordnung die mittlere Sendeleistung im ausgesendeten Bandbereich betrachtet. Hierbei müssen sich 99% der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal 0,5% der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen. Dies ist insbesondere für FM-Aussendungen wichtig.
+Für die Beurteilung der gesetzlichen Vorgaben hinsichtlich der Bandbreite einer Aussendung wird gemäß der Amateurfunkverordnung die mittlere Sendeleistung im ausgesendeten Bandbereich betrachtet. Hierbei müssen sich $\qty{99}{\percent}$ der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal $\qty{0,5}{\percent}$ der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen. Dies ist insbesondere für FM-Aussendungen wichtig.
 
 %TODO: Einfügen Grafik/Skizze hinsichtlich Bandbreite und Leistungsverteilung.
 
