@@ -24,7 +24,7 @@ $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
 Möchte man aus einem $\unit{\dB}$-Wert einen Verhältnisfaktor ermitteln, so muss die Formel umgestellt werden: 
 
-$\begin{align} g &= 10 \cdot \log_{10}\left( x \right) \unit{\dB} & \quad\quad\quad &|: \qty{10}{\dB} \\ \frac{g}{\qty{10}{\dB}} &= \log_{10}\left( x \right) &~&| \quad 10^{x}\\ x &= 10^{\frac{g}{\qty{10}{\dB}}} &~&~\end{align}$
+$\begin{align*} g &= 10 \cdot \log_{10}\left( x \right) \unit{\dB} & \quad\quad\quad &|: \qty{10}{\dB} \\ \frac{g}{\qty{10}{\dB}} &= \log_{10}\left( x \right) &~&| \quad 10^{x}\\ x &= 10^{\frac{g}{\qty{10}{\dB}}} &~&~\end{align*}$
 
 Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben und Verhältnisfaktoren umrechnen. Versuche nun die zwei folgenden Fragen zu berechnen: 
 
@@ -34,7 +34,7 @@ Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben 
 [question:AA106]
 
 <tip>
-In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "0" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
+In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
 
 Auch anders herum lässt es sich leicht berechnen: Eins mit $12$ Nullen ($\num{1000000000000}$) in $\unit{\dB}$ ist einfach die Anzahl der Nullen, also $12$, multipliziert mit $10$. Es ergibt sich so ein Verstärkungsfaktor von $\qty{120}{\dB}$.
 
@@ -80,7 +80,7 @@ Die folgenden Fragen lassen sich mit Hilfe der Formel aus der Formelsammlung und
 
 Warum macht man das Ganze überhaupt und gibt absolute Leistungen in $\unit{\dBm}$ und $\unit{\dBW}$ an? Wie bereits in der Klasse E angedeutet, dient die Verwendung von Dezibel vor allem dazu, Rechnungen zu vereinfachen. Durch die Darstellung von Verstärkungen und Dämpfungen in Dezibel lassen sich komplette Signalketten sehr einfach durch Addition und Subtraktion überschlagen, ohne auf umständliche Multiplikationen und Divisionen zurückgreifen zu müssen.
 
-Abbildung [ref:e_signalkette] zeigt eine solche Signalkette mit drei Verstärkerstufen. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, was $\qty{0}{\dBm}$ entspricht. Durch die drei Verstärkerstufen wird das Signal insgesamt auf $\qty{60}{\dBm}$ verstärkt (also $1000000\cdot \qty{1}{\milli\watt}$), was einer Leistung von $\qty{1000}{\watt}$ entspricht.
+Abbildung [ref:e_signalkette] zeigt eine solche Signalkette mit drei Verstärkerstufen. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, was $\qty{0}{\dBm}$ entspricht. Durch die drei Verstärkerstufen wird das Signal insgesamt auf $\qty{60}{\dBm}$ verstärkt (also $\num{1000000}\cdot \qty{1}{\milli\watt}$), was einer Leistung von $\qty{1000}{\watt}$ entspricht.
 
 Abbildung [ref:e_signalkette_2] zeigt ein weiteres Beispiel einer Signalkette, bei der zusätzlich ein Dämpfungsglied mit einer Dämpfung von $\qty{20}{\dB}$ eingesetzt wird, was einer Verstärkung von $\qty{-20}{\dB}$ entspricht. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, also $\qty{0}{\dBm}$. Durch die erste Verstärkerstufe wird das Signal auf $\qty{10}{\dBm}$ angehoben. Anschließend wird es durch das Dämpfungsglied auf $\qty{-10}{\dBm}$ abgeschwächt und schließlich durch die zweite Verstärkerstufe wieder auf $\qty{0}{\dBm}$ verstärkt, was wiederum $\qty{1}{\milli\watt}$ entspricht.
 
@@ -122,7 +122,7 @@ $\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right
 
 ---
 
-Daher berechnen wir ein Verhältnis *a* zweier Spannungen $U_1$ und $U_2$, indem wir den Logarithmus des Verhältnisses nicht mit dem Faktor $10$, sondern mit dem Faktor $20$ multiplizieren. Diese Formel finden wir auch in der Formelsammlung.
+Daher berechnen wir ein Verhältnis *$a$* zweier Spannungen $U_1$ und $U_2$, indem wir den Logarithmus des Verhältnisses nicht mit dem Faktor $10$, sondern mit dem Faktor $20$ multiplizieren. Diese Formel finden wir auch in der Formelsammlung.
 
 [question:AA111]
 
@@ -145,7 +145,7 @@ Achtung, hier ist $\unit{\dB(\micro\volt\per\meter)}$ gemeint und nicht $\unit{(
 [question:AA112]
 
 <tip>
-Auch bei Spannungen kann man vieles im Kopf rechnen, denn die Tabelle aus der Formelsammlung:
+Auch bei Spannungen kann man vieles mithilfe der Tabelle aus der Formelsammlung im Kopf rechnen:
 
 | c:dB | c:≈ Spannungsverhältnis |
 | $-20$ | $\num{0,1}$ |

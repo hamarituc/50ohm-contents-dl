@@ -47,8 +47,8 @@
 
 <left>
 * Auch bei der Verstärkung des Mikrofonsignals findet man Verstärker
-* Verstärkung im Bereich von ca. 300 bis 3.000 Hz
-* Die Bandbreite liegt bei 2,7 kHz oder darunter
+* Verstärkung im Bereich von ca. $\qtyrange{300}{3000}{\hertz}$
+* Die Bandbreite liegt bei $\qty{2,7}{\kilo\hertz}$ oder darunter
 </left>
 <right>
 [picture:246:e_frequenzgang_mikrofonverstaerker:Typischer Frequenzgang für einen Amateurfunk Mikrofonverstärker]

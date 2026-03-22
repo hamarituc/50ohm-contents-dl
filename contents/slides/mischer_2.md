@@ -27,8 +27,8 @@ Steuerkennlinien können linear oder nicht-linear sein
 * Am Ausgang eines Mischers soll nur das Mischprodukt erscheinen
 * Unerwünschte Mischprodukte und die Eingangssignale sollen maximal unterdrückt werden
 * 4 Dioden in Ringschaltung
-* Oszillator an U2 schaltet immer zwei Dioden aktiv
-* In dieser Zeit kann eine gleichförmige Welle von U1 zum Ausgang gelangen
+* Oszillator an $U_2$ schaltet immer zwei Dioden aktiv
+* In dieser Zeit kann eine gleichförmige Welle von $U_1$ zum Ausgang gelangen
 </right>
 <note>
 Nicht mit der Brückenschaltung verwechseln! 

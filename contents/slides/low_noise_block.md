@@ -17,7 +17,7 @@
 * Benötigt Spannungsversorgung
 * Einsatz von BIAS-T
 * Unterschiedliche Spannungen für unterschiedliche Polarisation
-* Üblicherweise 12 V und 18 V
+* Üblicherweise $\qty{12}{\volt}$ und $\qty{18}{\volt}$
 </right>
 
 ---

@@ -3,7 +3,7 @@
 * Bspw. bei Verwendung verschiedener Filter
 
 <fragment>
-$\Delta P_R = 10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}dB$
+$\Delta P_R = \qty{10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}}{\dB}$
 </fragment>
 
 ---
@@ -12,10 +12,10 @@ $\Delta P_R = 10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}dB$
 [question:AB409]
 ---
 #### Lösungsweg
-* gegeben: $B_1 = 2,5kHz$
-* gegeben: $B_2 = 0,5kHz$
+* gegeben: $B_1 = \qty{2,5}{\kilo\hertz}$
+* gegeben: $B_2 = \qty{0,5}{\kilo\hertz}$
 * gesucht: $\Delta P_R$
 
 <fragment>
-$\Delta P_R = 10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}dB = 10 \cdot \log_{10}{\left(\frac{2,5kHz}{0,5kHz}\right)}dB \approx 7dB$
+$\begin{split}\Delta P_R &= \qty{10 \cdot \log_{10}{\left(\frac{B_1}{B_2}\right)}}{\dB}\\ &= \qty{10 \cdot \log_{10}{\left(\frac{\qty{2,5}{\kilo\hertz}}{\qty{0,5}{\kilo\hertz}}\right)}}{\dB}\\ &\approx \qty{7}{\dB}\end{split}$
 </fragment>

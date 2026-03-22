@@ -46,7 +46,7 @@
 </left>
 <right>
 * Abblockkondensator führt unerwünschte HF- und NF-Signale aus der Betriebsspannung nach Masse ab
-* Phasenverschiebung zwischen Ein- und Ausgangssignal: 180º
+* Phasenverschiebung zwischen Ein- und Ausgangssignal: $\qty{180}{\degree}$
 </right>
 ---
 [question:AD407]
@@ -59,7 +59,7 @@
 <right>
 * BIAS-Spannungsteiler entfällt
 * Ansteuerung erfolgt nur durch das zugeführte Signal
-* Basis-Emitter-Strecke leitet erst, wenn ca. 0,5 V überschritten werden
+* Basis-Emitter-Strecke leitet erst, wenn ca. $\qty{0,5}{\volt}$ überschritten werden
 * Bei Überschreitung fließt ein Kollektorstrom
 * Spannungsabfall am Ausgang
 </right>
@@ -70,7 +70,7 @@
 [picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
 </left>
 <right>
-* Spannungsverstärkung ca. 100...300
+* Spannungsverstärkung ca. $100\dots 300$
 * Entfernung des Emitterkondensators &rarr; Verstärkungfaktor sinkt erheblich
 * Verstärkungsfaktor nur noch durch Verhältins Kollektor- zu Emitterwiderstand definiert
 </right>
