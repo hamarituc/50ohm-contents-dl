@@ -62,45 +62,45 @@ Etwa 99% der Sendeleistung befinden sich in der Bandbreite
 [question:AE309]
 ---
 #### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = 2kHz$
-* gegeben: $\Delta f_{\textrm{T}} = 1,8kHz$
+* gegeben: $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
+* gegeben: $\Delta f_{\textrm{T}} = \qty{1,8}{\kilo\hertz}$
 * gesucht: $B$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (1,8kHz + 2kHz) = 7,6kHz \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{1,8}{\kilo\hertz} + \qty{2}{\kilo\hertz}) = \qty{7,6}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE308]
 ---
 #### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = 2,7kHz$
-* gegeben: $\Delta f_{\textrm{T}} = 2,5kHz$
+* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
+* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
 * gesucht: $B$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (2,5kHz + 2,7kHz) = 10,4kHz \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{2,5}{\kilo\hertz} + \qty{2,7}{\kilo\hertz}) = \qty{10,4}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE311]
 ---
 #### Lösungsweg
-* gegeben: $B = 10kHz$
-* gegeben: $\Delta f_{\textrm{T}} = 2,5kHz$
+* gegeben: $B = \qty{10}{\kilo\hertz}$
+* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
 * gesucht: $f_{\textrm{mod max}}$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{mod max} &= \frac{B}{2} - \Delta f_T\\ &= \frac{10kHz}{2} - 2,5kHz = 2,5kHz \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{\textrm{mod max}} &= \frac{B}{2} - \Delta f_T\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,5}{\kilo\hertz} = \qty{2,5}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE312]
 ---
 #### Lösungsweg
-* gegeben: $B = 10kHz$
-* gegeben: $f_{\textrm{mod max}} = 2,7kHz$
+* gegeben: $B = \qty{10}{\kilo\hertz}$
+* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
 * gesucht: $\Delta f_{\textrm{T}}$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{mod max}\\ &= \frac{10kHz}{2} - 2,7kHz = 2,3kHz \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{\textrm{mod max}}\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,7}{\kilo\hertz} = \qty{2,3}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE310]

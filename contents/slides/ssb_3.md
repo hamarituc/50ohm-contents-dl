@@ -1,8 +1,8 @@
 ### Bandbreite
 
 * Frequenzspektrum optimal ausnutzen
-* Minimaler Abstand zwischen SSB-Signalen sollte 3 kHz betragen
-* Modulationsbandbreite darf dann maximal 2,7 kHz sein
+* Minimaler Abstand zwischen SSB-Signalen sollte $\qty{3}{\kilo\hertz}$ betragen
+* Modulationsbandbreite darf dann maximal $\qty{2,7}{\kilo\hertz}$ sein
 
 ---
 [question:AE209]
@@ -22,7 +22,7 @@
 ### Equalizer
 
 * Sprache ist individuell
-* Ziel: Bessere Ausnutzung des 2,7 kHz Spektrums
+* Ziel: Bessere Ausnutzung des $\qty{2,7}{\kilo\hertz}$ Spektrums
 * Anhebung im höheren Frequenzbereich
 * Absenkung im tieferen Frequenzbereich
 * Oftmals Equalizer im Mikrofonverstärker
@@ -35,8 +35,8 @@
 * Zur Beurteilung der Qualität und Linearität eines SSB-Senders
 * NF-Signal aus zwei Sinus-Frequenzen
 * Dürfen in keinem ganzzahligen Verhältnis zueinander stehen
-* Meistens 700 Hz und 1200 Hz
-* Ergibt eine sogenannte "HF-Schwebung" bei 500 Hz
+* Meistens $\qty{700}{\hertz}$ und $\qty{1200}{\hertz}$
+* Ergibt eine sogenannte "HF-Schwebung" bei $\qty{500}{\hertz}$
 * Messung der Hüllkurvenleistung (PEP) möglich
 
 <note>

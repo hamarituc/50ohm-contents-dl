@@ -12,7 +12,7 @@
 <left>
 * Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
 * Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* U<sub>A</sub> ist dadurch sehr klein
+* $U_\text{A}$ ist dadurch sehr klein
 </left>
 <right>
 [picture:592:e_hochpass:Filtercharakteristik eines Hochpass]
@@ -40,7 +40,7 @@
 <left>
 * Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
 * Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* U<sub>A</sub> ist dadurch sehr groß
+* $U_\text{A}$ ist dadurch sehr groß
 </left>
 <right>
 [picture:591:e_hochpass:Filtercharakteristik eines Tiefpass]

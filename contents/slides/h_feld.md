@@ -17,7 +17,7 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 </left>
 <right>
 [picture:50:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
-* Einheit: $\dfrac{A}{m}$
+* Einheit: $\unit{\ampere\per\meter}$
 </right>
 <note>
 * H-Feld von magnetische Feldstärke H ein paar Folien weiter
@@ -40,7 +40,7 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 
 ---
 <left>
-* Magnetische Feldstärke $H = \dfrac{I\cdot N}{l_m}$ in $\dfrac{A}{m}$
+* Magnetische Feldstärke $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
 * mit $N$ als Wicklungsanzahl und $l_m$ mittlere Länge des Rings
 </left>
 <right>

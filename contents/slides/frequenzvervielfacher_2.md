@@ -45,17 +45,17 @@ Verstärkerschaltungen kommen später im Kapitel.
 [question:AF314]
 ---
 #### Lösungsweg
-* gegeben: $f_{Sender} = 432MHz$
-* gegeben: $f_{Grund} = 12MHz$
-* gegeben: $f_{QRM} = 144MHz$
+* gegeben: $f_\text{Sender} = \qty{432}{\mega\hertz}$
+* gegeben: $f_\text{Grund} = \qty{12}{\mega\hertz}$
+* gegeben: $f_\text{QRM} = \qty{144}{\mega\hertz}$
 * gesucht: Vervielfachungskombination
 
 <fragment>
-$n = \frac{f_{Sender}}{f_{QRM}} = \frac{432MHz}{144MHz} = 3$
+$n = \frac{f_\text{Sender}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
 </fragment>
 <fragment>
 Es ist nur die Kombination aus $\textrm{Grundfrequenz}\,\cdot 2\cdot 2\cdot 3\cdot 3$ möglich, da diese als letzte eine Verdreifachung der Frequenz vornimmt.
 </fragment>
 ---
 Gegenprobe:
-$\begin{split}f_{Sender} &= f_{Grund}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= 12MHz\cdot 2\cdot 2\cdot 3\cdot 3\\ &= 24MHz\cdot 2\cdot 3\cdot 3\\ &= 48MHz\cdot 3\cdot 3\\ &= \bold{144MHz}\cdot 3\\ &= 432MHz\end{split}$
+$\begin{split}f_\text{Sender} &= f_\text{Grund}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$

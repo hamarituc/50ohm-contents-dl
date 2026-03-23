@@ -7,7 +7,7 @@
 
 * Verstärkerelement, dessen Ausgangssignal wieder auf den Eingang rückgekoppelt wird
 * Gleichphasig
-* Amplitude mindestens gleich groß &rarr; *Schleifenverstärkung größer 1*
+* Amplitude mindestens gleich groß &rarr; *Schleifenverstärkung größer $1$*
 * Notwendig für Selbsterregung und hält die Schwingung aufrecht
 
 ---

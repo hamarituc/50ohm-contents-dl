@@ -4,13 +4,13 @@ Bei Hoch- und Tiefpässen gilt für die Grenzfrequenz
 
 <left>
 Bei RL-Gliedern
-$R = X_L$
-$f_g = \frac{R}{2 \cdot \pi \cdot L}$
+$R = X_\text{L}$
+$f_\text{g} = \frac{R}{2 \pi \cdot L}$
 </left>
 <right>
 Bei RC-Gliedern
-$R = X_C$
-$f_g = \frac{1}{2 \cdot \pi \cdot R \cdot C}$
+$R = X_\text{C}$
+$f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 </right>
 
 
@@ -18,38 +18,38 @@ $f_g = \frac{1}{2 \cdot \pi \cdot R \cdot C}$
 [question:AD201]
 ---
 #### Lösungsweg
-* gegeben: $R = 4,7kΩ$
-* gegeben: $C = 2,2nF$
-* gesucht: $f_g$
+* gegeben: $R = \qty{4,7}{\kilo\ohm}$
+* gegeben: $C = \qty{2,2}{\nano\farad}$
+* gesucht: $f_\text{g}$
 
 <fragment>
-$f_g = \frac{1}{2 \cdot \pi \cdot R \cdot C} = \frac{1}{2 \cdot \pi \cdot 4,7kΩ \cdot 2,2nF} = 15,4kHz$
+$f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\kilo\ohm} \cdot \qty{2,2}{\nano\farad}} \approx \qty{15,4}{\kilo\hertz}$
 </fragment>
 ---
 [question:AD202]
 ---
 #### Lösungsweg
-* gegeben: $R = 10kΩ$
-* gegeben: $C = 47nF$
-* gesucht: $f_g$
+* gegeben: $R = \qty{10}{\kilo\ohm}$
+* gegeben: $C = \qty{47}{\nano\farad}$
+* gesucht: $f_\text{g}$
 
 <fragment>
-$f_g = \frac{1}{2 \cdot \pi \cdot R \cdot C} = \frac{1}{2 \cdot \pi \cdot 10kΩ \cdot 47nF} = 339Hz$
+$f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\kilo\ohm} \cdot \qty{47}{\nano\farad}} \approx \qty{339}{\hertz}$
 </fragment>
 ---
 [question:AD203]
 ---
 #### Lösungsweg
-* gegeben: $R_1 = 4,7kΩ$
-* gegeben: $C_1 = 6,8nF$
-* gesucht: $f_g$
+* gegeben: $R_1 = \qty{4,7}{\kilo\ohm}$
+* gegeben: $C_1 = \qty{6,8}{\nano\farad}$
+* gesucht: $f_\text{g}$
 
 <fragment>
 $C_2$ und alle weiteren Angaben sind für den Tiefpass uninteressant.
 </fragment>
 
 <fragment>
-$f_g = \frac{1}{2 \cdot \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \cdot \pi \cdot 4,7kΩ \cdot 6,8nF} \approx 5kHz$
+$f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,7}{\kilo\ohm} \cdot \qty{6,8}{\nano\farad}} \approx \qty{5}{\kilo\hertz}$
 </fragment>
 ---
 ## Resonanzfrequenz
@@ -77,7 +77,7 @@ $f_g = \frac{1}{2 \cdot \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \cdot \pi \cdot 4,
 [picture:230:a_schwingkreis_reihenschwingkreis:Reihenschwingkreis und Darstellung der Impedanz gegenüber der Frequenz]
 
 * Oder Serienschwingkreis
-* Theoretisch ist die Impedanz bei Resonanzfrequenz 0Ω
+* Theoretisch ist die Impedanz bei Resonanzfrequenz $\qty{0}{\ohm}$
 * Praktisch wird die Impedanz durch den ohmschen Widerstand bestimmt
 * Bei Frequenzen über und unter der Resonanzfrequenz hat der Reihenschwingkreis eine höhere Impedanz
 
@@ -90,14 +90,14 @@ $f_g = \frac{1}{2 \cdot \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \cdot \pi \cdot 4,
 
 Für Parallel- und Reihenschwingkreis:
 
-$X_C = X_L$
+$X_\text{C} = X_\text{L}$
 
 Impedanzen sind gleich groß.
 
 <fragment>
-Resonanzfrequenz mit Thomson'sche Schwingkreisformel:
+Resonanzfrequenz mit Thomsonsche Schwingkreisformel:
 
-$f_0 = \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}$
+$f_0 = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 </fragment>
 
 <note>
@@ -109,13 +109,13 @@ William Thomson, später Lord Kelvin, in 1853
 [question:AD208]
 ---
 #### Lösungsweg
-* gegeben: $L = 1,2µH$
-* gegeben: $C = 6,8pF$
-* gegeben: $R = 10Ω$
+* gegeben: $L = \qty{1,2}{\micro\henry}$
+* gegeben: $C = \qty{6,8}{\pico\farad}$
+* gegeben: $R = \qty{10}{\ohm}$
 * gesucht: $f_0$
 
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2µH \cdot 6,8pF}} = 55,7MHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\micro\henry} \cdot \qty{6,8}{\pico\farad}}} \approx \qty{55,7}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
 Widerstand $R$ wird zur Berechnung nicht benötigt.
@@ -124,50 +124,50 @@ Widerstand $R$ wird zur Berechnung nicht benötigt.
 [question:AD209]
 ---
 #### Lösungsweg
-* gegeben: $L = 10µH$
-* gegeben: $C = 1nF$
+* gegeben: $L = \qty{10}{\micro\henry}$
+* gegeben: $C = \qty{1}{\nano\farad}$
 * gesucht: $f_0$
 
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{10µH \cdot 1nF}} = 1,592MHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{10}{\micro\henry} \cdot \qty{1}{\nano\farad}}} \approx \qty{1,592}{\mega\hertz} \end{split}$
 </fragment>
 ---
 [question:AD210]
 ---
 #### Lösungsweg
-* gegeben: $L = 100µH$
-* gegeben: $C = 0,01µF$
+* gegeben: $L = \qty{100}{\micro\henry}$
+* gegeben: $C = \qty{0,01}{\micro\farad}$
 * gesucht: $f_0$
 
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159kHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AD211]
 ---
 #### Lösungsweg
-* gegeben: $L = 2,2µH$
-* gegeben: $C = 56pF$
+* gegeben: $L = \qty{2,2}{\micro\henry}$
+* gegeben: $C = \qty{56}{\pico\farad}$
 * gesucht: $f_0$
 
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 ---
 [question:AD212]
 --- style="font-size: 0.7em;"
 #### Lösungsweg
-* gegeben: $C_1 = 0,1nF$
-* gegeben: $C_2 = 1,5nF$
-* gegeben: $C_3 = 220pF$
-* gegeben: $L = 1,2mH$
+* gegeben: $C_1 = \qty{0,1}{\nano\farad}$
+* gegeben: $C_2 = \qty{1,5}{\nano\farad}$
+* gegeben: $C_3 = \qty{220}{\pico\farad}$
+* gegeben: $L = \qty{1,2}{\milli\henry}$
 * gesucht: $f_0$
 
 <fragment>
-$C = C_1 + C_2 + C_3 = 0,1nF + 1,5nF + 220pF = 1,82nF$
+$C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} = \qty{1,82}{\nano\farad}$
 </fragment>
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{1,2mH \cdot 1,82nF}} = 107,7kHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\milli\henry} \cdot \qty{1,82}{\nano\farad}}} \approx \qty{107,7}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 ### Verändern der Resonanzfrequenz
@@ -221,9 +221,9 @@ Induktivität vergrößern
 
 * Große Abhängigkeit vom ohmschen Widerstand
 * In Angabe von dB auf einen Referenzwert des Filters
-* Z.B. *Bandbreite* bei *-3dB-Wert*
+* Z.B. *Bandbreite* bei *$\qty{-3}{\dB}$-Wert*
 * Halbe Leistung eines Signals kann noch das Filter passieren
-* Oder die 0,7-fache Signalspannung
+* Oder die $\num{0,7}$-fache Signalspannung
 
 ---
 [question:AD219]
@@ -232,8 +232,8 @@ Induktivität vergrößern
 ---
 ### Übliche Bandbreiten
 
-* Schmalbandig mit 500 Hz für Telegrafie (CW)
-* Breitbandig mit 2,7 kHz für Sprachmodulation (SSB)
+* Schmalbandig mit $\qty{500}{\hertz}$ für Telegrafie (CW)
+* Breitbandig mit $\qty{2,7}{\kilo\hertz}$ für Sprachmodulation (SSB)
 
 ---
 [question:AD221]
@@ -244,16 +244,16 @@ Induktivität vergrößern
 
 * Auch Q-Faktor
 * Kennzeichen für Energieverlust
-* Verhältnis der Blindwiderstände zum ohmschen Widerstand im Resonanzfall ($X_L = X_C$)
+* Verhältnis der Blindwiderstände zum ohmschen Widerstand im Resonanzfall ($X_\text{L} = X_\text{C}$)
 
 <fragment>
 <left>
 Reihenschwingkreis
-$Q = \frac{f_0}{B} = \frac{X_L}{R_S}$
+$Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 </left>
 <right>
 Parallelschwingkreis
-$Q = \frac{f_0}{B} = \frac{R_P}{X_L}$
+$Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 </right>
 </fragment>
   
@@ -262,46 +262,46 @@ $Q = \frac{f_0}{B} = \frac{R_P}{X_L}$
 --- style="font-size: 0.7em;"
 #### Lösungsweg
 <left>
-* gegeben: $L = 100µH$
-* gegeben: $C = 0,01µF$
+* gegeben: $L = \qty{100}{\micro\henry}$
+* gegeben: $C = \qty{0,01}{\micro\farad}$
 </left>
 <right>
-* gegeben: $R_S = 10Ω$
+* gegeben: $R_\text{S} = \qty{10}{\ohm}$
 * gesucht: $Q$
 </right>
 
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{100µH \cdot 0,01µF}} = 159,2kHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159,2}{\kilo\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_L$ ausrechnen
-$\begin{split} X_L &= \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 159,2kHz \cdot 100µH = 100,03Ω \end{split}$
+$B$ oder $X_\text{L}$ ausrechnen
+$\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{159,2}{\kilo\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{100,03}{\ohm} \end{split}$
 </fragment>
 <fragment>
-$Q = \frac{X_L}{R_S} = \frac{100,03Ω}{10Ω} \approx 10$
+$Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \approx 10$
 </fragment>
 ---
 [question:AD226]
 --- style="font-size: 0.7em;"
 #### Lösungsweg
 <left>
-* gegeben: $L = 2,2µH$
-* gegeben: $C = 56pF$
+* gegeben: $L = \qty{2,2}{\micro\henry}$
+* gegeben: $C = \qty{56}{\pico\farad}$
 </left>
 <right>
-* gegeben: $R_P = 1kΩ$
+* gegeben: $R_\text{P} = \qty{1}{\kilo\ohm}$
 * gesucht: $Q$
 </right>
   
 <fragment>
-$\begin{split} f_0 &= \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \cdot \pi \cdot \sqrt{2,2µH \cdot 56pF}} = 14,34MHz \end{split}$
+$\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_L$ ausrechnen
-$\begin{split} X_L &= \omega \cdot L = 2 \cdot \pi \cdot f_0 \cdot L\\ &= 2 \cdot \pi \cdot 14,34MHz \cdot 2,2µH = 198,2Ω \end{split}$
+$B$ oder $X_\text{L}$ ausrechnen
+$\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{14,34}{\mega\hertz} \cdot \qty{2,2}{\micro\henry} \approx \qty{198,2}{\ohm} \end{split}$
 </fragment>
 <fragment>
-$Q = \frac{R_P}{X_L} = \frac{1kΩ}{198,2Ω} \approx 5$
+$Q = \frac{R_\text{P}}{X_\text{L}} = \frac{\qty{1}{\kilo\ohm}}{\qty{198,2}{\ohm}} \approx 5$
 </fragment>
 ---
 ### Bandbreite berechnen
@@ -311,15 +311,15 @@ $Q = \frac{R_P}{X_L} = \frac{1kΩ}{198,2Ω} \approx 5$
 $Q = \frac{f_0}{B} \Rightarrow B = \frac{f_0}{Q}$
 
 <fragment>
-Oder eingesetzt mit der Thomson'schen Schwingkreisformel
+Oder eingesetzt mit der Thomsonschen Schwingkreisformel
 
 <left>
 Reihenschwingkreis
-$B = \frac{R_S}{2\cdot \pi \cdot L}$
+$B = \frac{R_\text{S}}{2 \pi \cdot L}$
 </left>
 <right>
 Parallelschwingkreis
-$B = \frac{1}{2\cdot \pi \cdot R_P \cdot C}$
+$B = \frac{1}{2 \pi \cdot R_\text{P} \cdot C}$
 </right>
 </fragment>
 <note>
@@ -330,26 +330,26 @@ Herleitung nicht gezeigt
 [question:AD224]
 ---
 #### Lösungsweg
-* gegeben: $L = 2,2µH$
-* gegeben: $C = 56pF$
-* gegeben: $R_P = 1kΩ$
+* gegeben: $L = \qty{2,2}{\micro\henry}$
+* gegeben: $C = \qty{56}{\pico\farad}$
+* gegeben: $R_\text{P} = \qty{1}{\kilo\ohm}$
 * gesucht: $B$
 
 <fragment>
-$\begin{split} B &= \frac{1}{2\cdot \pi \cdot R_P \cdot C}\\ &= \frac{1}{2\cdot \pi \cdot 1kΩ \cdot 56pF} = 2,84MHz \end{split}$
+$\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi \cdot \qty{1}{\kilo\ohm} \cdot \qty{56}{\pico\farad}} \approx \qty{2,84}{\mega\hertz} \end{split}$
 </fragment>
 
 ---
 [question:AD223]
 ---
 #### Lösungsweg
-* gegeben: $L = 100µH$
-* gegeben: $C = 0,01µF$
-* gegeben: $R_S = 10Ω$
+* gegeben: $L = \qty{100}{\micro\henry}$
+* gegeben: $C = \qty{0,01}{\micro\farad}$
+* gegeben: $R_\text{S} = \qty{10}{\ohm}$
 * gesucht: $B$
 
 <fragment>
-$B = \frac{R_S}{2\cdot \pi \cdot L} = \frac{10Ω}{2\cdot \pi \cdot 100µH} = 15,9kHz$
+$B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
 </fragment>
 --- style="font-size: 0.7em;" data-transition="none"
 ## Kopplung

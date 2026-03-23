@@ -4,9 +4,9 @@
 </left>
 <right>
 * Anzeige der Empfangsstärke des anliegenden HF-Signals
-* 9 S-Stufen und nachfolgender Bereich mit +dB
-* Bis S9: Eine S-Stufe entspricht 6dB
-* 6dB: $2\cdot U$ oder $4\cdot P$
+* 9 S-Stufen und nachfolgender Bereich mit $\qty{+}{\dB}$
+* Bis S9: Eine S-Stufe entspricht $\qty{6}{\dB}$
+* $\qty{6}{\dB}$: $2\cdot U$ oder $4\cdot P$
 </right>
 
 ---
@@ -14,62 +14,62 @@
 ---
 #### Lösungsweg
 
-* von S3 bis S7 sind 3-Stufen
-* $3\cdot 6dB = 18dB$
+* von S4 bis S7 sind 3-Stufen
+* $3\cdot \qty{6}{\dB} = \qty{18}{\dB}$
 
 ---
 [question:AF104]
 ---
 #### Lösungsweg
 
-* von S7 auf S9+8dB sind 6dB+6dB+8dB = 20dB
-* 20dB entsprechen der 100-fachen Leistung
+* von S7 auf S9$\qty{+8}{\dB}$ sind $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
+* $\qty{20}{\dB}$ entsprechen der $\num{100}$-fachen Leistung
 
 ---
 [question:AF101]
 ---
 #### Lösungsweg
 
-* von 25W auf 100W sind $\frac{100W}{25W} = 4$-fache Leistung
-* 4-fache Leistung entsprich einer S-Stufe
+* von $\qty{25}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$-fache Leistung
+* $\num{4}$-fache Leistung entsprich einer S-Stufe
 
 ---
 [question:AF102]
 ---
 ### Lösungsweg
 
-* von 100W auf 400W sind $\frac{400W}{100W} = 4$-fache Leistung
-* 4-fache Leistung entspricht einer S-Stufe
+* von $\qty{100}{\watt}$ auf $\qty{400}{\watt}$ sind $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$-fache Leistung
+* $\num{4}$-fache Leistung entspricht einer S-Stufe
 
 ---
 [question:AF103]
 ---
 #### Lösungsweg
 
-* von 10W auf 100W sind $\frac{100W}{10W} = 10$-fache Leistung
-* 10-fache Leistung entspricht 10dB
-* von S8 auf S9 sind 6dB
-* die restlichen 4dB kommen als +4dB oben drauf
+* von $\qty{10}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$-fache Leistung
+* $\num{10}$-fache Leistung entspricht $\qty{10}{\dB}$
+* von S8 auf S9 sind $\qty{6}{\dB}$
+* die restlichen $\qty{4}{\dB}$ kommen als $\qty{+4}{\dB}$ oben drauf
 
 ---
 [question:AA114]
 ---
 #### Lösungsweg
 
-* von S9+20dB auf S8 sind 26dB
+* von S9$\qty{+20}{\dB}$ auf S8 sind $\qty{26}{\dB}$
 
 ---
 ### Spannung am Eingang
 
-* Kurzwelle bis 30 MHz: S9 &rArr; 50 µV an 50 Ω
-* VHF bei 144 MHz: S9 &rArr; 5 µV an 50 Ω
+* Kurzwelle bis $\qty{30}{\mega\hertz}$: S9 &rArr; $\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$
+* VHF bei $\qty{144}{\mega\hertz}$: S9 &rArr; $\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$
 
 ---
 [question:AF105]
 ---
 #### Lösungsweg
 
-* von S9 auf S8 sind 6dB
+* von S9 auf S8 sind $\qty{6}{\dB}$
 * Das ist die halbe Spannung
-* $\frac{50µV}{2} = 25µV$
+* $\frac{\qty{50}{\micro\volt}}{2} = \qty{25}{\micro\volt}$
 

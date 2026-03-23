@@ -1,4 +1,4 @@
-In der Klasse E haben wir gelernt, das ein Oszilloskop stellt den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
+In der Klasse E haben wir gelernt, dass ein Oszilloskop den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
 
 [question:AI301]
 
@@ -8,7 +8,7 @@ In der Klasse E haben wir gelernt, das ein Oszilloskop stellt den zeitlichen Ver
 
 ---
 
-Neben den Sinusförmingen Wechselspannugen kommen durch die Digitaltechnik auch  rechteckförmige Spannungen vor.  Einen exakt rechteckigen Spannungsverlauf kann es aber nicht geben. Die Kanten sind immer ein bisschen schräg oder verformt. Die Zeit zwischen dem Ansteigen und dem Abfallen eines Rechtecks, die man Pulsbreite oder Impulsdauer nennt, wird deshalb immer bei halber Höhe, also bei 50% der Spannung, gemessen. So  ist sichergestellt, dass beim gleichen Signal alle zum gleichen Messergebnis kommen.
+Neben den sinusförmigen Wechselspannungen kommen durch die Digitaltechnik auch rechteckförmige Spannungen vor. Einen exakt rechteckigen Spannungsverlauf kann es aber nicht geben. Die Kanten sind immer ein bisschen schräg oder verformt. Die Zeit zwischen dem Ansteigen und dem Abfallen eines Rechtecks, die man Pulsbreite oder Impulsdauer nennt, wird deshalb immer bei halber Höhe, also bei 50% der Spannung, gemessen. So  ist sichergestellt, dass beim gleichen Signal alle zum gleichen Messergebnis kommen.
 
 <indepth>
 Grund für diese Verformungen sind die unvermeidlichen Kapazitäten und Induktivitäten in Leitungen und Bauteilen, die wie Filter wirken und die hohen Frequenzanteile eines Rechtecksignals dämpfen.
@@ -45,5 +45,5 @@ Ein Tastkopf besteht aus einem griffähnlichen Gehäuse, vergleichbar mit einem 
 Die einfachsten Tastköpfe verbinden die Prüfspitze direkt mit dem Messeingang. Man spricht von 1:1-Tastköpfen, weil die an der Spitze anliegende Spannung unverändert zum Oszilloskop gelangt. Tastköpfe für hohe Frequenzen sind aufwändiger gebaut. Sie teilen die Eingangsspannung auf einen kleineren Wert, oft ein Zehntel, herunter. Wenn man mit so einem 10:1-Tastkopf eine Spannung von 10 Volt misst, wird auf dem Bildschirm 1 Volt angezeigt.
 
 <indepth>
-Bei manchen Oszilloskopen kann man einstellen, welches Teilverhältnis der Tastkopf hat. Dann wird auf dem Bildschirm die tatsächliche Spannung anzezeigt. Passive 10:1-Tastköpfe enthalten unter anderem einen 9-MΩ-Widerstand, der im Signalweg liegt. Oszilloskope haben in der Regel einen Innenwiderstand von 1 MΩ. So ergibt sich ein 10:1-Spannungsteiler. Außerdem ist im Tastkopf oder im Stecker ein kleiner Drehkondensator vorhanden. Er dient zur Anpassung der Kapazität von Tastkopf und Kabel an den Messeingang und wird so eingestellt, dass ein Rechtecksignal möglichst unverfälscht auf dem Bildschirm erscheint. Neben den hier beschriebenen, passiven Tastköpfen existieren mehrere andere Varianten. Es gibt zum Beispiel Tastköpfe mit angepasstem 50-Ohm-Koaxkabel. Sie sind besonders gut für sehr hohe Frequenzen geeignet, haben aber nur einen relativ kleinen Innenwiderstand. Aktive Ausführungen lösen dieses Problem, indem das Signal direkt im Tastkopf verstärkt wird. 
+Bei manchen Oszilloskopen kann man einstellen, welches Teilverhältnis der Tastkopf hat. Dann wird auf dem Bildschirm die tatsächliche Spannung anzezeigt. Passive 10:1-Tastköpfe enthalten unter anderem einen $\qty{9}{\mega\ohm}$-Widerstand, der im Signalweg liegt. Oszilloskope haben in der Regel einen Innenwiderstand von $\qty{1}{\mega\ohm}$. So ergibt sich ein 10:1-Spannungsteiler. Außerdem ist im Tastkopf oder im Stecker ein kleiner Drehkondensator vorhanden. Er dient zur Anpassung der Kapazität von Tastkopf und Kabel an den Messeingang und wird so eingestellt, dass ein Rechtecksignal möglichst unverfälscht auf dem Bildschirm erscheint. Neben den hier beschriebenen, passiven Tastköpfen existieren mehrere andere Varianten. Es gibt zum Beispiel Tastköpfe mit angepasstem $\qty{50}{\ohm}$-Koaxkabel. Sie sind besonders gut für sehr hohe Frequenzen geeignet, haben aber nur einen relativ kleinen Innenwiderstand. Aktive Ausführungen lösen dieses Problem, indem das Signal direkt im Tastkopf verstärkt wird.
 </indepth>

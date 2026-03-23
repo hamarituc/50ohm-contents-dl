@@ -26,7 +26,7 @@ QTH Berlin &rarr; QTH?
 | QRM | Ich werde gestört | *M*enschengemachte Störung |
 | QRO | Erhöhen Sie die Sendeleistung! | Ein paar Watt *o*bendrauf legen |
 | QRP | Senken Sie die Sendeleistung! | *P*iano (sanft, leise), *P*ssst!|
-| QRT | Stellen Sie die Übermittlung ein! | *T*erminal (Ende) |
+| QRT | Stellen Sie die Übermittlung ein! | *T*erminal (Beenden) |
 | QRV | Ich bin bereit | *v*orbereitet |
 [table:n_q_gruppen_1:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
 

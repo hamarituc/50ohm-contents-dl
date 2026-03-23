@@ -39,16 +39,16 @@ Phasenvergleicher gibt bei Phasenabweichungen Impulse aus, die vom Tiefpassfilte
 [question:AD704]
 --- style="font-size: 0.7em;"
 #### Lösungsweg
-* gegeben: $f_{Osc} = 12,5kHz$
-* gegeben: $f_{Out,low} = 12,000MHz$
-* gegeben: $f_{Out,high} = 14,000MHz$
-* gesucht: $:n$
+* gegeben: $f_\text{Osc} = \qty{12,5}{\kilo\hertz}$
+* gegeben: $f_\text{Out,low} = \qty{12,000}{\mega\hertz}$
+* gegeben: $f_\text{Out,high} = \qty{14,000}{\mega\hertz}$
+* gesucht: $n$
 
 <fragment>
-Bei $f_{Out,low} = 12,000MHz$:
-$n = \frac{f_{Out,low}}{f_{Osc}} = \frac{12,000MHz}{12,5kHz} = 960$
+Bei $f_{Out,low} = \qty{12,000}{\mega\hertz}$:
+$n = \frac{f_\text{Out,low}}{f_\text{Osc}} = \frac{\qty{12,000}{\mega\hertz}}{\qty{12,5}{\kilo\hertz}} = 960$
 </fragment>
 <fragment>
-Bei $f_{Out,high} = 14,000MHz$:
-$n = \frac{f_{Out,high}}{f_{Osc}} = \frac{14,000MHz}{12,5kHz} = 1120$
+Bei $f_\text{Out,high} = \qty{14,000}{\mega\hertz}$:
+$n = \frac{f_\text{Out,high}}{f_\text{Osc}} = \frac{\qty{14,000}{\mega\hertz}}{\qty{12,5}{\kilo\hertz}} = 1120$
 </fragment>

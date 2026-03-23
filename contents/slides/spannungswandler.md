@@ -3,11 +3,11 @@
 </left>
 <right>
 * Wandelt Gleichspannungen um &rarr; DC/DC-Wandler
-* z.B. von 13,8 V auf 5 V &rarr; Step-DOWN (Tiefsetzsteller)
-* z.B. von 12 V auf 19 V &rarr; Step-UP (Hochsetzsteller)
+* z.B. von $\qty{13,8}{\volt}$ auf $\qty{5}{\volt}$ &rarr; Step-DOWN (Tiefsetzsteller)
+* z.B. von $\qty{12}{\volt}$ auf $\qty{19}{\volt}$ &rarr; Step-UP (Hochsetzsteller)
 </right>
 <note>
-Der Buck-Boost Converter im Bild kann von 0,5 V bis 25 V am Ausgang eingestellt werden. Die maximale Leistung beträgt 25 W.
+Der Buck-Boost Converter im Bild kann von $\qty{0,5}{\volt}$ bis $\qty{25}{\volt}$ am Ausgang eingestellt werden. Die maximale Leistung beträgt $\qty{25}{\watt}$.
 </note>
 ---
 ### Wirkungsgrad
@@ -16,31 +16,31 @@ Der Buck-Boost Converter im Bild kann von 0,5 V bis 25 V am Ausgang eingestellt 
 * Wirkungsgrad $\eta$, meistens in $\%$ angegeben
 
 <fragment>
-$\eta = \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}}$
+$\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
 </fragment>
 
 ---
 [question:AB213]
 ---
 #### Lösungsweg
-* gegeben: $U_{\textrm{ZU}} = 12V$
-* gegeben: $U_{\textrm{AB}} = 5V$
-* gegeben: $I_{\textrm{ZU}} = 2A$
-* gegeben: $I_{\textrm{AB}} =3A$
+* gegeben: $U_{\textrm{in}} = \qty{12}{\volt}$
+* gegeben: $U_{\textrm{out}} = \qty{5}{\volt}$
+* gegeben: $I_{\textrm{in}} = \qty{2}{\ampere}$
+* gegeben: $I_{\textrm{out}} = \qty{3}{\ampere}$
 * gesucht: $\eta$
 
 <fragment>
-$\begin{split} \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{5V \cdot 3A}{12V \cdot 2A} = \frac{15W}{24W} = 0,625 = 62,5\% \end{split}$
+$\begin{split} \eta &= \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}}\\ &= \frac{\qty{5}{\volt} \cdot \qty{3}{\ampere}}{\qty{12}{\volt} \cdot \qty{2}{\ampere}} = \frac{\qty{15}{\watt}}{\qty{24}{\watt}} = \num{0,625} = \qty{62,5}{\percent} \end{split}$
 </fragment>
 ---
 [question:AB214]
 ---
-* gegeben: $U_{\textrm{ZU}} = 5V$
-* gegeben: $U_{\textrm{AB}} = 12V$
-* gegeben: $I_{\textrm{ZU}} = 3A$
-* gegeben: $I_{\textrm{AB}} =1A$
+* gegeben: $U_{\mathrm{in}} = \qty{5}{\volt}$
+* gegeben: $U_{\mathrm{out}} = \qty{12}{\volt}$
+* gegeben: $I_{\mathrm{in}} = \qty{3}{\ampere}$
+* gegeben: $I_{\mathrm{out}} = \qty{1}{\ampere}$
 * gesucht: $\eta$
 
 <fragment>
-$\begin{split} \eta &= \frac{P_{\textrm{AB}}}{P_{\textrm{ZU}}} = \frac{U_{\textrm{AB}} \cdot I_{\textrm{AB}}}{U_{\textrm{ZU}} \cdot I_{\textrm{ZU}}}\\ &= \frac{12V \cdot 1A}{5V \cdot 3A} = \frac{12W}{15W} = 0,8 = 80\% \end{split}$
+$\begin{split} \eta &= \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}}\\ &= \frac{\qty{12}{\volt} \cdot \qty{1}{\ampere}}{\qty{5}{\volt} \cdot \qty{3}{\ampere}} = \frac{\qty{12}{\watt}}{\qty{15}{\watt}} = \num{0,8} = \qty{80}{\percent} \end{split}$
 </fragment>

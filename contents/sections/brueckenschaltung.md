@@ -5,7 +5,7 @@ Die Messbrücke besteht immer aus zwei Spannungsteilern, die parallel geschaltet
 In dem Sonderfall, dass die Spannungsteilerverhältnisse links und rechts gleich groß sind, fließt durch das Messinstrument,  im sogenannten Brückenzweig, kein Strom.
 Die Widerstandswerte können unterschiedliche Werte aufweisen, wichtig ist, dass das Spannungsteilerverhältnis links und rechts gleich sein muss.
 
-In einer Formel dargestellt lautet dieser Zusammenhang: $\frac {R_1}{R_2} = \frac {R_3}{R_4}$
+In einer Formel dargestellt lautet dieser Zusammenhang: $\frac{R_1}{R_2} = \frac{R_3}{R_4}$
 ---
 [question:AD111]
 <tip>
@@ -32,10 +32,10 @@ Es ist sehr hilfreich, sich die Schaltung zu skizzieren und die Spannungspotenzi
 </tip>
 
 <margin>
-Auf der linken Seite finden wir was Verhältnis 1 kOhm zu 10 kOhm = 1/ 10.
-Unter der Voraussetzung, dass das Messwerk sehr hochohmig oder abgeklemmt ist, messen wir bei 11 V Betriebsspannung auf der linken Seite am oberen Widerstand ($R_1$) genau 1V und am unteren Widerstand ($R_2$) 10 V. Das Potenzial am Messpunkt A beträgt somit 10 V gegen Masse gemessen. 
-Auf der rechten Seite finden wir was Verhältnis 10 kOhm zu 1 kOhm = 10/ 1 und messen deshalb 10 V am oberen Widerstand ($R_3$) und 1V am unteren Widerstand ($R_4$). Das Potenzial am Messpunkt B beträgt somit 1 V gegen Masse gemessen.
-Der Potenzialunterschied zwischen A und B beträgt 9 V, wobei der Messpunkt A um 9 V positiver als der Messpunkt B ist
+Auf der linken Seite finden wir was Verhältnis $\qty{1}{\kilo\ohm}$ zu $\qty{10}{\kilo\ohm} = 1/10$.
+Unter der Voraussetzung, dass das Messwerk sehr hochohmig oder abgeklemmt ist, messen wir bei $\qty{11}{\volt}$ Betriebsspannung auf der linken Seite am oberen Widerstand ($R_1$) genau $\qty{1}{\volt}$ und am unteren Widerstand ($R_2$) $\qty{10}{\volt}$. Das Potenzial am Messpunkt A beträgt somit $\qty{10}{\volt}$ gegen Masse gemessen.
+Auf der rechten Seite finden wir was Verhältnis $\qty{10}{\kilo\ohm}$ zu $\qty{1}{\kilo\ohm} = 10/1$ und messen deshalb $\qty{10}{\volt}$ am oberen Widerstand ($R_3$) und $\qty{1}{\volt}$ am unteren Widerstand ($R_4$). Das Potenzial am Messpunkt B beträgt somit $\qty{1}{\volt}$ gegen Masse gemessen.
+Der Potenzialunterschied zwischen A und B beträgt $\qty{9}{\volt}$, wobei der Messpunkt A um $\qty{9}{\volt}$ positiver als der Messpunkt B ist
 </margin>
 
 %todo Zusammenfassung, Formelsammlung

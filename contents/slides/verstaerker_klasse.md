@@ -45,7 +45,7 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 * C-Betrieb des Verstärkers
 * ohne Vorspannung
 * Ruhestrom null
-* Wirkungsgrad ca. 80-87%
+* Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
 * hoher Oberwellenanteil
 </right>
 --- style="font-size: smaller;"
@@ -57,7 +57,7 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 * B-Betrieb des Verstärkers
 * Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
 * Ruhestrom fast null (gering)
-* Wirkungsgrad bis zu 80%
+* Wirkungsgrad bis zu $\qty{80}{\percent}$
 * geringer Oberwellenanteil
 </right>
 --- style="font-size: smaller;"
@@ -69,7 +69,7 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 * A/B-Betrieb des Verstärkers
 * Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
 * Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-* Wirkungsgrad zwischen 50% bis 80%
+* Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
 * geringer Oberwellenanteil
 </right>
 --- style="font-size: smaller;"
@@ -79,8 +79,8 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 </left>
 <right>
 * A-Betrieb des Verstärkers
-* Höhe der Vorspannung so gewählt, dass der Ruhestrom ca. 50% des maximal zulässigen Wertes erreicht
-* Wirkungsgrad ca. 40%
+* Höhe der Vorspannung so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
+* Wirkungsgrad ca. $\qty{40}{\percent}$
 * sehr geringer Oberwellenanteil
 </right>
 ---
@@ -102,31 +102,31 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 [question:AD424]
 ---
 #### Lösungsweg
-* gegeben: $U=50V$
-* gegeben: $I = 2A$
-* gegeben: $\eta_A \approx 40\%$
-* gesucht: $P_{ab}$
+* gegeben: $U=\qty{50}{\volt}$
+* gegeben: $I = \qty{2}{\ampere}$
+* gegeben: $\eta_\text{A} \approx \qty{40}{\percent}$
+* gesucht: $P_\text{ab}$
 
 <fragment>
-$P_{zu} = U \cdot I = 50V \cdot 2A = 100W$
+$P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
 </fragment>
 <fragment>
-$\eta_A = \frac{P_{ab}}{P_{zu}} \Rightarrow P_{ab} = \eta_A \cdot P_{zu} = 0,4 \cdot 100W = 40W$
+$\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{A} \cdot P_\text{zu} = 0,4 \cdot \qty{100}{\watt} = \qty{40}{\watt}$
 </fragment>
 ---
 [question:AD425]
 ---
 #### Lösungsweg
-* gegeben: $U=50V$
-* gegeben: $I = 2A$
-* gegeben: $\eta_C \approx 85\%$
-* gesucht: $P_{ab}$
+* gegeben: $U=\qty{50}{\volt}$
+* gegeben: $I = \qty{2}{\ampere}$
+* gegeben: $\eta_\text{C} \approx \qty{85}{\percent}$
+* gesucht: $P_\text{ab}$
 
 <fragment>
-$P_{zu} = U \cdot I = 50V \cdot 2A = 100W$
+$P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
 </fragment>
 <fragment>
-$\eta_C = \frac{P_{ab}}{P_{zu}} \Rightarrow P_{ab} = \eta_C \cdot P_{zu} = 0,85 \cdot 100W = 85W$
+$\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{C} \cdot P_\text{zu} = 0,85 \cdot \qty{100}{\watt} = \qty{85}{\watt}$
 </fragment>
 ---
 [question:AD418]

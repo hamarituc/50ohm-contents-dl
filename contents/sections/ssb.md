@@ -20,7 +20,7 @@ Je nachdem welches Seitenband ausgesendet wird, bezeichnet man das Übertragungs
 [picture:743:n_seitenband_3:Seitenbänder bei AM, LSB und USB im Vergleich]
 </webmargin>
 
-Bei SSB kommt es in Sprechpausen quasi zu keiner Aussendung mehr, da der Träger ja unterdrückt wird. Die bei SSB belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals. Bei den Beispielen für SSB in [ref:n_seitenband_3] also 2700 Hz und somit etwas weniger als die Hälfte der Bandbreite von AM.
+Bei SSB kommt es in Sprechpausen quasi zu keiner Aussendung mehr, da der Träger ja unterdrückt wird. Die bei SSB belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals. Bei den Beispielen für SSB in [ref:n_seitenband_3] also $\qty{2700}{\hertz}$ und somit etwas weniger als die Hälfte der Bandbreite von AM.
 
 [question:NE203]
 

@@ -56,6 +56,7 @@
                 ]
             },    
             options: {
+                animation:false,
                 responsive:true,
                 scales: {
                     x: {
@@ -97,6 +98,7 @@
                 ]
             },    
             options: {
+                animation:false,
                 scales: {
                     y: {
                         min: -200,
@@ -125,12 +127,12 @@
 
         generateValues(-1*Math.PI, 4*Math.PI, Math.PI/16);
 
-        $("#amplitude").on("change", function() {
+        $("#amplitude").on("input", function() {
             amplitude = $(this).val();
             generateValues(-1*Math.PI, 4*Math.PI, Math.PI/16);
         });
 
-        $("#phase").on("change", function() {
+        $("#phase").on("input", function() {
             phase = $(this).val();
             generateValues(-1*Math.PI, 4*Math.PI, Math.PI/16);
         });

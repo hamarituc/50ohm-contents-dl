@@ -1,6 +1,6 @@
 <left>
 * Automatisch arbeitende Amateurfunk-Sendeanlage
-* Ständig wiederkeherende Aussendungen
+* Ständig wiederkehrende Aussendungen
 * Zu Feldstärkebeobachtungen oder Empfangsversuchen
 * Kann auch in Satelliten sein
 </left>

@@ -3,8 +3,8 @@
 </left>
 <right>
 * Bandbreite laut AfuV: Mittlere Sendeleistung im ausgesendeten Bandbereich
-* 99% der Sendeleistung müssen sich innerhalb der geforderten Bandbreite befinden
-* Maximal 0,5% dürfen unter- und oberhalb auf angrenzende Bereiche entfallen
+* $\qty{99}{\percent}$ der Sendeleistung müssen sich innerhalb der geforderten Bandbreite befinden
+* Maximal $\qty{0,5}{\percent}$ dürfen unter- und oberhalb auf angrenzende Bereiche entfallen
 </right>
 <note>
 Besonders für FM-Aussendungen wichtig (Hub!).<br/>

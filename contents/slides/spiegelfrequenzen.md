@@ -1,35 +1,35 @@
 <left>
 [picture:807:spiegelfrequenzen_mischen1:Mischvorgang mit Empfangsfrequenz $f_\text{e}$, Oszillatorfrequenz $f_\text{o}$ und der Zwischenfrequenz $f_\text{ZF}$]
 
-$f_{ZF} = \left|f_e \pm f_o\right|$
+$f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 </left>
 <right>  
-Im Mischprozess zur $f_{ZF}$ werden prinzipbedingt immer zwei Empfangsfrequenzen ausgewählt
+Im Mischprozess zur $f_\text{ZF}$ werden prinzipbedingt immer zwei Empfangsfrequenzen ausgewählt
 </right>
 
 ---
 <left>
-[picture:806:spiegelfrequenzen_fe1_fe2:Empfangsfrequenzen die beide zur selben $f_{ZF}$ führen]
+[picture:806:spiegelfrequenzen_fe1_fe2:Empfangsfrequenzen die beide zur selben $f_\text{ZF}$ führen]
 </left>
 <right>
-* Gewünschte Empfangsfrequenz $f_{e1}$ &rarr; Spiegelfrequenz $f_{e2}$
-* Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz &rarr; ${2 \cdot f_{ZF}}$
+* Gewünschte Empfangsfrequenz $f_\text{e1}\rightarrow$ Spiegelfrequenz $f_\text{e2}$
+* Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz $\rightarrow2 \cdot f_\text{ZF}$
 </right>
 ---
 <left>
 Oszillator schwingt oberhalb der Empfangsfrequenz<br/>
 &darr;<br/>
-Spiegelfrequenz bei ${2 \cdot f_{ZF}}$ oberhalb der Empfangsfrequenz
+Spiegelfrequenz bei ${2 \cdot f_\text{ZF}}$ oberhalb der Empfangsfrequenz
 </left>
 <right>
 Oszillator schwingt unterhalb der Empfangsfrequenz<br/>
 &darr;<br/>
-Spiegelfrequenz bei ${2 \cdot f_{ZF}}$ unterhalb der Empfangsfrequenz
+Spiegelfrequenz bei ${2 \cdot f_\text{ZF}}$ unterhalb der Empfangsfrequenz
 </right>
 
 ---
 
-$f_S = 2 \cdot f_{OSZ}\,-\,f_E =\\ \begin{cases}f_{OSZ}\,+\,f_{ZF} = f_E\,+\,2 \cdot f_{ZF} &\text{wenn } f_E \lt f_{OSZ} \\ f_{OSZ}\,-\,f_{ZF} = f_E\,-\,2 \cdot f_{ZF} &\text{wenn } f_E \gt f_{OSZ} \end{cases}$
+$f_\text{S} = 2 \cdot f_\text{OSZ}\,-\,f_\text{E} =\\ \begin{cases}f_\text{OSZ}\,+\,f_\text{ZF} = f_\text{E}\,+\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \lt f_\text{OSZ} \\ f_\text{OSZ}\,-\,f_\text{ZF} = f_\text{E}\,-\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \gt f_\text{OSZ} \end{cases}$
 
 ---
 ## Spiegelfrequenzunterdrückung
@@ -53,23 +53,23 @@ Maßnahme für eine möglichst hohe Unterdrückung:
 [question:AF202]
 ---
 #### Lösungsweg
-* gegeben: $f_{OSZ} = 134,9MHz$
-* gegeben: $f_E = 145,6MHz$
-* gesucht: $f_S$
+* gegeben: $f_\text{OSZ} = \qty{134,9}{\mega\hertz}$
+* gegeben: $f_\text{E} = \qty{145,6}{\mega\hertz}$
+* gesucht: $f_\text{S}$
 
 <fragment>
-$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 134,9MHz - 145,6MHz\\ &= 124,2MHz\end{split}$
+$\begin{split}f_\text{S} &= 2 \cdot f_\text{OSZ} - f_\text{E}\\ &= 2 \cdot \qty{134,9}{\mega\hertz} - \qty{145,6}{\mega\hertz}\\ &= \qty{124,2}{\mega\hertz}\end{split}$
 </fragment>
 ---
 [question:AF203]
 ---
 #### Lösungsweg
-* gegeben: $f_{OSZ} = 39MHz$
-* gegeben: $f_E = 28,3MHz$
-* gesucht: $f_S$
+* gegeben: $f_\text{OSZ} = \qty{39}{\mega\hertz}$
+* gegeben: $f_\text{E} = \qty{28,3}{\mega\hertz}$
+* gesucht: $f_\text{S}$
 
 <fragment>
-$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 39MHz - 28,3MHz\\ &= 49,7MHz\end{split}$
+$\begin{split}f_\text{S} &= 2 \cdot f_\text{OSZ} - f_\text{E}\\ &= 2 \cdot \qty{39}{\mega\hertz} - \qty{28,3}{\mega\hertz}\\ &= \qty{49,7}{\mega\hertz}\end{split}$
 </fragment>
 ---
 [question:AF204]
@@ -79,24 +79,24 @@ $\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 39MHz - 28,3MHz\\ &= 49,
 [question:AF107]
 ---
 #### Lösungsweg
-* gegeben: $f_{OSZ} = 24,94MHz$
-* gegeben: $f_E = 14,24MHz$
-* gesucht: $f_S$
+* gegeben: $f_\text{OSZ} = \qty{24,94}{\mega\hertz}$
+* gegeben: $f_\text{E} = \qty{14,24}{\mega\hertz}$
+* gesucht: $f_\text{S}$
 
 <fragment>
-$\begin{split}f_S &= 2 \cdot f_{OSZ} - f_E\\ &= 2 \cdot 24,94MHz - 14,24MHz\\ &= 35,64MHz\end{split}$
+$\begin{split}f_\text{S} &= 2 \cdot f_\text{OSZ} - f_\text{E}\\ &= 2 \cdot \qty{24,94}{\mega\hertz} - \qty{14,24}{\mega\hertz}\\ &= \qty{35,64}{\mega\hertz}\end{split}$
 </fragment>
 ---
 [question:AF108]
 ---
 #### Lösungsweg
-* gegeben: $f_{ZF} = 10,7MHz$
-* gegeben: $f_E = 28,5MHz$
-* gesucht: $f_S$
+* gegeben: $f_\text{ZF} = \qty{10,7}{\mega\hertz}$
+* gegeben: $f_\text{E} = \qty{28,5}{\mega\hertz}$
+* gesucht: $f_\text{S}$
 
 <fragment>
-Bei $f_E &lt; f_{OSZ}$:
-$\begin{split}f_S &= f_E + 2 \cdot f_{ZF}\\ &= 28,5MHz + 2 \cdot 10,7MHz\\ &= 49,9MHz\end{split}$
+Bei $f_\text{E} < f_\text{OSZ}$:
+$\begin{split}f_\text{S} &= f_\text{E} + 2 \cdot f_\text{ZF}\\ &= \qty{28,5}{\mega\hertz} + 2 \cdot \qty{10,7}{\mega\hertz}\\ &= \qty{49,9}{\mega\hertz}\end{split}$
 </fragment>
 ---
 [question:AF109]
