@@ -16,7 +16,7 @@ $\rightarrow\qty{0}{\dBm}$ liegt bei $P = \qty{1}{\milli\watt}$ vor
 </fragment>
 
 <fragment>
-*Leistung bezogen auf \qty{1}{\watt}*
+*Leistung bezogen auf $\qty{1}{\watt}$*
 $p = 10\cdot \log_{10}\left(\frac{P}{\qty{1}{\watt}}\right)\unit{\dBW}$
 </fragment>
 <fragment>
@@ -35,7 +35,7 @@ Nur einsetzen
 
 ## Spannungspegel
 
-Faktor 20
+Faktor $20$
 
 $u = 20\cdot \log_{10}\left(\frac{U}{\qty{0,775}{\volt}}\right)\unit{\dBu}$
 
