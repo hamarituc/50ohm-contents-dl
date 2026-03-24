@@ -7,7 +7,7 @@
 * z.B. von $\qty{12}{\volt}$ auf $\qty{19}{\volt}\rightarrow$ Step-UP (Hochsetzsteller)
 </right>
 <note>
-Der Buck-Boost Converter im Bild kann von $\qty{0,5}{\volt}$ bis $\qty{25}{\volt}$ am Ausgang eingestellt werden. Die maximale Leistung beträgt $\qty{25}{\watt}$.
+Der Buck-Boost Converter im Bild kann von 0,5V bis 25V am Ausgang eingestellt werden. Die maximale Leistung beträgt 25W.
 </note>
 ---
 ### Wirkungsgrad
