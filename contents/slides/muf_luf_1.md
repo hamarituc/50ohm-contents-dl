@@ -17,7 +17,7 @@ $\alpha$ ist der Abstrahlwinkel der Antenne zum Boden
 $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftretende Funkstrahlen von den Regionen gebrochen werden $\rightarrow$ bei stärkerer Ionisation einer Region steigt die kritische Frequenz
 
 <note>
-* $\sin(\alpha) = 1\rightarrow \mathrm{MUF} = f_c$ 
+* sin(α) = 1 → MUF = f_c
 * In Klasse E keine Berechnung, nur Verständnisfragen
 </note>
 
