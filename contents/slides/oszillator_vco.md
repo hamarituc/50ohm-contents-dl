@@ -1,5 +1,5 @@
 * Frequenz des Oszillators ist veränderbar
-* Beispielsweise durch Kapazitätsdiode im Schwingkreis &rarr; Kapazität wird durch Gleichspannung beeinflusst
+* Beispielsweise durch Kapazitätsdiode im Schwingkreis $\rightarrow$ Kapazität wird durch Gleichspannung beeinflusst
 * Oszillator wird durch eine Steuerspannung abstimmbar
 
 ---

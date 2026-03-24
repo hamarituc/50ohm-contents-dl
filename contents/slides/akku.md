@@ -35,7 +35,7 @@ Pro Zelle ca. $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$, also<br/>$\qty{3,3}{\vo
 Beispiel-Akku: $\qty{4200}{\milli\ampere\hour} = \qty{4,2}{\ampere\hour}$
 
 <fragment>
-&rarr; 1 Stunde mit $\qty{4,2}{\ampere}$ oder 2 Stunden mit $\qty{2,1}{\ampere}$ belasten
+$\rightarrow$ 1 Stunde mit $\qty{4,2}{\ampere}$ oder 2 Stunden mit $\qty{2,1}{\ampere}$ belasten
 </fragment>
 <fragment>
 $t = \frac{Q}{I}$

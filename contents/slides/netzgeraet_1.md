@@ -30,7 +30,7 @@
 </right>
 <note>
 * Schuko-Stecker haben keinen Verpolschutz für L- und N-Leiter
-* "protective earth" &mdash; Schutzerdung
+* "protective earth" — Schutzerdung
 * Metallisches Gehäuse wird geerdet
 * Durch die Erdung wird eine gefährliche Spannung auf dem Gehäuse ausgeschlossen
 </note>

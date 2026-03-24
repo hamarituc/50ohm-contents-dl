@@ -2,9 +2,9 @@
 [photo:299:StepUpDownWandler: Abwärts- (Buck) Aufwärts- (Boost) Wandler]
 </left>
 <right>
-* Wandelt Gleichspannungen um &rarr; DC/DC-Wandler
-* z.B. von $\qty{13,8}{\volt}$ auf $\qty{5}{\volt}$ &rarr; Step-DOWN (Tiefsetzsteller)
-* z.B. von $\qty{12}{\volt}$ auf $\qty{19}{\volt}$ &rarr; Step-UP (Hochsetzsteller)
+* Wandelt Gleichspannungen um $\rightarrow$ DC/DC-Wandler
+* z.B. von $\qty{13,8}{\volt}$ auf $\qty{5}{\volt}\rightarrow$ Step-DOWN (Tiefsetzsteller)
+* z.B. von $\qty{12}{\volt}$ auf $\qty{19}{\volt}\rightarrow$ Step-UP (Hochsetzsteller)
 </right>
 <note>
 Der Buck-Boost Converter im Bild kann von $\qty{0,5}{\volt}$ bis $\qty{25}{\volt}$ am Ausgang eingestellt werden. Die maximale Leistung beträgt $\qty{25}{\watt}$.

@@ -10,8 +10,8 @@
 [picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
 </left>
 <right>
-* Eingangssignal: Quelle &rarr; Basis &rarr; Kollektor &rarr; Versorgungspannung &rarr; Quelle
-* Ausgangsignal: Kollektor &rarr; Last &rarr; Versorgungsspannung &rarr; Kollektor
+* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Kollektor $\rightarrow$ Versorgungspannung $\rightarrow$ Quelle
+* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Versorgungsspannung $\rightarrow$ Kollektor
 </right>
 ---
 [question:AD401]
@@ -39,7 +39,7 @@
 <right>
 * Die Emitterspannung bremst den Stromfluss und verhindert starke Schwankungen.
 * Temperaturänderungen beeinflussen den Transistor weniger.
-* &rarr; Der Transistor bleibt zuverlässig und arbeitet gleichmäßig.
+* $\rightarrow$ Der Transistor bleibt zuverlässig und arbeitet gleichmäßig.
 </right>
 ---
 <left>
@@ -57,7 +57,7 @@
 <right>
 * Abblockkondensator in der Betriebsspannung führt unerwünschte HF- und NF-Signale auf Masse ab
 * Rückkopplungseffekte in der Stufe und auf die Versorungsspannung werden vermieden
-* Kollektor wird auf Masse gelegt &rarr; Ausgang ist auf gleichem Potenzial wie Eingang
+* Kollektor wird auf Masse gelegt $\rightarrow$ Ausgang ist auf gleichem Potenzial wie Eingang
 </right>
 ---
 <left>
@@ -66,7 +66,7 @@
 <right>
 * Phasenverschiebung ist $\qty{0}{\degree}$
 * Eingangsimpedanz relativ hoch
-* &rarr; Spannungsverstärkung ca. $\num{0,9}$ bis $\num{0,98}$ (immer etwas kleiner als $1$)
+* $\rightarrow$ Spannungsverstärkung ca. $\num{0,9}$ bis $\num{0,98}$ (immer etwas kleiner als $1$)
 * Ausgangsimpedanz sehr niedrig gegenüber Eingangsimpedanz
 </right>
 
@@ -81,9 +81,9 @@
 
 * Häufig Anwendung als Pufferstufe zwischen Oszillator und weiteren Schaltungsteilen
 * Belastet den Oszillator hochohmig
-* &rarr; Weniger Strom vom Oszillator
-* &rarr; Entkopplung
-* &rarr; Bessere Frequenzstabilisierung des Oszillators
+* $\rightarrow$ Weniger Strom vom Oszillator
+* $\rightarrow$ Entkopplung
+* $\rightarrow$ Bessere Frequenzstabilisierung des Oszillators
 
 ---
 [question:AD404]

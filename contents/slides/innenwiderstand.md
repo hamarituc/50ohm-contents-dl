@@ -3,7 +3,7 @@
 [picture:1018:a_vsource_schematic:Ersatzschaltbild Spannungsquelle]
 </left>
 <right>
-* Reale Spannungsquelle wird mit $R_L$ belastet &rarr; Klemmenspannung $U_k$ sinkt
+* Reale Spannungsquelle wird mit $R_L$ belastet $\rightarrow$ Klemmenspannung $U_k$ sinkt
 * Grund ist der Innenwiderstand
 * Ohne Belastung / im Leerlauf: $U_q = U_L$
 </right>
@@ -37,8 +37,8 @@ Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L
 
 * In Labornetzteilen eingebaut
 * Laststrom übersteigt eine maximale Stromstärke
-* &rarr; Klemmenspannung wird abgesenkt
-* &rarr; Laststrom bleibt konstant
+* $\rightarrow$ Klemmenspannung wird abgesenkt
+* $\rightarrow$ Laststrom bleibt konstant
 * Funktion der Konstantstromquelle
 
 ---

@@ -2,8 +2,8 @@
 [picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
 </left>
 <right>
-* Eingangssignal: Quelle &rarr; Basis &rarr; Emitter &rarr; Masse &rarr; Quelle
-* Ausgangsignal: Kollektor &rarr; Last &rarr; Betriebsspannung &rarr; Masse &rarr; Emitter &rarr; Kollektor
+* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Emitter $\rightarrow$ Masse $\rightarrow$ Quelle
+* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Betriebsspannung $\rightarrow$ Masse $\rightarrow$ Emitter $\rightarrow$ Kollektor
 </right>
 
 ---
@@ -71,7 +71,7 @@
 </left>
 <right>
 * Spannungsverstärkung ca. $100\dots 300$
-* Entfernung des Emitterkondensators &rarr; Verstärkungfaktor sinkt erheblich
+* Entfernung des Emitterkondensators $\rightarrow$ Verstärkungfaktor sinkt erheblich
 * Verstärkungsfaktor nur noch durch Verhältins Kollektor- zu Emitterwiderstand definiert
 </right>
 <note>

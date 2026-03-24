@@ -17,9 +17,9 @@ Bei Netzgeräten, besonders mit einem Metallgehäuse, ist ein normgerechter Ansc
 ### Aderfarben
 
 <left>
-* Außenleiter (L) &rarr; braun
-* Neutralleiter (N) &rarr; blau
-* Schutzleiter (PE) &rarr; grün/gelb
+* Außenleiter (L) $\rightarrow$ braun
+* Neutralleiter (N) $\rightarrow$ blau
+* Schutzleiter (PE) $\rightarrow$ grün/gelb
 </left>
 <right>
 [picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
