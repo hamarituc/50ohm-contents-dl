@@ -14,15 +14,15 @@ Weltkarte mit aktueller Greyline
 Tag zu Nacht
 * D-Region wird abgebaut
 * E-Region kann noch vorhanden sein
-* F<sub>1</sub>-Region baut langsam ab
-* F<sub>2</sub>-Region bleibt geschwächt bestehen
+* $F_1$-Region baut langsam ab
+* $F_2$-Region bleibt geschwächt bestehen
 </left>
 <right>
 Nacht zu Tag
 * D-Region baut erst auf, wenn Sonne in unteren Regionen angekommen
 * E-Region baut sich langsam auf
-* F<sub>1</sub>-Region vor E- und D-Region aufgebaut
-* F<sub>2</sub>-Region wird wieder stärker
+* $F_1$-Region vor E- und D-Region aufgebaut
+* $F_2$-Region wird wieder stärker
 </right>
 
 ---

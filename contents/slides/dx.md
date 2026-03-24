@@ -1,5 +1,5 @@
 * Funkverbindung über große Entfernung
-* DX &rarr; "long distance" (aus Morsetelegrafie)
+* DX $\rightarrow$ "long distance" (aus Morsetelegrafie)
 * Unterscheidung zwischen Kurzwelle und UKW
 
 ---

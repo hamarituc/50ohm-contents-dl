@@ -131,8 +131,8 @@ Beliebt:
 * Wohnsitz länger als 3 Monate oder dauerhaft im Ausland
 * Vereinfachte Beantragung der Amateurfunkzulassung
 * Meistens keine erneute Prüfung
-* Klasse E Amateurfunkzeugnis &rarr; CEPT-Novice-Amateurfunk-Prüfungsbescheinigung
-* Klasse A Amateurfunkzeugnis &rarr; Harmonized Amateur Radio Examination Certificate (HAREC)
+* Klasse E Amateurfunkzeugnis $\rightarrow$ CEPT-Novice-Amateurfunk-Prüfungsbescheinigung
+* Klasse A Amateurfunkzeugnis $\rightarrow$ Harmonized Amateur Radio Examination Certificate (HAREC)
 
 <note>
 Beispiel: Auf dem Antrag zur Zulassung zum Amateurfunkdienst ist ein Feld zum Ankreuzen, ob man bereits eine Prüfung nach HAREC besitzt - wenn ja, wird das direkt anerkannt.

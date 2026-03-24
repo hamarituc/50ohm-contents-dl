@@ -11,7 +11,7 @@
 <left>
 Beispiele:
 * Internationale Raumstation (ISS): DP0ISS
-* Neumayer&nbsp;III-Forschungsstation in der Antarktis: DP0GVN
+* Neumayer III-Forschungsstation in der Antarktis: DP0GVN
 * Forschungsschiff Polarstern: DP0POL
 </left>
 <right>

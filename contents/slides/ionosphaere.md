@@ -5,7 +5,7 @@
 * Im oberen Teil der Erdatmosphäre
 * Hat großen Einfluss im Kurzwellenbereich
 * Sonnenstrahlung erzeugt elektrisch geladene Teilchen
-* Funkwellen werden daran gebrochen (refraktiert) &rarr; Raumwelle
+* Funkwellen werden daran gebrochen (refraktiert) $\rightarrow$ Raumwelle
 * Weltweite Funkverbindungen möglich
 </right>
 

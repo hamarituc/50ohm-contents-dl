@@ -3,14 +3,14 @@
 * Die Wechselspannung im Stromnetz schwingt 50 mal in der Sekunde
 * Die Anzahl der Schwingungen pro Sekunde nennt man Frequenz
 * Die Einheit ist Hertz mit der Abkürzung $\unit{\hertz}$
-* $\qty{1}{\hertz}$ &rarr; 1 Schwingung pro Sekunde
+* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
 * Das Stromnetz hat eine Frequenz von $\qty{50}{\hertz}$
 
 ---
 ## Einheit Hertz
 
 * Misst die Frequenz
-* $\qty{1}{\hertz}$ &rarr;1 Schwingung pro Sekunde
+* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
 * Benannt nach dem deutschen Physiker Heinrich Rudolf Hertz
 * Erzeugte im Jahr 1886 als erster Mensch elektromagnetische Wellen und konnte sie nachweisen
   

@@ -71,9 +71,9 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 ## Funkbetrieb
 
 * Klasse N oder E darf an Klubstation mit Klasse A Betrieb machen
-* &rarr; Jedoch nur im Rahmen seiner Bänder und Leistung
+* $\rightarrow$ Jedoch nur im Rahmen seiner Bänder und Leistung
 * Klasse A darf an Klubstation der Klasse E oder N Betrieb machen
-* &rarr; Jedoch nur im Rahmen der Bänder und Leistung der Klubstation
+* $\rightarrow$ Jedoch nur im Rahmen der Bänder und Leistung der Klubstation
 
 <fragment>
 Die niedrigste Klasse gibt die maximale Berechtigung vor.

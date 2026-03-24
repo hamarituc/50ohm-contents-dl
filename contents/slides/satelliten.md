@@ -58,8 +58,8 @@ Satellitenantennen müssen ausgerichtet sein
 Elevation
 * leitet sich von lateinisch elevare ("erheben") ab
 * Vertikaler Winkel über dem Horizont
-* $\qty{0}{\degree}$ &rarr; direkt am Horizont
-* $\qty{90}{\degree}$ &rarr; senkrecht über einem
+* $\qty{0}{\degree}\rightarrow$ direkt am Horizont
+* $\qty{90}{\degree}\rightarrow$ senkrecht über einem
 </left>
 <right>
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]

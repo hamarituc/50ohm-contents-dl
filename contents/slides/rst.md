@@ -68,12 +68,12 @@ Vom Funkgerät ablesen
 
 im Sprechfunk
 
-| l: Verständlichkeit | l: S-Meter | c: &rarr; | l: RST-Rapport |
-| einwandfrei (=5) | +20 dB | &rarr;| 59+20dB |
-| einwandfrei (=5) | 9 | &rarr; | 59 |
-| ohne Schwierigkeiten (=4) | 5 | &rarr; | 45 |
-| mit Schwierigkeiten (=3) | 3 | &rarr; | 33 |
-| unverständlich (=1) | 3 | &rarr; | 13 |
+| l: Verständlichkeit | l: S-Meter | c: $\rightarrow$ | l: RST-Rapport |
+| einwandfrei (=5) | +20 dB | $\rightarrow$| 59+20dB |
+| einwandfrei (=5) | 9 | $\rightarrow$ | 59 |
+| ohne Schwierigkeiten (=4) | 5 | $\rightarrow$ | 45 |
+| mit Schwierigkeiten (=3) | 3 | $\rightarrow$ | 33 |
+| unverständlich (=1) | 3 | $\rightarrow$ | 13 |
 [table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk]
 
 ---

@@ -1,7 +1,7 @@
 <left>
 * Raumwelle trifft noch im Bereich der Bodenwelle wieder zum Empfänger
 * Durch Wellenüberlagerung können sich Raum- und Bodenwelle gegenseitig abschwächen
-* Signal verliert an Stärke &rarr; *Fading*
+* Signal verliert an Stärke $\rightarrow$ *Fading*
 </left>
 <right>
 [include:fading_applet]

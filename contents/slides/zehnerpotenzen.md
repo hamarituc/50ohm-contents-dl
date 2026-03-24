@@ -49,13 +49,13 @@ $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 ## Taschenrechner
 
 <left>
-* Taste *EXP* oder *&times;10<sup>x</sup>*
-* Eintippen: 145,3 &rArr; Exp &rArr; 6
+* Taste *EXP* oder *$\times 10^x$*
+* Eintippen: $145,3 \rightarrow$ Exp $\rightarrow 6$
 * Taste *ENG* verschiebt den Exponent um 3
 * Oft schaltet die Taste *S/D* zwischen verschiedenen Darstellungen um
 </left>
 <right>
-[photo:172:e_taschenrechner:Verschiedene Darstellungen der Zahl 0,007 in einer Taschenrechner-App]
+[photo:172:e_taschenrechner:Verschiedene Darstellungen der Zahl $\num{0,007} in einer Taschenrechner-App]
 </right>
 
 ---

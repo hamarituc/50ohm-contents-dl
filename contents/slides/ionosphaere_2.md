@@ -1,7 +1,7 @@
 * Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
 * Vertiefung im Bereich Wellenausbreitung
-* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre &rarr; Ionisation
-* Freie Elektronen werden von Funkwellen zum Schwingen angeregt &rarr; Refraktion der Funkwellen
+* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
+* Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
 
 ---
 <left>
@@ -19,7 +19,7 @@
 <left>
 * Ionisation verleiht Kurzwelle einzigartige Fähigkeiten
 * Dichte der freien Elektronen bestimmt die Brechungsfrequenz
-* Höhere Dichte &rarr; höhere Frequenz
+* Höhere Dichte $\rightarrow$ höhere Frequenz
 </left>
 <right>
 [picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
@@ -27,7 +27,7 @@
 
 ---
 
-* Mehr Sonnenstrahlung &rarr; Ausbreitung auf höherer Frequenz möglich
+* Mehr Sonnenstrahlung $\rightarrow$ Ausbreitung auf höherer Frequenz möglich
 * Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
 * $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
 
@@ -48,8 +48,8 @@
 
 1. D-Schicht
 2. E-Schicht
-3. F<sub>1</sub>-Schicht
-4. F<sub>2</sub>-Schicht
+3. $F_1$-Schicht
+4. $F_2$-Schicht
 
 ---
 * Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
@@ -81,7 +81,7 @@
 * Entsteht *tagsüber* mit Maximum zur Mittagszeit
 * Verschwindet etwa 1 Stunde nach Sonnenuntergang
 * Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
-* Starke Ionisation &rarr; Sporadic-E
+* Starke Ionisation $\rightarrow$ Sporadic-E
 * Namensgebene: *E*(lektrische)*-Schicht*
 
 <note>
@@ -94,8 +94,8 @@
 ### F-Regionen
 * In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
 * Am stärksten ionisierte Schicht
-* F<sub>1</sub>-Schicht existiert *nur am Tag*
-* F<sub>2</sub>-Schicht bleibt *nachts* bestehen
+* $F_1$-Schicht existiert *nur am Tag*
+* $F_2$-Schicht bleibt *nachts* bestehen
 * Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
 
 <note>
@@ -112,7 +112,7 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 <left>
 * Im Schnitt alle 11 Jahre durch Umkehrung des Magnetfelds
 * Intensivere Ultraviolett- und Röntgenstrahlen
-* Führt zu starker Ionisation der F<sub>2</sub>-Region
+* Führt zu starker Ionisation der $F_2$-Region
 </left>
 <right>
 [picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]

@@ -13,7 +13,7 @@
 ---
 
 * Bei zusätzlicher Bewegung (Betrieb im Auto, Brechung am Flugzeug, Veränderung in der Ionosphäre) verändert sich ständig das Summensignal im Empfänger
-* Schwankende Signalstärke &rarr; *Schwund*, *Fading* oder *QSB*
+* Schwankende Signalstärke $\rightarrow$ *Schwund*, *Fading* oder *QSB*
 * Verzerrungen des Signals und schlechtere Verständlichkeit
 
 ---
