@@ -1,12 +1,10 @@
 In der Praxis erreichbare Datenübertragungsraten unterscheiden sich je nach Übertragungsverfahren und Funkbedingungen deutlich. WLAN und 5G unterstützen bei optimalen Bedingungen Datenübertragungsraten bis in den Bereich von Gigabits pro Sekunde. FT8 hingegen kann selbst unter widrigen Bedingungen eingesetzt werden, überträgt aber nur wenige Bits pro Sekunde.
 
-Welche Datenübertragungsrate erreichbar ist, hängt von der nutzbaren Bandbreite und dem Signal-Rausch-Verhältnis ab. Aus diesen beiden Größen kann mit dem Shannon-Hartley-Gesetz die theoretisch maximal erreichbare Datenübertragungsrate für einen Übertragungskanal berechnet werden. 
-
-[question:AE416]
-
-% TODO TABELLE mit Verfahren?
+Welche Datenübertragungsrate erreichbar ist, hängt von der nutzbaren Bandbreite und dem Signal-Rausch-Verhältnis ($P_\text{S}/P_\text{N}$) ab. Aus diesen beiden Größen kann mit dem Shannon-Hartley-Gesetz die theoretisch maximal erreichbare Datenübertragungsrate für einen Übertragungskanal berechnet werden:
 
 $C=B \cdot \log_2 \left(1+{\dfrac{P_\text{S}}{P_\text{N}}}\right) \unit{\bit\per\second}$
+
+[question:AE416]
 
 ---
 
@@ -33,4 +31,4 @@ Durch Absenken der Datenrate hingegen lassen sich Verfahren entwickeln, die nich
 [question:AE420]
 [question:AE419]
 
-Zu beachten ist, dass das Shannon-Hartley-Gesetz nur eine Obergrenze für die erreichbare Datenübertragungsrate bestimmt. Die tatsächlich erreichbaren Datenraten liegen immer darunter. Nur mittels guter Fehlerkorrekturverfahren, die wir später kennenlernen werden, kann man sich dieser Obergrenze annähern.
+Zu beachten ist, dass das Shannon-Hartley-Gesetz nur eine Obergrenze für die erreichbare Datenübertragungsrate bestimmt. Die tatsächlich erreichbaren Datenraten liegen immer darunter. Nur mittels guter Fehlerkorrekturverfahren, die wir später kennenlernen werden, kann man sich dieser Obergrenze annähern. 
