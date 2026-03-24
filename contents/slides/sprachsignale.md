@@ -8,7 +8,7 @@
 <fragment>
 <right>
 * Die „Breite“ des Signals wird übrigens als *Bandbreite* bezeichnet und in Hertz (Hz) angegeben.
-* Angenommen es soll Sprache im Frequenzbereich von 300 bis 2700 Hz übertragen werden.
-* Die Bandbreite beträgt in diesem Falle 2700 Hz – 300 Hz = 2400 Hz
+* Angenommen es soll Sprache im Frequenzbereich von $\qtyrange{300}{2700}{\hertz}$ übertragen werden.
+* Die Bandbreite beträgt in diesem Falle $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$
 </right>
 </fragment>

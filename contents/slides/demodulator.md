@@ -47,7 +47,7 @@
 <right>
 * FM-Demodulation mittels Flankendiskriminator  
 * Signal aus der Zwischenfrequenz läuft in einen Schwingkreis  
-* Schwingkreis: Resonanzfrequenz \(f_\text{res}\) leicht versetzt zu \(f_\text{ZF}\)  
+* Schwingkreis: Resonanzfrequenz $f_\text{res}$ leicht versetzt zu $f_\text{ZF}$
 * Frequenzänderungen werden in Amplitudenänderungen umgewandelt  
 * Nachgeschalteter AM-Demodulator liefert die NF
 </right>

@@ -28,18 +28,18 @@ Eindringtiefe der Strahlung:
 * Es muss nach drei Fällen für Grenzwerte unterschieden werden
 
 ---
-### 6-Minuten-Intervalle
-* Da nicht ständig gesendet wird, Verwendung des quadratischen Mittels der Feldstärke ($\unit{\volt\per\meter}$) über 6 Minuten
-* Grenzwerte sind frequenzabhängig
-* z.B. $\qty{28}{\volt\per\meter}$ bei $\qty{14}{\mega\hertz}$
-* Berechnung erfolgt mit Näherungsformel (im nächsten Abschnitt)
-
----
 ### Momentaner Spitzenwert
 * Maximaler momentaner Spitzenwert
 * Elektrische Feldstärke in $\unit{\kilo\volt\per\meter}$
 * Grenzwerte sind bis $\qty{10}{\mega\hertz}$ frequenzabhängig
 * z.B. $\qty{0,083}{\kilo\volt\per\meter}$ bei $\qty{3,5}{\mega\hertz}$
+
+---
+### 6-Minuten-Intervalle
+* Da nicht ständig gesendet wird, Verwendung des quadratischen Mittels der Feldstärke ($\unit{\volt\per\meter}$) über 6 Minuten
+* Grenzwerte sind frequenzabhängig
+* z.B. $\qty{28}{\volt\per\meter}$ bei $\qty{14}{\mega\hertz}$
+* Berechnung erfolgt mit Näherungsformel (im nächsten Abschnitt)
 
 ---
 ### Gepulste Felder

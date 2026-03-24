@@ -1,7 +1,7 @@
 ## Bandbreite
 <left>
 * Im Gegensatz zu AM wird weniger als die halbe Bandbreite verwendet
-* Maximal 2,7 kHz
+* Maximal $\qty{2,7}{\kilo\hertz}$
 * Entspricht dem NF-Signal
 </left>
 <right>
@@ -40,11 +40,11 @@
 ---
 <left>
 Beispiel LSB:
-* Mikrofon: 300 Hz - 3 kHz
-* LSB-Oszillator: 9001,5 kHz
-* DSB-Signal:<br/> a) 8998,5 - 9001,2<br/> b) 9001,8 - 9004,5 
-* Filter: 9000 kHz ± 1,5 kHz
-* SSB-Signal:<br/> 8998,5 - 9001,2 kHz
+* Mikrofon: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
+* LSB-Oszillator: $\qty{9001,5}{\kilo\hertz}$
+* DSB-Signal:<br/> a) $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$<br/> b) $\qtyrange{9001,8}{9004,5}{\kilo\hertz}$
+* Filter: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
+* SSB-Signal:<br/> $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$
 </left>
 <right>
 [picture:831:e_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
@@ -58,11 +58,11 @@ Beispiel LSB:
 ---
 <left>
 Beispiel USB:
-* Mikrofon: 300 Hz - 3 kHz
-* USB-Oszillator: 8998,5 kHz
-* DSB-Signal:<br/> a) 8995,5 - 8998,2 kHz<br/> b) 8998,8 - 9001,5 kHz
-* Filter: 9000 kHz ± 1,5 kHz
-* SSB-Signal:<br/> 8998,8 - 9001,5 kHz
+* Mikrofon: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
+* USB-Oszillator: $\qty{8998,5}{\kilo\hertz}$
+* DSB-Signal:<br/> a) $\qtyrange{8995,5}{8998,2}{\kilo\hertz}$<br/> b) $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
+* Filter: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
+* SSB-Signal:<br/> $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
 </left>
 <right>
 [picture:832:e_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
@@ -82,9 +82,9 @@ Beispiel USB:
 ### NF-Signal
 
 <left>
-* Für Sprache reicht zwischen 300 und 3000 Hz
-* Entspricht 2,7 kHz
-* Es werden auch kleinere Filter, z.B. 2,4 kHz verwendet
+* Für Sprache reicht zwischen $\qty{300}{\hertz}$ und $\qty{3000}{\hertz}$
+* Entspricht $\qty{2,7}{\kilo\hertz}$
+* Es werden auch kleinere Filter, z.B. $\qty{2,4}{\kilo\hertz}$ verwendet
 * An vielen TRX lassen sich die Filter einstellen
 </left>
 <right>
@@ -96,7 +96,7 @@ Beispiel USB:
 ---
 [question:EJ211]
 <note>
-* Wenn die unteren 300 Hz der NF abgezogen werden, sind es wieder 2,7 kHz
+* Wenn die unteren $\qty{300}{\hertz}$ der NF abgezogen werden, sind es wieder $\qty{2,7}{\kilo\hertz}$
 </note>
 ---
 [question:EF310]

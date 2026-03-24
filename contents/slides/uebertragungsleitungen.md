@@ -3,7 +3,7 @@ Die im Sender erzeugte Sendeleistung möchte man möglichst vollständig und ohn
 ---
 ## Koaxialkabel
 <left>
-[photo:65:n_Koax_Detail:Koaxial-Kabel im Detail]
+[photo:65:n_Koax_Detail:Koaxialkabel im Detail]
 </left>
 <right>
 * Am weitesten verbreitet

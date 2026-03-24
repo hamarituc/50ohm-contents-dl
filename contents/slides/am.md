@@ -21,7 +21,7 @@ Es ist etwas paradox, dass bei Amplitudenmodulation trotzdem die Frequenz verän
 [picture:476:n_seitenband:Symbolische Darstellung eines amplitudenmodulierten Signals mit Träger und Seitenbändern]
 </right>
 <note>
-* Beispiel: Bei einer höchsten Frequenz von 2.700 Hz hat die AM-Aussendung eine Bandbreite von 5.400 Hz.
+* Beispiel: Bei einer höchsten Frequenz von 2700 Hz hat die AM-Aussendung eine Bandbreite von 5400 Hz.
 </note>
 
 ---

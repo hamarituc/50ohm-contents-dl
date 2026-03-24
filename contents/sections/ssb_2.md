@@ -14,7 +14,7 @@ Die folgenden Fragen können nach diesem Schema gelöst werden.
 
 ---
 
-AM-Signale übertragen beide Seitenbänder und den Träger und haben daher eine Bandbreite von etwas mehr als dem Doppelten des modulierenden NF-Signals (vgl. Abbildung [ref:e_ssb_einzelsignal]). Die Bandbreite eines SSB-Signals entspricht in etwa der Bandbreite des modulierenden NF-Signals (nach Filterung und Begrenzung der Bandbreite des NF-Signals). Bei SSB werden auch Signalanteile unterhalb von 300 Hz und der Träger (0 Hz) nicht übertragen und unterdrückt. Daher hat SSB etwas weniger als die halbe Bandbreite von AM.
+AM-Signale übertragen beide Seitenbänder und den Träger und haben daher eine Bandbreite von etwas mehr als dem Doppelten des modulierenden NF-Signals (vgl. Abbildung [ref:e_ssb_einzelsignal]). Die Bandbreite eines SSB-Signals entspricht in etwa der Bandbreite des modulierenden NF-Signals (nach Filterung und Begrenzung der Bandbreite des NF-Signals). Bei SSB werden auch Signalanteile unterhalb von $\qty{300}{\hertz}$ und der Träger ($\qty{0}{\hertz}$) nicht übertragen und unterdrückt. Daher hat SSB etwas weniger als die halbe Bandbreite von AM.
 
 <margin>
 [picture:743:e_ssb_einzelsignal:Seitenbänder bei AM und SSB]
@@ -28,17 +28,17 @@ AM-Signale übertragen beide Seitenbänder und den Träger und haben daher eine 
 Wie wir bereits in der Klasse N beim Thema Morsetelegrafie mit *Continuous Wave* (CW) gelernt haben, wird dabei ein konstanter Hochfrequenzträger in einem bestimmten Rhythmus ein- und ausgeschaltet. CW-Signale benötigen im Vergleich zu sprachmodulierten Signalen wie AM und SSB die geringste Bandbreite. Dies liegt daran, dass bei CW lediglich eine einzige Frequenz getastet wird und nicht, wie bei Sprachsignalen, mehrere Frequenzanteile eines NF-Signals gleichzeitig übertragen werden müssen.
 
 <indepth>
-Die Bandbreite von CW-Signalen ist von der Zeichengeschwindigkeit (Geschwindigkeit der Tastung) abhängig und beträgt bei durchschnittlichen Gebegeschwindigkeiten von 20 Wörtern pro Minute (100 Zeichen pro Minute) ca. 300 Hz.
+Die Bandbreite von CW-Signalen ist von der Zeichengeschwindigkeit (Geschwindigkeit der Tastung) abhängig und beträgt bei durchschnittlichen Gebegeschwindigkeiten von 20 Wörtern pro Minute (100 Zeichen pro Minute) ca. $\qty{300}{\hertz}$.
 </indepth>
 
 [question:EE207]
 
-Um Störungen benachbarter Stationen im Frequenzband zu vermeiden, sollte die belegte Bandbreite eines SSB-Signals auf maximal etwa $\qty{2,7}{\kilo\hertz}$ kHz begrenzt werden. Diese Bandbreite ist für eine gute Sprachverständlichkeit vollkommen ausreichend. Aus diesem Grund wird das NF-Signal des Mikrofons im Sender bandbegrenzt: Frequenzanteile unterhalb von etwa $\qty{300}{\hertz}$ sowie oberhalb von etwa $\qty{3}{\kilo\hertz}$ werden unterdrückt, da sie nur wenig zur Sprachverständlichkeit beitragen.
+Um Störungen benachbarter Stationen im Frequenzband zu vermeiden, sollte die belegte Bandbreite eines SSB-Signals auf maximal etwa $\qty{2,7}{\kilo\hertz}$ begrenzt werden. Diese Bandbreite ist für eine gute Sprachverständlichkeit vollkommen ausreichend. Aus diesem Grund wird das NF-Signal des Mikrofons im Sender bandbegrenzt: Frequenzanteile unterhalb von etwa $\qty{300}{\hertz}$ sowie oberhalb von etwa $\qty{3}{\kilo\hertz}$ werden unterdrückt, da sie nur wenig zur Sprachverständlichkeit beitragen.
 
 [question:EJ211]
 [question:EJ210]
 
-In der Praxis besitzen SSB-Filter zur Erzeugung eines SSB-Signals häufig eine Bandbreite von nur etwa 2,4 kHz. Auch diese geringere Bandbreite reicht in vielen Fällen für eine gute Sprachverständlichkeit aus und ermöglicht zugleich eine noch effizientere Nutzung des verfügbaren Frequenzspektrums.
+In der Praxis besitzen SSB-Filter zur Erzeugung eines SSB-Signals häufig eine Bandbreite von nur etwa $\qty{2,4}{\kilo\hertz}$. Auch diese geringere Bandbreite reicht in vielen Fällen für eine gute Sprachverständlichkeit aus und ermöglicht zugleich eine noch effizientere Nutzung des verfügbaren Frequenzspektrums.
 
 [question:EF310]
 

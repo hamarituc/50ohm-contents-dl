@@ -11,14 +11,14 @@
 ### Modulationsgrad
 
 <left>
-[picture:24:a_amplitudenmodulation_modulationsgrad1:Amplitudensignal bei einem Modulationsgrad von 100%]
+[picture:24:a_amplitudenmodulation_modulationsgrad1:Amplitudensignal bei einem Modulationsgrad von $\qty{100}{\percent}$]
 <fragment>
 $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 </fragment>
 </left>
 <right>
 * Verhältnis zwischen aufmodulierter NF-Hüllkurve und dem HF-Träger
-* Maximal möglich ist m=1 oder 100%
+* Maximal möglich ist $m=1$ oder $\qty{100}{\percent}$
 * Signal steuert zwischen Träger und maximal möglichem Wert aus
 </right>
 
@@ -30,22 +30,22 @@ $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 #### Lösungsweg
 
 Abzulesen aus der Grafik:
-* gegeben: $\hat{U}_{mod} = 1div = 3V$
-* gegeben: ${\hat{U}_{T}} = 2div = 6V$
+* gegeben: $\hat{U}_{mod} = \qty{1}{\oszidiv} = \qty{3}{\volt}$
+* gegeben: ${\hat{U}_{T}} = \qty{2}{\oszidiv} = \qty{6}{\volt}$
 * gesucht: $m$
 
 <fragment>
-$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}} = \frac{3V}{6V} = 0,5 = 50\%$
+$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}} = \frac{\qty{3}{\volt}}{\qty{6}{\volt}} = 0,5 = \qty{50}{\percent}$
 </fragment>
 
 ---
 ### Übermodulation
 
 <left>
-[picture:28:a_amplitudenmodulation_modulationsgrad2:Amplitudensignal bei einem Modulationsgrad von mehr als 100%]
+[picture:28:a_amplitudenmodulation_modulationsgrad2:Amplitudensignal bei einem Modulationsgrad von mehr als $\qty{100}{\percent}$]
 </left>
 <right>
-* Bei m > 1
+* Bei $m > 1$
 * Bewirkt zeitweise oder vollständige Unterdrückung des Trägersignals
 * Führt zu Verzerrungen und Seitenband-Splatter
 </right>

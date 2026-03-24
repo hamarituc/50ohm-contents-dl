@@ -5,7 +5,7 @@ In der Klasse N haben wir den Leistungsbegriff bereits als Produkt aus Strom und
 Dazu betrachten wir die Schaltung in Abbildung [ref:e_leistung_r]. Sie zeigt, wie an einem Widerstand elektrische Leistung in Wärme umgesetzt wird. Angenommen, die Größen $P$ und $R$ sind bekannt, so lässt sich mithilfe der Leistungsformel ($P = U \cdot I$) und des ohmschen Gesetzes ($U = R \cdot I$) die Spannung $U$ bestimmen.
 
 <margin>
-[picture:1013:e_leistung_r:Leistung wird am Wiederstand $R$ in Wärme umgesetzt]
+[picture:1013:e_leistung_r:Leistung wird am Widerstand $R$ in Wärme umgesetzt]
 </margin>
   
 ---
@@ -16,27 +16,19 @@ Die hergeleiteten Formeln sind auch übersichtlich in der [Formelsammlung](https
   
 Zunächst stellen wir dazu die Gleichung des ohmschen Gesetzes nach dem Strom um:
 
-$ U = R \cdot I \quad\quad\quad |~: R $
-
-$ I = \frac{U}{R}$.
+$\begin{align*} U &= R \cdot I &\quad\quad\quad &|~: R\\ \frac{U}{R} &= \frac{\cancel{R} \cdot I}{\cancel{R}}\\[1.5ex] I &= \frac{U}{R}.\end{align*}$
 
 Setzen wir diesen Ausdruck für $I$ in unsere Leistungsformel ein, so ergibt sich:
 
-$P=U \cdot \frac{U}{R}$
-
-$P=\frac{U^2}{R}$. 
+$\begin{split} P &= U \cdot \frac{U}{R}\\P&=\frac{U^2}{R}.\end{split}$
 
 Diese Gleichung lösen wir nach $U^2$ auf, indem wir beide Seiten mit R multiplizieren:
 
-$P=\frac{U^2}{R} \quad\quad\quad |~\cdot R$
-
-$U^2 = P \cdot R$.
+$\begin{align*} P &= \frac{U^2}{R} &\quad\quad\quad &|~\cdot R\\ U^2 &= P \cdot R.\end{align*}$
 
 Nun möchten wir die Spannung $U$ bestimmen. Dazu wenden wir die Umkehroperation des Quadrierens an, nämlich das Ziehen der Quadratwurzel. Dadurch erhalten wir:
 
-$ U^2 = P \cdot R \quad\quad\quad |~\sqrt{~~}$
-
-$U = \sqrt{P \cdot R}$.
+$\begin{align*} U^2 &= P \cdot R &\quad\quad\quad &|~\sqrt{~~}\\ U &= \sqrt{P \cdot R}.\end{align*}$
 
 In einigen Prüfungsfragen ist es wichtig, die richtigen Zusammenhänge zu erkennen. Mithilfe der Formelsammlung lässt sich die korrekte Lösung jederzeit herleiten.
 
@@ -46,22 +38,15 @@ Auch für den Strom $I$ lässt sich durch Einsetzen des ohmschen Gesetzes in die
 
 Wir starten mit den beiden Gleichungen $P = U \cdot I$ und $U = R \cdot I$. Setzt man die zweite Gleichung in die erste für $U$ ein, ergibt sich:
 
-$P = R \cdot I \cdot I$
-
-$P = I^2 \cdot R$.
+$\begin{split} P &= R \cdot I \cdot I\\ P &= I^2 \cdot R.\end{split}$
 
 Wir lösen nach $I^2$ auf, indem wir beide Seiten durch R teilen: 
 
-$P = I^2 \cdot R \quad\quad\quad |~:~R$
-
-$I^2 = \frac{P}{R} $.
+$\begin{align*} P &= I^2 \cdot R &\quad\quad\quad &|~:~R\\ I^2 &= \frac{P}{R}.\end{align*}$
 
 Im letzen Schritt ziehen wir dann die Wurzel:
 
-$I^2 = \frac{P}{R}  \quad\quad\quad |~\sqrt{~~}$
-
-$I = \sqrt{\frac{P}{R}}$
-
+$\begin{align*} I^2 &= \frac{P}{R} &\quad\quad\quad &|~\sqrt{~~}\\ I &= \sqrt{\frac{P}{R}}\end{align*}$
 
 [question:EB505]
 
@@ -83,7 +68,7 @@ $R = \frac{P}{I^2}$
 
 Alle zuvor vorgestellten Zusammenhänge der Gleichspannungstechnik zwischen Leistung, Strom und Spannung gelten auch für Wechselstrom. Allerdings müssen dabei die Effektivwerte von Strom und Spannung verwendet werden. In einem vorherigen Kapitel haben wir bereits kennen gelernt wie man aus dem Spitzenwert den Effektivwert berechnet: 
 
-$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ bzw. $\hat{U} = U_{eff} \cdot \sqrt{2}$
+$U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\text{ bzw. }\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
 [question:EB503]
 
@@ -119,7 +104,7 @@ $P = \frac{U^2}{R} = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} = \qty{1}{\watt
 
 Die Beantwortung dieser Frage bedarf eines gewissen Nachdenkens. Es ist sowohl eine maximale Spannungsfestigkeit ($\qty{700}{\volt}$) als auch eine Maximalleistung ($\qty{1}{\watt}$) angegeben. Es fragt sich nur, welche Grenze zuerst erreicht wird, wenn wir die Spannung erhöhen.
 
-Berechnen wir zunächst die Spannung, die am Widerstand (\qty{10}{\kilo\ohm}$) anliegen muss, damit gerade die zulässige Leistung erreicht wird. Dazu rechnen wir (Herleitung weiter oben):
+Berechnen wir zunächst die Spannung, die am Widerstand ($\qty{10}{\kilo\ohm}$) anliegen muss, damit gerade die zulässige Leistung erreicht wird. Dazu rechnen wir (Herleitung weiter oben):
 
 $U = \sqrt{P \cdot R} = \sqrt{\qty{1}{\watt} \cdot \qty{10000}{\ohm}} = \qty{100}{\volt}$
 
@@ -143,13 +128,13 @@ $I = \sqrt{\frac{P}{R}} =  \sqrt{\frac{\qty{23}{\watt}}{\qty{120}{\ohm}}} \appro
 
 [question:EB513]
 
-In dieser Frage wird ein Oszilloskop verwendet, um die Spitzen-Spitzen Spannung an der Last zu messen. Diese Spannung beträgt $U_{SS} = \qty{25}{\volt}$. Das bedeutet die Spitzenspannung beträgt $\hat{U} = \qty{12,5}{\volt}$ Wir berechnen zunächst den Effektivwert der Spannung:
+In dieser Frage wird ein Oszilloskop verwendet, um die Spitzen-Spitzen Spannung an der Last zu messen. Diese Spannung beträgt $U_\text{SS} = \qty{25}{\volt}$. Das bedeutet die Spitzenspannung beträgt $\hat{U} = \qty{12,5}{\volt}$ Wir berechnen zunächst den Effektivwert der Spannung:
 
-$U_{eff} = \frac{\hat{U}}{\sqrt{2}} = \frac{\qty{12,5}{\volt}}{\sqrt{2}} \approx \qty{8,84}{\volt}$
+$U_\text{eff} = \frac{\hat{U}}{\sqrt{2}} = \frac{\qty{12,5}{\volt}}{\sqrt{2}} \approx \qty{8,84}{\volt}$
 
 Dann ist der Effektivstrom (Ohmsches Gesetz):
 
-$I_{eff} = \frac{U_{eff}}{R} = \frac{\qty{8,84}{\volt}}{\qty{1000}{\ohm}} = \qty{8,8}{\milli\ampere}$
+$I_\text{eff} = \frac{U_\text{eff}}{R} = \frac{\qty{8,84}{\volt}}{\qty{1000}{\ohm}} \approx \qty{8,8}{\milli\ampere}$
 
 Damit ließe sich auch die effektive Leistung berechnen, doch so weit geht die Frage hier nicht.
 
