@@ -4,7 +4,7 @@
 * $\qty{20}{\dB}$ sind üblich $\rightarrow\qty{1}{\watt}$ Sendeleistung werden $\qty{100}{\watt}$ Strahlungsleistung
 
 <note>
-* $\qty{20}{\dB}$ = Faktor $\num{100}$
+* 20dB = Faktor 100
 </note>
 
 ---
