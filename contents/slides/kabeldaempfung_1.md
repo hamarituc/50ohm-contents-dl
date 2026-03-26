@@ -37,7 +37,7 @@
 <left>
 * Im Anhang der Formelsammlung
 * Dämpfungen verschiedener Kabel in Abhängigkeit zur Frequenz
-* Bezug auf $\qty{100}{\meter}$ &ndash; bei kürzeren Kabeln muss umgerechnet werden
+* Bezug auf $\qty{100}{\meter}$ – bei kürzeren Kabeln muss umgerechnet werden
 </left>
 <right>
 [picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
@@ -53,7 +53,7 @@
 
 * gesucht: Dämpfung für $\qty{100}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
 * Lösung: Ablesen aus Diagramm
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}$ &rarr; $\qty{20}{\dB}$
+* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
@@ -73,7 +73,7 @@ $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\d
 
 * gesucht: Dämpfung für $\qty{15}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
 * Lösung: Ablesen aus Diagramm und Dreisatz
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}$ &rarr; $\qty{20}{\dB}$
+* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
 $x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$

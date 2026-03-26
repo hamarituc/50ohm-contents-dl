@@ -32,10 +32,10 @@
 ## Einspeisung am Halbwellendipol
 
 * Ladungsträger schwingen hin und her
-* In der Mitte werden besonders viele Ladungsträger bewegt &rarr; Strombauch
-* An den Enden entstehen besonders hohe Spannungen &rarr; Spannungsbauch
-* Wenige Ladungsträger &rarr; Stromknoten
-* Keine Spannung &rarr; Spannungsknoten
+* In der Mitte werden besonders viele Ladungsträger bewegt $\rightarrow$ Strombauch
+* An den Enden entstehen besonders hohe Spannungen $\rightarrow$ Spannungsbauch
+* Wenige Ladungsträger $\rightarrow$ Stromknoten
+* Keine Spannung $\rightarrow$ Spannungsknoten
 
 <note>
 * Grafik auf folgender Seite verdeutlicht es

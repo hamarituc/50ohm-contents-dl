@@ -1,5 +1,5 @@
 * Passt der Speisewiderstand der Antenne nicht zum Wellenwiderstand der Zuleitung, kommt es zu einer *Reflexion*
-* Sendeleistung wird zum Funkgerät zurück reflektiert &rarr; kann nicht an der Antenne abgestrahlt werden
+* Sendeleistung wird zum Funkgerät zurück reflektiert $\rightarrow$ kann nicht an der Antenne abgestrahlt werden
 * Stimmen Speisewiderstand der Antenne und Wellenwiderstand der Speiseleitung überein, liegt *Anpassung* vor
 
 ---

@@ -8,7 +8,7 @@
 <fragment>
 Wird ein Fragezeichen angehangen, wird aus einer Aussage eine Frage:
   
-QTH Berlin &rarr; QTH?
+QTH Berlin $\rightarrow$ QTH?
 </fragment>
 </right>
 <note>

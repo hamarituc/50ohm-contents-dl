@@ -90,9 +90,9 @@
 ---
 [question:EG219]
 ---
-### 5/8&lambda;-Antenne
+### 5/8$\lambda$-Antenne
 
-* Gegen Erde oder Fahrzeugkarosserie erregte 5/8&lambda;-Antenne
+* Gegen Erde oder Fahrzeugkarosserie erregte 5/8$\lambda$-Antenne
 * Spezialfall einer Vertikalantenne
 * Die Länge ist so gewählt, damit sich ein optimaler Gewinn ergibt
 

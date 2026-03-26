@@ -6,11 +6,11 @@
 <left>
 * Unsymmetrisches Koaxialkabel wird an symmetrischen Dipol angeschlossen
 * Auf der Außenseite des Koaxialkabels können hochfrequente Ströme fließen
-* Dadurch strahlt das Kabel selbst &rarr; *Mantelwellen*
+* Dadurch strahlt das Kabel selbst $\rightarrow$ *Mantelwellen*
 * Mantelströme fehlen, was zur Verformung der Richtcharakteristik führt
 </left>
 <right>
-[picture:633:e_mantelwelle_effekt:Mantelstrom bei I<sub>3</sub>]
+[picture:633:e_mantelwelle_effekt:Mantelstrom bei $I_3$]
 </right>
 <note>
 Koaxialkabel kann man sich als drei Leiter vorstellen:

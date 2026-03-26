@@ -35,9 +35,9 @@
 
 * Ein Dipolschenkel entfällt und wird durch eine Erde mit möglichst geringem Widerstand ersetzt
 * Hälfte eines Dipols im Freiraum
-* &rarr; Speisewiderstand: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
+* $\rightarrow$ Speisewiderstand: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
 * Radiale um $\qty{45}{\degree}$ nach unten abwinkeln ergibt zusätzliche Abstrahlung
-* &rarr; Speisewiderstand: $\qty{50}{\ohm}$
+* $\rightarrow$ Speisewiderstand: $\qty{50}{\ohm}$
 
 ---
 [question:EG211]

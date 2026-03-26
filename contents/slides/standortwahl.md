@@ -2,7 +2,7 @@
 * Insbesondere in der eigenen Wohnung und der der Nachbarn
 * Wechselwirkungen können auch den eigenen Funkempfang stören
 * Und im Sendebetrieb die Funktionsweise des Geräts stören
-* &rarr; Antenne möglichst im Außenbereich anbringen
+* $\rightarrow$ Antenne möglichst im Außenbereich anbringen
 
 ---
 [question:EG223]
