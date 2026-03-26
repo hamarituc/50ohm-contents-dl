@@ -14,7 +14,7 @@
 </note>
 ---
 ## Definition Relaisfunkstelle
-eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fern ausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
+eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
 ---
 <left>
 * Auch kurz genannt: Relais oder Repeater
@@ -35,7 +35,7 @@ eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateur
 ## Funktionsweise
 <left>
 * Empfängt auf der Eingangsfrequenz das Signal einer Amateurfunkstation
-* Stahlt es zeitgleich auf der Ausgabefrequenz aus
+* Strahlt es zeitgleich auf der Ausgabefrequenz aus
 * Damit der Sender nicht stört, sind die Frequenzen meistens unterschiedlich
 </left>
 <right>
