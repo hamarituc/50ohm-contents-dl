@@ -50,7 +50,7 @@ Frequenz des Generators wird ver-3-facht: $\qty{38,666}{\mega\hertz} \cdot 3 = \
 *RX Weg*
 * Das Antennensignal wird mit $\qty{116}{\mega\hertz}$ gemischt und es kommen $\qtyrange{28}{30}{\mega\hertz}$ raus
 * Das Antennensignal liegt somit u.a. bei $\qtyrange{144}{146}{\mega\hertz}$
-* &rarr; Es ist nur die Antwort mit $\qty{2}{\meter}$ und der Transverter richtig
+* $\rightarrow$ Es ist nur die Antwort mit $\qty{2}{\meter}$ und der Transverter richtig
 </left>
 <right>
 [picture:842:e_transverter_rx:Transverter im RX-Pfad]

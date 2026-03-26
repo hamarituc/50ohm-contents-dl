@@ -4,7 +4,7 @@
 <right>
 * Elektronischer Schalter E regelt eine konstante Ausgangsspannung
 * Schaltzeit wird variiert
-* Schalter ist länger geschlossen &rarr; mehr Energie zur Lastseite &rarr; Ausgangsspannung steigt an
+* Schalter ist länger geschlossen $\rightarrow$ mehr Energie zur Lastseite $\rightarrow$ Ausgangsspannung steigt an
 * Dieses ist der *Impulsbreitenmodulator*
 </right>
 <note>

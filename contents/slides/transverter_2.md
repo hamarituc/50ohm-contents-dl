@@ -1,6 +1,6 @@
 * Umsetzer von einer Frequenz auf eine andere durch Frequenzvervielfacher
 * Liegt die Oszillatorfrequenz unterhalb des Nutzsignals, lässt sich die höhere Frequenz des Nutzsignals direkt zur höheren Ausgangsfrequenz des Konverters/Transverters mischen
-* Liegt die Oszillatorfrequenz darunter, wird ein SSB-Signal invertiert (USB &rarr; LSB und LSB &rarr; USB)
+* Liegt die Oszillatorfrequenz darunter, wird ein SSB-Signal invertiert (USB $\rightarrow$ LSB und LSB $\rightarrow$ USB)
 
 ---
 [question:AF501]

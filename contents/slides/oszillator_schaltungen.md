@@ -7,7 +7,7 @@
 
 * Verstärkerelement, dessen Ausgangssignal wieder auf den Eingang rückgekoppelt wird
 * Gleichphasig
-* Amplitude mindestens gleich groß &rarr; *Schleifenverstärkung größer $1$*
+* Amplitude mindestens gleich groß $\rightarrow$ *Schleifenverstärkung größer $1$*
 * Notwendig für Selbsterregung und hält die Schwingung aufrecht
 
 ---
@@ -35,7 +35,7 @@ Transistorschaltungen kommen etwas später im Kapitel
 </left>
 <right>
 * Schwingkreis durch Quarz ersetzt
-* Quarz kann in Grundfrequenz oder auf Harmonische schwingen &rarr; Verstärker muss frequenzselektiv z.B. mit Schwingkreis dafür ausgelegt sein
+* Quarz kann in Grundfrequenz oder auf Harmonische schwingen $\rightarrow$ Verstärker muss frequenzselektiv z.B. mit Schwingkreis dafür ausgelegt sein
 </right>
 <note>
 Hier ist kein weiterer Schwingkreis vorhanden, also wird der Quarz in Grundfrequenz betrieben

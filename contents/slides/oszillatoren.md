@@ -47,7 +47,7 @@
 
 ---
 ## Quarz-Oszillator
-* Schwingungserzeugung mit Quarz (Siliziumdioxid SiO<sub>2</sub>)
+* Schwingungserzeugung mit Quarz (Siliziumdioxid $SiO_2$)
 * Umgekehrter Piezoelektrischer Effekt an einem Quarzkristall
 * Quarz wird mit einem (schlechten) LC-Oszillator zum stabilen Schwingen angeregt
 * Bessere Frequenzstabilität

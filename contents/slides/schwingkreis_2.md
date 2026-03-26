@@ -54,10 +54,10 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 ---
 ## Resonanzfrequenz
 
-* Parallel- oder Reihenschaltung von Spule und Kondensator &rarr; Schwingkreis
-* Hohe Frequenzen &rarr; hoher Widerstand an Spule
-* Niedrige Frequenzen &rarr; hoher Widerstand an Kondensator
-* Es gibt eine Frequenz, bei der Spule und Kondensator den gleichen Widerstand haben &rarr; *Resonanzfrequenz*
+* Parallel- oder Reihenschaltung von Spule und Kondensator $\rightarrow$ Schwingkreis
+* Hohe Frequenzen $\rightarrow$ hoher Widerstand an Spule
+* Niedrige Frequenzen $\rightarrow$ hoher Widerstand an Kondensator
+* Es gibt eine Frequenz, bei der Spule und Kondensator den gleichen Widerstand haben $\rightarrow$ *Resonanzfrequenz*
 
 ---
 [question:AD206]
@@ -172,8 +172,8 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 ### Verändern der Resonanzfrequenz
 
-* Größere Spule oder Kondensator &rarr; kleinere Resonanzfrequenz
-* Kleinere Spule oder Kondensator &rarr; größere Resonanzfrequenz
+* Größere Spule oder Kondensator $\rightarrow$ kleinere Resonanzfrequenz
+* Kleinere Spule oder Kondensator $\rightarrow$ größere Resonanzfrequenz
 
 <fragment>
 Induktivität vergrößern
@@ -199,8 +199,8 @@ Induktivität vergrößern
 [picture:752:a_schwingkreis_potentiometer:Veränderung der Kapazität durch einen Varicap]
 
 * Varicap wird durch eine Steuerspannung am Widerstandsspannungsteiler verändert
-* Kleinere Spannung am Varicap &rarr; kleinere Grenzschicht im Varicap &rarr; größere Kapazität
-* In Reihe geschaltete Kondensatoren &rarr; Kapazität steigt &rarr; Resonanzfrequenz fällt
+* Kleinere Spannung am Varicap $\rightarrow$ kleinere Grenzschicht im Varicap $\rightarrow$ größere Kapazität
+* In Reihe geschaltete Kondensatoren $\rightarrow$ Kapazität wird kleiner $\rightarrow$ Resonanzfrequenz steigt
 
 ---
 [question:AD218]
@@ -363,17 +363,17 @@ $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{1
 --- style="font-size: 0.7em;" data-transition="none"
 [picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
 
-* d: *lose Kopplung* &rarr; kaum gegenseitige Beeinflussung, sehr hohe Durchlassdämpfung und sehr geringe Bandbreite
-* c: *unterkritische Kopplung* &rarr; kaum gegenseitige Beeinflussung, hohe Durchlassdämpfung und geringe Bandbreite
+* d: *lose Kopplung* $\rightarrow$ kaum gegenseitige Beeinflussung, sehr hohe Durchlassdämpfung und sehr geringe Bandbreite
+* c: *unterkritische Kopplung* $\rightarrow$ kaum gegenseitige Beeinflussung, hohe Durchlassdämpfung und geringe Bandbreite
 
 --- style="font-size: 0.7em;" data-transition="none"
 [picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
 
-* b: *kritische Kopplung* &rarr; etwas gegenseitige Beeinflussung, flache Durchlasskurve mit geringer Dämpfung und Plateau im Durchlassbereich sowie gute Bandbreite
+* b: *kritische Kopplung* $\rightarrow$ etwas gegenseitige Beeinflussung, flache Durchlasskurve mit geringer Dämpfung und Plateau im Durchlassbereich sowie gute Bandbreite
 
 --- style="font-size: 0.7em;" data-transition="none"
 [picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
-* a: *überkritische Kopplung* &rarr; starke gegenseitige Beeinflussung, Änderung der Resonanzfrequenzen, große Bandbreite und Verzerrung der Durchlasskurve im Durchlassbereich mit "Dellen"
+* a: *überkritische Kopplung* $\rightarrow$ starke gegenseitige Beeinflussung, Änderung der Resonanzfrequenzen, große Bandbreite und Verzerrung der Durchlasskurve im Durchlassbereich mit "Dellen"
 
 ---
 [question:AD227]

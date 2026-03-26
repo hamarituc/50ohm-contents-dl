@@ -3,8 +3,8 @@
 Transformator mit Mittelanzapfung und zwei Dioden
 </left>
 <right>
-* Positive Halbwelle an oberer Wicklung gegenüber Mittelanzapfung &rarr; $D_1$ leitet
-* An $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an &rarr; sperrt
+* Positive Halbwelle an oberer Wicklung gegenüber Mittelanzapfung $\rightarrow D_1$ leitet
+* An $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an $\rightarrow$ sperrt
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_1]

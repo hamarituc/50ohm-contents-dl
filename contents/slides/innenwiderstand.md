@@ -3,7 +3,7 @@
 [picture:1018:a_vsource_schematic:Ersatzschaltbild Spannungsquelle]
 </left>
 <right>
-* Reale Spannungsquelle wird mit $R_L$ belastet &rarr; Klemmenspannung $U_k$ sinkt
+* Reale Spannungsquelle wird mit $R_L$ belastet $\rightarrow$ Klemmenspannung $U_k$ sinkt
 * Grund ist der Innenwiderstand
 * Ohne Belastung / im Leerlauf: $U_q = U_L$
 </right>
@@ -28,7 +28,9 @@
 $(\Delta U = \qty{0}{\volt})$;  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
 <fragment>
-Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen, im Idealfall: 0 Ohm, dann bleibt die Ausgangsspannung bei Belastung unverändert.
+Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen
+
+Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert.
 </fragment>
 
 ---
@@ -37,17 +39,19 @@ Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L
 
 * In Labornetzteilen eingebaut
 * Laststrom übersteigt eine maximale Stromstärke
-* &rarr; Klemmenspannung wird abgesenkt
-* &rarr; Laststrom bleibt konstant
+* $\rightarrow$ Klemmenspannung wird abgesenkt
+* $\rightarrow$ Laststrom bleibt konstant
 * Funktion der Konstantstromquelle
 
 ---
 ### Innenwiderstand Stromquelle
 
-$R_i = \frac{\Delta U}{\Delta I}$; $(\Delta I \to \qty{0}{\ampere})$;  $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ampere}$
+$R_i = \frac{\Delta U}{\Delta I}$; $(\Delta I \to \qty{0}{\ampere})$;  $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ohm}$
 
 <fragment>
-Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen. Idealfall: "unendlich" Ohm, dann bleibt der Laststrom bei Änderung des  Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
+Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen.
+
+Idealfall: $\qty{\infty}{\ohm}$, dann bleibt der Laststrom bei Änderung des  Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
 </fragment>
 
 ---

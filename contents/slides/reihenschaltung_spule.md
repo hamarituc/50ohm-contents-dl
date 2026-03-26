@@ -5,7 +5,7 @@ $L_{\mathrm{ges}} = L_1 + L_2 + L_3 + \dots$
 </left>
 <right>
 * Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten
-* Mehrere Spulen hintereinander &rarr; Wicklung wird verlängert
+* Mehrere Spulen hintereinander $\rightarrow$ Wicklung wird verlängert
 </right>
 
 ---

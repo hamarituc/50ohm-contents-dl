@@ -137,7 +137,7 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 
 * Lineare Verstärkung wird benötigt
 * Verstärkung im A-, A/B- oder B-Betrieb
-* Bei Übersteuerung kommt es zu Verzerrungen des Signals &rarr; Splatter auf benachbarten Frequenzen
+* Bei Übersteuerung kommt es zu Verzerrungen des Signals $\rightarrow$ Splatter auf benachbarten Frequenzen
 
 ---
 [question:AD422]
