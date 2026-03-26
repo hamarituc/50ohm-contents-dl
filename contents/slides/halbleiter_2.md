@@ -18,8 +18,8 @@ Häufige Halbleitergrundstoffe: Silizium (Si), Germanium (Ge), Galliumarsenid (G
 ## Dotierung
 
 * "Verunreinigung" der Halbleiter
-* Stoffe mit 5 Elektronen auf der äußeren Schale &rarr; Elektronenüberschuss &rarr; *n-Dotierung*
-* Stoffe mit 3 Elektronen auf der äußeren Schale &rarr; Elektronenmangel ("Loch") &rarr; *p-Dotierung*
+* Stoffe mit 5 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenüberschuss $\rightarrow$ *n-Dotierung*
+* Stoffe mit 3 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenmangel ("Loch") $\rightarrow$ *p-Dotierung*
 
 ---
 <left>
@@ -43,7 +43,7 @@ Löcher sind eigentlich nicht beweglich, aber durch den Elektronenfluss sieht es
 <left>
 [picture:857:a_pn_uebergang:PN-Übergang]
 * n-dotierter Halbleiter an p-dotieren Halbleiter
-* Elektronen aus dem n-dotieren Gebiet wandern in das p-dotierte Gebiet &rarr; *Diffusion*
+* Elektronen aus dem n-dotieren Gebiet wandern in das p-dotierte Gebiet $\rightarrow$ *Diffusion*
 </left>
 <right>
 * Es entsteht eine *Verarmungszone* oder *Sperrschicht*

@@ -1,7 +1,7 @@
 * Elektrische Geräte haben eine Leistungsaufnahme angegeben
 * Beispiele: LED-Leuchtmittel $\qty{7}{\watt}$, Staubsauger $\qty{425}{\watt}$
 * An jedem Widerstand wird elektrische Leistung umgesetzt
-* Strom fließt durch einen Widerstand &rarr; Umwandlung von elektrischer Energie in thermische Energie
+* Strom fließt durch einen Widerstand $\rightarrow$ Umwandlung von elektrischer Energie in thermische Energie
 * Je größer der Strom, desto mehr Wärme
 
 ---

@@ -38,7 +38,7 @@ Je negativer die Diodenspannung, umso mehr dehnt sich die Raumladungszone aus un
 * Begrenzung der Amplitude einer Wechselspannung
 * Silizium: ca. $\qty{0,6}{\volt}$ Schwellspannung
 * Germanium: ca. $\qty{0,3}{\volt}$ Schwellspannung
-* &rarr; *Clipping*
+* $\rightarrow$ *Clipping*
 
 <note>
 Schwellspannungen sind Klasse E Stoff

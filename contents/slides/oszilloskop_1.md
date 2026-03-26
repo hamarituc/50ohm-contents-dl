@@ -31,7 +31,7 @@ $T = \dfrac{1}{f} \Rightarrow f = \dfrac{1}{T}$
 <left>
 * Kästchen einer ganzen Periode im Nulldurchgang zählen
 * Mit der Zeiteinheit multiplizieren
-* Bei 8 Kästchen und $\qty{2}{\milli\second}$ pro Kästchen &rarr; $8 \cdot \qty{2}{\milli\second} = \qty{16}{\milli\second}$
+* Bei 8 Kästchen und $\qty{2}{\milli\second}$ pro Kästchen $\rightarrow 8 \cdot \qty{2}{\milli\second} = \qty{16}{\milli\second}$
 </left>
 <right>
 [picture:36:e_sinuswelle_oszilloskop:Eine Sinuswelle auf dem Bildschirm eine Oszilloskops]

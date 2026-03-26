@@ -153,18 +153,18 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8,4}{\volt}}{\qty{11
 ---
 #### Lösungsweg
 
-* Kein Strom durch $R_1$ &rarr; keine Spannung über $R_2$
-* Basis liegt auf Massepotential &rarr; Transistor ist stromlos
-* Kein Spannungsabfall an $R_{\textrm{C}}$ &rarr; Kollektorpotential steigt auf Betriebsspannung
+* Kein Strom durch $R_1 \rightarrow$ keine Spannung über $R_2$
+* Basis liegt auf Massepotential $\rightarrow$ Transistor ist stromlos
+* Kein Spannungsabfall an $R_{\textrm{C}} \rightarrow$ Kollektorpotential steigt auf Betriebsspannung
 
 ---
 [question:AC520]
 ---
 #### Lösungsweg
 
-* $R_2$ ist stromlos &rarr; Basis ist über $R_1$ ist mit der Betriebsspannung verbunden
+* $R_2$ ist stromlos $\rightarrow$ Basis ist über $R_1$ ist mit der Betriebsspannung verbunden
 * Aufgrund der Dimensionierung ist der Basisstrom nun 11-fach höher als geplant
-* Kollektorstrom wird stark ansteigen &rarr; Spannungsabfall an $R_{\textrm{C}}$ steigt stark
+* Kollektorstrom wird stark ansteigen $\rightarrow$ Spannungsabfall an $R_{\textrm{C}}$ steigt stark
 * $U_{\textrm{CE}}$ sinkt auf den Sättigungswert von ca. $\qty{0,1}{\volt}$
 
 ---
@@ -298,8 +298,8 @@ MOSFET verhält sich wie ein ohmscher Widerstand
 ### Freilaufdiode
 
 * Relais wird über einen in Serie geschalteten Bipolartransistor betrieben
-* Transistor schaltet ein &rarr; Strom fließt durch die Relaisspule
-* Transistor schaltet ab &rarr; Strom in der Spule induziert negative Spannung am Transistor
+* Transistor schaltet ein $\rightarrow$ Strom fließt durch die Relaisspule
+* Transistor schaltet ab $\rightarrow$ Strom in der Spule induziert negative Spannung am Transistor
 * Kann zur Zerstörung des Transistors führen
 * Verhindern: *Freilaufdiode* parallel zum Relais in Sperrichtung verbauen
 * Induktionsspannung wird auf Diodenspannung begrenzt

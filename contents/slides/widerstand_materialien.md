@@ -16,7 +16,7 @@
 ---
 [question:EC102]
 ---
-## Metalloxid&shy;schicht&shy;widerstand
+## Metalloxidschichtwiderstand
 * Ähnlich wie Metallschichtwiderstand
 * Induktionsarm
 * Für hohe Frequenzen geeignet

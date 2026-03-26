@@ -21,7 +21,7 @@
 ## Schwellenspannung
 
 <left>
-* Damit eine Diode in Durchlassrichtung leitet, muss eine bestimmte Spannung &ndash; die Schwellenspannung oder Durchlassspannung &ndash; überschritten werden
+* Damit eine Diode in Durchlassrichtung leitet, muss eine bestimmte Spannung – die Schwellenspannung oder Durchlassspannung – überschritten werden
 * Je nach Basis des chemischen Elements ist die Schwellenspannung unterschiedlich hoch
 </left>
 <right>

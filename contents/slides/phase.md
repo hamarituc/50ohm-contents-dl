@@ -5,7 +5,7 @@
 <right>
 * Erzeugung durch drehende Spule in einem Magnetfeld
 * Für eine Umdrehung wird eine bestimmte Zeit benötigt
-* Zu jedem Zeitpunkt steht die Spule in einem bestimmten Winkel &rarr; *Phasenwinkel*
+* Zu jedem Zeitpunkt steht die Spule in einem bestimmten Winkel $\rightarrow$ *Phasenwinkel*
 </right>
 ---
 [question:AB302]

@@ -1,7 +1,7 @@
 ## Kapazität
 
 * Wichtigste Eigenschaft des Kondensators: Ladung speichern
-* &rarr; Kapazität
+* $\rightarrow$ Kapazität
 
 $C = \dfrac{Q}{U}$
 
@@ -23,7 +23,7 @@ $C = \dfrac{Q}{U}$
 
 $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 
-* &rarr; Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
+* $\rightarrow$ Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
 </left>
 <right>
 * $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: elektrische Feldkonstante
@@ -50,7 +50,7 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 <left>
 * Eine Platte ist feststehend, die andere Platte kann drehend bewegt werden
 * Nur dort, wo die Platten sich überlappen, wirkt der Kondensator
-* Die Fläche wird durch Drehung verändert &rarr; Änderung der Kapazität
+* Die Fläche wird durch Drehung verändert $\rightarrow$ Änderung der Kapazität
 </left>
 <right>
 [picture:840:e_kondensator_drehkondensator:Drehkondensator]

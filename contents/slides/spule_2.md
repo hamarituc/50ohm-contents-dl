@@ -37,7 +37,7 @@ Merke: Bei Induktivitäten, Ströme sich verspäten -oder- Induktivitääät, St
 --- style="font-size: smaller;"
 ### Induktiver Blindwiderstand $X_{\textrm{L}}$
 
-Spule dreht an Wechselspannung angeschlossen ständig das magnetische Feld &rarr; Wechselstromwiderstand / induktiver Blindwiderstand
+Spule dreht an Wechselspannung angeschlossen ständig das magnetische Feld $\rightarrow$ Wechselstromwiderstand / induktiver Blindwiderstand
 
 1. Wenn die Frequenz der Wechselspannung an einer Spule erhöht wird, dann fließt weniger Strom; dies bedeutet, der induktive Blindwiderstand ist größer geworden.
 2. Wenn die Induktivität der Spule erhöht wird, dann verringert sich auch der Strom, d.h. der Blindwiderstand wird auch größer.
@@ -150,10 +150,10 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 ---
 ### Scheinwiderstand
 
-* Reihenschaltung von Blindwiderstand und Wirkwiderstand &rarr; Scheinwiderstand $Z$
+* Reihenschaltung von Blindwiderstand und Wirkwiderstand $\rightarrow$ Scheinwiderstand $Z$
 * Tritt nur bei Wechselspannung auf
 * Kann nicht mit einem Ohm-Meter gemessen werden
-* Spule in der Funktechnik &rarr; *Impedanz*
+* Spule in der Funktechnik $\rightarrow$ *Impedanz*
 * Antennenimpedanz, Eingangs- und Ausgangsimpedanz, Impedanzwandler, …
 * Impedanz $Z$ in $\unit{\ohm}$
 

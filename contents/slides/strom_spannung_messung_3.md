@@ -12,7 +12,7 @@
 
 Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
 * Innenwiderstand des Messgeräts
-* Auflösungsvermögen &rarr; *kleinste Auflösung*
+* Auflösungsvermögen $\rightarrow$ *kleinste Auflösung*
 * Anzeige verändert sich erst nach Änderung um die kleinste Auflösung
 * Hersteller ermittelt die Abweichung
 * Abweichung wird im Datenblatt angegeben

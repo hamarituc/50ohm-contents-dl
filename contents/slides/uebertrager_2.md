@@ -7,7 +7,7 @@
 * Magnetisch gekoppelte Spulen
 * Veränderlicher Strom in einer Spule
 * Erzeugt Spannung in der anderen Spule
-* &rarr; Gegendinduktion
+* $\rightarrow$ Gegendinduktion
 </right>
 
 ---
@@ -98,7 +98,7 @@ $\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{50}{\ohm}}{\qty{2
 * Leitung darf nicht zu warm werden
 * Sonst schmilzt die Isolation
 * Oder der Leiter glüht
-* &rarr; zulässige Stromdichte in Stromstärke bezogen auf den Leiterquerschnitt
+* $\rightarrow$ zulässige Stromdichte in Stromstärke bezogen auf den Leiterquerschnitt
 </left>
 <right>
 <fragment>

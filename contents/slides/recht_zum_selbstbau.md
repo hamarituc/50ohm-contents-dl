@@ -16,7 +16,7 @@ Dieses Privileg erhalten Funkamateure durch die technisch anspruchsvolle Prüfun
 
 * Zum Selbstbau werden verschiede elektronische Bauteile benötigt
 * Diese weisen unterschiedliche Eigenschaften auf
-* In Klasse N gibt es nur wenige, einfache Schaltungen &rarr; mehr in Klasse E und A
+* In Klasse N gibt es nur wenige, einfache Schaltungen $\rightarrow$ mehr in Klasse E und A
 * Kenntnisse der Symbole und Bezeichnungen reichen
 
 <note>

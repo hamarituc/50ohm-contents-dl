@@ -36,8 +36,8 @@ $L = \dfrac{N\cdot \Phi}{I}$
 
 $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-* &rarr; Induktivität ist größer bei größerem Querschnitt, anderem Kern oder kleinerer Länge
-* &rarr; Induktivität ist viel größer bei höherer Windungszahl
+* $\rightarrow$ Induktivität ist größer bei größerem Querschnitt, anderem Kern oder kleinerer Länge
+* $\rightarrow$ Induktivität ist viel größer bei höherer Windungszahl
 </left>
 <right>
 * $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: magnetische Feldkonstante
@@ -68,8 +68,8 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 <left>
 * Strom braucht länger durch die Spule
-* Erst leuchtet Lampe<sub>1</sub>
-* Später leuchtet Lampe<sub>2</sub>
+* Erst leuchtet Lampe$_1$
+* Später leuchtet Lampe$_2$
 </left>
 <right>
 [picture:541:e_stromkreis_mit_spule:Stromkreis mit Spule]

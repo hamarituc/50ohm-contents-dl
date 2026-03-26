@@ -37,7 +37,7 @@ Im eingeschwungenen Zustand fließt nahezu kein Strom mehr, weshalb die Leistung
 --- style="font-size: smaller;"
 ### Kapazitiver Blindwiderstand $X_{\textrm{C}}$
 
-Kondensator wird an Wechselspannung angeschlossen ständig geladen und entladen &rarr; Wechselstromwiderstand / kapazitiver Blindwiderstand
+Kondensator wird an Wechselspannung angeschlossen ständig geladen und entladen $\rightarrow$ Wechselstromwiderstand / kapazitiver Blindwiderstand
 
 <fragment>
 1. Wenn die Frequenz der Wechselspannung an einem Kondensator erhöht wird, dann fließt mehr Strom; dies bedeutet, der kapazitive Blindwiderstand ist kleiner geworden.

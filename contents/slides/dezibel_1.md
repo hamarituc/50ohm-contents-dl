@@ -98,12 +98,12 @@ $\unit{\dBm}$ = Dezibel bezogen auf $\unit{\milli\watt}$
 ### Berechnung mit Taschenrechner
 
 Ältere Modelle
-* Faktor-Wert &rarr; *log*-Taste &rarr; &times;10 &rarr; dB
-* $\unit{\dB}$-Wert &rarr; &div;10 &rarr; *10<sup>x</sup>*-Taste &rarr; Faktor
+* Faktor-Wert $\rightarrow$ *log*-Taste $\rightarrow\times 10 \rightarrow\unit{\dB}$
+* $\unit{\dB}$-Wert $\rightarrow\div 10 \rightarrow$ *$10^x$*-Taste $\rightarrow$ Faktor
 
 Neuere Modelle
-* *log*-Taste &rarr; Faktor-Wert &rarr; *)*-Taste &rarr; &times;10 &rarr; *=*-Taste &rarr; dB
-* *10<sup>x</sup>*-Taste &rarr; $\unit{\dB}$-Wert &rarr; &div;10 &rarr; *=*-Taste &rarr; Faktor
+* *log*-Taste $\rightarrow$ Faktor-Wert $\rightarrow$ *)*-Taste $\rightarrow\times 10 \rightarrow$ *=*-Taste $\rightarrow\unit{\dB}$
+* *$10^x$*-Taste $\rightarrow$ $\unit{\dB}$-Wert $\rightarrow \div 10 \rightarrow$ *=*-Taste $\rightarrow$ Faktor
 
 ---
 [question:EA107]
