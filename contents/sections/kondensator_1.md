@@ -43,7 +43,7 @@ Im Folgenden sind die einzelnen Größen der Formel aufgeschlüsselt:
 <margin>
 | Material | $\varepsilon_r$  |
 | Luft (trocken) | 1,00059 |
-| Voll-PE (Polyäthylen | 2,29 |
+| Voll-PE (Polyäthylen) | 2,29 |
 | Schaum-PE | 1,5 |
 | PTFE (Teflon) | 2,0 |
 [table:e_Dielektrizitätszahl:Relative Dielektrizitätszahl $\varepsilon_r$ ]

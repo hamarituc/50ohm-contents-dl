@@ -16,7 +16,7 @@ Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
 1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $\qty{1,2566e-6}{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen.
 2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
 3. Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht 
-4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an $A$
+4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an
 5. Spulenlänge $l$
 
 [question:EA102]
@@ -50,7 +50,7 @@ Wenn man die Spulenlänge $l$ verdoppelt, dann muss sich die Induktivität $L$ h
 
 Wenn die Anzahl der Windungen $N$ verdoppelt wird, dann vervierfacht sich die Induktivität $L$.
 
-Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung  und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
+Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
 
 [question:EC304]
 
