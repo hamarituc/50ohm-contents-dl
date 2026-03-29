@@ -12,7 +12,7 @@
         <canvas id="fmpm-c2" height="70" class="w-100 d-block rounded"></canvas>
     </div>
     <div class="mb-3">
-        <div class="small text-secondary fw-semibold mb-1">PM – Phase des Trägers folgt dem Signal-Wert</div>
+        <div class="small text-secondary fw-semibold mb-1">PM – Phase des Trägers folgt dem Signal-Wert direkt</div>
         <canvas id="fmpm-c3" height="70" class="w-100 d-block rounded"></canvas>
     </div>
     <hr>
@@ -30,18 +30,7 @@
                 </select>
             </div>
         </div>
-        <div class="row align-items-center g-2">
-            <div class="col-auto" style="min-width:170px;">
-                <label class="col-form-label col-form-label-sm">Anzahl Gitterlinien</label>
-            </div>
-            <div class="col">
-                <input type="range" class="form-range" id="fmpm-gridcount" min="4" max="24" step="1" value="12">
-            </div>
-            <div class="col-auto text-end fw-semibold small" id="fmpm-gridcount-v">12</div>
-        </div>
     </div>
-    <hr>
-    <div id="fmpm-insight"></div>
 </div>
 
 <script>
@@ -66,7 +55,7 @@
   function draw() {
     const depth     = DEPTH;
     const shape     = document.getElementById('fmpm-shape').value;
-    const gridCount = parseInt(document.getElementById('fmpm-gridcount').value);
+    const gridCount = 24;
 
     const cvs = IDS.map(id => document.getElementById(id));
     const dpr = window.devicePixelRatio || 1;
@@ -159,21 +148,9 @@
       });
       ctx.stroke();
     });
-
-    const texts = {
-      sine:   '<strong>Sinus:</strong> FM und PM sehen sehr ähnlich aus. Die gestrichelten Gitterlinien machen den leichten Versatz der Nulldurchgänge sichtbar – bei FM ist er gleichmäßig, bei PM phasenverschoben.',
-      square: '<strong>Rechteck:</strong> Hier wird der Unterschied deutlich! FM springt abrupt zwischen zwei Frequenzen (die Abstände der Nulldurchgänge ändern sich). PM hingegen reagiert nur an den steilen Flanken – dazwischen liegen die Nulldurchgänge fast exakt auf dem Trägerraster.',
-      saw:    '<strong>Sägezahn:</strong> FM zeigt einen kontinuierlichen Frequenzanstieg mit hartem Reset. PM zeigt ebenfalls anwachsenden Versatz – beim Reset entsteht eine kurze Phasenkorrektur, gut an den Nulldurchgängen ablesbar.',
-      ramp:   '<strong>Linearer Anstieg:</strong> FM erhöht die Frequenz stetig (enger werdende Nulldurchgänge). PM zeigt gleichmäßigen Versatz, da die konstante Ableitung des Anstiegs eine feste Frequenzverschiebung ergibt.',
-    };
-    document.getElementById('fmpm-insight').innerHTML = texts[shape] || '';
   }
 
   document.getElementById('fmpm-shape').addEventListener('change', draw);
-  document.getElementById('fmpm-gridcount').addEventListener('input', function () {
-    document.getElementById('fmpm-gridcount-v').textContent = this.value;
-    draw();
-  });
 
   new ResizeObserver(draw).observe(document.getElementById('fmpm-c0'));
   draw();
