@@ -104,7 +104,7 @@ Nun haben wir bereits einige grundlegende elektrische Eigenschaften eines Konden
 [photo:206:e_kondensatorvarianten:Kondensatorvarianten]
 </margin>
 
-Als Dielektriukumg, also Isolatorschicht, können unterschiedliche Materialien verwendet werden:
+Als Dielektrikum, also Isolatorschicht, können unterschiedliche Materialien verwendet werden:
 
 1.  Luft beim Luftdrehkondensator oder Lufttrimmer
 2. Kunststofffolie beim Folienwickelkondensator
