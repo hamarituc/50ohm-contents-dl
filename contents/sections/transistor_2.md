@@ -93,7 +93,7 @@ $R_1 = \frac{\qty{10}{\volt} - \qty{0,6}{\volt}}{\qty{110}{\micro\ampere}} = \qt
 
 [question:AC517]
 
-Die obige Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor. Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_E$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential auf $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
+Die obige Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor. Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_E$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
 
 $R_1 = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} = \qty{76,4}{\kilo\ohm}$
 
