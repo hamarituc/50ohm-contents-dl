@@ -7,6 +7,6 @@ Natürlich dürfen auch Funkamateure am *CB-Funk*[index:CB-Funk:Teilnahme am] te
 [question:VC111]
 [question:VD703]
 
-Darüber hinaus ist es auch grundsätzlich unzulässig, Nachrichten von oder an Nicht-Funkamateure zu übermitteln. Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind. Die einzige Ausnahme sind Not- und Katastrophenfälle[index:Notfunk]. Dann ist es erlaubt, Nachrichten von und an Nicht-Funkamateure zu senden.
+Darüber hinaus ist es auch grundsätzlich unzulässig, Nachrichten von oder an Nicht-Funkamateure zu übermitteln. Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind. Die einzige Ausnahme sind Not- und Katastrophenfälle [index:Notfunk]. Dann ist es erlaubt, Nachrichten von und an Nicht-Funkamateure zu senden.
 
 [question:VC112]

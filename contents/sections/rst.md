@@ -41,7 +41,7 @@ Einige Beispiele für mögliche Rapporte finden sich in Tabelle [ref:n_rst_beisp
 | ohne Schwierigkeiten | 5 | 45 |
 | mit Schwierigkeiten | 3 | 33 |
 | unverständlich | 3 | 13 |
-[table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk][index:RST-System:Beispiele]
+[table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk]
 </webmargin>
 
 [question:BE202]
