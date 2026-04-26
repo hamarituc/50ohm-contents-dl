@@ -24,7 +24,7 @@ $ü^2 = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}
 </fragment>
 
 <fragment>
-Oder nach Ziehung der Wurzel:
+Oder nach ziehen der Wurzel:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P} = \sqrt{\frac{Z_P}{Z_S}}$
 </fragment>
